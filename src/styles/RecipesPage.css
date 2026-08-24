@@ -1,0 +1,185 @@
+/* =========================
+   RECIPES PAGE
+========================= */
+
+.recipes-page {
+  padding-bottom: 80px;
+}
+
+.recipes-page-header {
+  text-align: center;
+  max-width: 650px;
+  margin: 10px auto 50px;
+}
+
+.recipes-page-header span {
+  color: #e76f51;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.recipes-page-header h1 {
+  margin: 10px 0;
+  font-size: 42px;
+}
+
+.recipes-page-header p {
+  color: #777;
+  line-height: 1.7;
+}
+/* =========================
+   RECIPES SEARCH
+========================= */
+
+.recipes-search {
+  width: 100%;
+  max-width: 650px;
+
+  margin: 0 auto 25px;
+
+  position: relative;
+
+  display: flex;
+  align-items: center;
+}
+
+.recipes-search input {
+  width: 100%;
+
+  padding: 16px 50px;
+
+  border: 1px solid #ddd;
+  border-radius: 14px;
+
+  background: white;
+
+  font-size: 16px;
+
+  outline: none;
+
+  transition: 0.3s;
+}
+
+.recipes-search input:focus {
+  border-color: #e76f51;
+
+  box-shadow:
+    0 0 0 3px rgba(231, 111, 81, 0.1);
+}
+
+.search-icon {
+  position: absolute;
+
+  left: 18px;
+
+  font-size: 18px;
+}
+
+.clear-search {
+  position: absolute;
+
+  right: 15px;
+
+  width: 32px;
+  height: 32px;
+
+  border: none;
+  border-radius: 50%;
+
+  background: #fff0eb;
+
+  color: #e76f51;
+
+  cursor: pointer;
+}
+
+
+/* =========================
+   FILTERS
+========================= */
+
+.recipe-filters {
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+
+  flex-wrap: wrap;
+
+  gap: 12px;
+
+  margin-bottom: 25px;
+}
+
+.filter-btn {
+  border: 1px solid #ddd;
+
+  background: white;
+
+  color: #555;
+
+  padding: 11px 20px;
+
+  border-radius: 30px;
+
+  font-size: 14px;
+  font-weight: 600;
+
+  cursor: pointer;
+
+  transition: 0.3s;
+}
+
+.filter-btn:hover {
+  border-color: #e76f51;
+  color: #e76f51;
+}
+
+.filter-btn.active-filter {
+  background: #e76f51;
+  color: white;
+
+  border-color: #e76f51;
+}
+
+
+/* =========================
+   RESULTS
+========================= */
+
+.recipes-results {
+  margin-bottom: 25px;
+
+  color: #777;
+}
+
+.recipes-results strong {
+  color: #222;
+}
+
+
+/* =========================
+   EMPTY STATE
+========================= */
+
+.no-recipes {
+  padding: 80px 20px;
+
+  text-align: center;
+}
+
+.no-recipes div {
+  font-size: 55px;
+
+  margin-bottom: 15px;
+}
+
+.no-recipes h3 {
+  margin: 0 0 8px;
+
+  font-size: 25px;
+}
+
+.no-recipes p {
+  color: #777;
+}
