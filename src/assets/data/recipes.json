@@ -1536,9 +1536,9 @@
     },
     {
       "id": "ds-2",
-      "title": "Halu Arabic",
+      "title": "Syrian Oriental Sweets",
       "category": "Dessert",
-      "cuisine": "Turkish",
+      "cuisine": "Syrian",
       "description": "A sweet dessert with rich flavors and a soft texture, perfect for serving with tea or coffee.",
       "time": "50 min",
       "difficulty": "Easy",
@@ -1563,7 +1563,7 @@
       "localizations": {
         "ar": {
           "title": "الحلوى الشرقية الفاخرة",
-          "cuisine": "تركية",
+          "cuisine": "سورية",
           "description": "حلوى تقليدية غنية بالنكهات وقوامها ناعم ومميز، تقدم مع الشاي أو القهوة العربية.",
           "time": "50 دقيقة",
           "ingredients": [
@@ -1583,9 +1583,9 @@
           ]
         },
         "tr": {
-          "title": "Geleneksel Şerbetli Tatlı",
-          "cuisine": "Türk",
-          "description": "Zengin aroması ve yumuşacık dokusuyla çay ve kahve saatlerine eşlik eden geleneksel bir fırın tatlısı.",
+          "title": "Suriye Usulü Doğu Tatlısı",
+          "cuisine": "Suriye",
+          "description": "Zengin aroması ve yumuşacık dokusuyla çay ve kahve saatlerine eşlik eden geleneksel bir Suriye tatlısı.",
           "time": "50 dk",
           "ingredients": [
             "2 su bardağı un",

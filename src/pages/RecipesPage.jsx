@@ -83,11 +83,11 @@ function RecipesPage() {
 
   const getPageTitle = () => {
     if (cuisine === "syrian") {
-      return `${t.recipes?.syrianTitle || "Syrian Recipes"} 🇸🇾`;
+      return t.recipes?.syrianTitle || "Syrian Recipes";
     }
 
     if (cuisine === "turkish") {
-      return `${t.recipes?.turkishTitle || "Turkish Recipes"} 🇹🇷`;
+      return t.recipes?.turkishTitle || "Turkish Recipes";
     }
 
     if (category === "dessert") {
@@ -189,7 +189,7 @@ function RecipesPage() {
           }
           onClick={showSyrianRecipes}
         >
-          🇸🇾 {t.recipes?.syrian || "Syrian"}
+          {t.recipes?.syrian || "Syrian"}
         </button>
 
         <button
@@ -201,7 +201,7 @@ function RecipesPage() {
           }
           onClick={showTurkishRecipes}
         >
-          🇹🇷 {t.recipes?.turkish || "Turkish"}
+          {t.recipes?.turkish || "Turkish"}
         </button>
 
         <button

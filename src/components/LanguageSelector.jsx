@@ -44,7 +44,6 @@ function LanguageSelector({ variant = "dropdown" }) {
               className={`lang-segment-btn ${isActive ? "active" : ""}`}
               onClick={() => setLanguage(item.code)}
             >
-              <span className="lang-flag">{item.flag}</span>
               <span className="lang-name">{item.nativeName}</span>
             </button>
           );
@@ -63,7 +62,6 @@ function LanguageSelector({ variant = "dropdown" }) {
         aria-expanded={isOpen}
         aria-label={t.navbar?.selectLanguage || "Select language"}
       >
-        <span className="lang-flag">{currentLangObj.flag}</span>
         <span className="lang-label">{currentLangObj.nativeName}</span>
         <svg
           className={`lang-chevron ${isOpen ? "rotate" : ""}`}
@@ -97,7 +95,6 @@ function LanguageSelector({ variant = "dropdown" }) {
                   setIsOpen(false);
                 }}
               >
-                <span className="lang-flag">{item.flag}</span>
                 <span className="lang-native">{item.nativeName}</span>
                 <span className="lang-sub">{item.name}</span>
                 {isSelected && (

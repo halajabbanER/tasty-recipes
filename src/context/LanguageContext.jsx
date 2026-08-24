@@ -13,9 +13,9 @@ import tr from "../assets/data/translations/tr.json";
 export const LanguageContext = createContext();
 
 export const SUPPORTED_LANGUAGES = [
-  { code: "en", name: "English", nativeName: "English", flag: "🇬🇧", dir: "ltr" },
-  { code: "ar", name: "Arabic", nativeName: "العربية", flag: "🇸🇾", dir: "rtl" },
-  { code: "tr", name: "Turkish", nativeName: "Türkçe", flag: "🇹🇷", dir: "ltr" },
+  { code: "en", name: "English", nativeName: "English", dir: "ltr" },
+  { code: "ar", name: "Arabic", nativeName: "العربية", dir: "rtl" },
+  { code: "tr", name: "Turkish", nativeName: "Türkçe", dir: "ltr" },
 ];
 
 const translations = {
