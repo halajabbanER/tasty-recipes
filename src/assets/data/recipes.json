@@ -1,0 +1,212 @@
+{
+  "recipes": [
+    {
+      "id": 1,
+      "cuisine": "Syrian from Aleppo",
+      "title": "Syrian Kibbeh",
+      "category": "Main Dish",
+      "time": "60 min",
+      "difficulty": "Medium",
+      "image": "/images/kibbah.webp"
+      
+    },
+    {
+      "id": 2,
+      "cuisine": "Syrian ",
+      "title": "Molokhia",
+      "category": "Main Dish",
+      "time": "75 min",
+      "difficulty": "Medium",
+      "image": "/images/molokhia.jpg"
+    },
+    {
+      "id": 3,
+      "cuisine": "Syrian from Aleppo",
+      "title": "Mahshi",
+      "category": "Main Dish",
+      "time": "90 min",
+      "difficulty": "Hard",
+      "image": "/images/mahashi.webp"
+    },
+    {
+      "id": 4,
+      "cuisine": "Syrian from Aleppo",
+      "title": "Shish Barak",
+      "category": "Main Dish",
+      "time": "90 min",
+      "difficulty": "Hard",
+      "image": "/images/Shish-Barak.jpg"
+    },
+    {
+      "id": 5,
+      "cuisine": "Syrian",
+      "title": "Bechamel Pasta",
+      "category": "Main Dish",
+      "time": "60 min",
+      "difficulty": "Medium",
+      "image": "/images/bechamel-pasta.jpg"
+    },
+    {
+      "id": 6,
+      "cuisine": "Syrian",
+      "title": "Okra Stew",
+      "category": "Main Dish",
+      "time": "60 min",
+      "difficulty": "Medium",
+      "image": "/images/okra.jpg"
+    },
+    {
+      "id": 7,
+      "cuisine": "Syrian from Aleppo",
+      "title": "Safarjaliyeh",
+      "category": "Main Dish",
+      "time": "80 min",
+      "difficulty": "Medium",
+      "image": "/images/Kibbeh_Safarjaliyeh.jpg"
+    },
+    {
+      "id": 8,
+      "cuisine": "Syrian from Aleppo",
+      "title": "Eggplant Kebab",
+      "category": "Main Dish",
+      "time": "70 min",
+      "difficulty": "Medium",
+      "image": "/images/eggplant-kebab.jpg"
+    },
+    {
+      "id": 9,
+      "cuisine": "Syrian",
+      "title": "Fattoush",
+      "category": "Salad",
+      "time": "20 min",
+      "difficulty": "Easy",
+      "image": "/images/fattoush.webp"
+    },
+    {
+      "id": 10,
+      "cuisine": "Syrian",
+      "title": "Tabbouleh",
+      "category": "Salad",
+      "time": "25 min",
+      "difficulty": "Easy",
+      "image": "/images/tabbouleh.jpg"
+    },
+   
+    {
+      "id": 12,
+      "cuisine": "Syrian",
+      "title": "Lentil Soup",
+      "category": "Soup",
+      "time": "35 min",
+      "difficulty": "Easy",
+      "image": "/images/lentil-soup.jpg"
+    }
+  ],
+   "turkishRecipes": [
+    {
+      "id": "tr-1",
+      "title": "İskender Kebab",
+      "category": "Main Dish",
+      "time": "60 min",
+      "difficulty": "Medium",
+      "image": "/images/tr-images/iskender-kebap.webp"
+    },
+    {
+      "id": "tr-2",
+      "title": "Manti",
+      "category": "Main Dish",
+      "time": "90 min",
+      "difficulty": "Hard",
+      "image": "/images/tr-images/manti.jpg"
+    },
+    {
+      "id": "tr-3",
+      "title": "çiğ köfte",
+      "category": "Main Dish",
+      "time": "50 min",
+      "difficulty": "Medium",
+      "image": "/images/tr-images/cigkofte.jpg"
+    },
+    {
+      "id": "tr-4",
+      "title": "Pide",
+      "category": "Main Dish",
+      "time": "60 min",
+      "difficulty": "Medium",
+      "image": "/images/tr-images/pide.jpg"
+    },
+   
+    {
+      "id": "tr-5",
+      "title": "Menemen",
+      "category": "Breakfast",
+      "time": "20 min",
+      "difficulty": "Easy",
+      "image": "/images/tr-images/Menemen.jpg"
+    },
+    {
+      "id": "tr-6",
+      "title": "Karnıyarık",
+      "category": "Main Dish",
+      "time": "70 min",
+      "difficulty": "Medium",
+      "image": "/images/tr-images/karniyarik.jpg"
+    }
+    ],
+    "dessertRecipes": [
+  {
+    "id": "ds-1",
+    "title": "Kunafa",
+    "category": "Dessert",
+    "cuisine": "Syrian",
+    "time": "45 min",
+    "difficulty": "Medium",
+    "image": "/images/desserts/Kunafa.jpg"
+  },
+    {
+    "id": "ds-2",
+    "title": "halu arabic",
+    "category": "Dessert",
+    "cuisine": "Turkish",
+    "time": "50 min",
+    "difficulty": "Easy",
+    "image": "/images/desserts/halu arabic.jpg"
+  },
+  {
+    "id": "ds-3",
+    "title": "Halawet El Jibn",
+    "category": "Dessert",
+    "cuisine": "Syrian",
+    "time": "50 min",
+    "difficulty": "Medium",
+    "image": "/images/desserts/Halawet El Jibn.jpg"
+  },
+  {
+    "id": "ds-4",
+    "title": "Baklava",
+    "category": "Dessert",
+    "cuisine": "Turkish",
+    "time": "90 min",
+    "difficulty": "Hard",
+    "image": "/images/desserts/Baklava.jpg"
+  },
+  {
+    "id": "ds-5",
+    "title": "Sütlaç",
+    "category": "Dessert",
+    "cuisine": "Turkish",
+    "time": "45 min",
+    "difficulty": "Easy",
+    "image": "/images/tr-images/Sütlaç.jpg"
+  },
+ {
+      "id": 11,
+      "cuisine": "Syrian",
+      "title": "Maamoul",
+      "category": "Dessert",
+      "time": "60 min",
+      "difficulty": "Medium",
+      "image": "/images/maamoul.jpg"
+    }
+]
+}
