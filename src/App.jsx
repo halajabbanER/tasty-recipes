@@ -6,6 +6,7 @@ import HomePage from "./pages/HomePage";
 import RecipesPage from "./pages/RecipesPage";
 import FavoritesPage from "./pages/FavoritesPage";
 import SettingsPage from "./pages/SettingsPage";
+import RecipeDetailsPage from "./pages/RecipeDetailsPage";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
           <Route path="/recipes" element={<RecipesPage />} />
           <Route path="/favorites" element={<FavoritesPage />} />
           <Route path="/settings" element={<SettingsPage />} />
+          <Route path="/recipe/:id" element={<RecipeDetailsPage />} />
         </Routes>
       </main>
     </>

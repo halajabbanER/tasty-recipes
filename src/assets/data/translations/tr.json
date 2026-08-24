@@ -1,0 +1,101 @@
+{
+  "navbar": {
+    "home": "Ana Sayfa",
+    "recipes": "Tarifler",
+    "favorites": "Favoriler",
+    "settings": "Ayarlar",
+    "logo": "Lezzetli Tarifler",
+    "toggleTheme": "Temayı Değiştir",
+    "language": "Dil",
+    "selectLanguage": "Dil seçin"
+  },
+  "home": {
+    "badge": "Kolay ve Lezzetli Tarifler",
+    "title1": "Bir Sonraki",
+    "title2": "Favori Tarifini Keşfet",
+    "description": "Lezzetli Suriye ve Türk tariflerini, geleneksel yemekleri ve enfes tatlıları keşfedin.",
+    "explore": "Tarifleri Keşfet",
+    "favorites": "Favorilerim",
+    "syrian": "Suriye Yemekleri",
+    "syrianSmall": "Geleneksel Halep ve Şam Lezzetleri",
+    "turkish": "Türk Yemekleri",
+    "turkishSmall": "Otantik Anadolu Klasikleri",
+    "desserts": "Lezzetli Tatlılar",
+    "dessertSmall": "Tatlı ve Karşı Konulmaz Lezzetler",
+    "appetizers": "Mezeler ve Başlangıçlar",
+    "appetizerSmall": "Taze ve Lezzetli Atıştırmalıklar",
+    "viewAll": "Tümünü Gör"
+  },
+  "recipes": {
+    "subtitle": "Koleksiyonumuzu keşfedin",
+    "title": "Tüm Tarifler",
+    "syrianTitle": "Suriye Yemekleri",
+    "turkishTitle": "Türk Yemekleri",
+    "dessertsTitle": "Tatlılar",
+    "appetizersTitle": "Mezeler",
+    "description": "Suriye ve Türk yemeklerini, geleneksel lezzetleri ve tatlıları keşfedin.",
+    "searchPlaceholder": "Tarif adı veya malzeme ile ara...",
+    "searchAria": "Tariflerde ara",
+    "clearSearch": "Aramayı temizle",
+    "all": "Tümü",
+    "syrian": "Suriye",
+    "turkish": "Türk",
+    "desserts": "Tatlılar",
+    "appetizers": "Mezeler",
+    "found": "tarif bulundu",
+    "foundSingular": "tarif bulundu",
+    "noResultsTitle": "Tarif bulunamadı",
+    "noResultsText": "Farklı anahtar kelimelerle aramayı deneyin veya filtreleri temizleyin."
+  },
+  "favorites": {
+    "badge": "Kaydedilen Tarifler",
+    "title": "Favorilerim",
+    "description": "Favori tariflerinizi kaydedin ve istediğiniz zaman kolayca bulun.",
+    "count": "favori tarif",
+    "countSingular": "favori tarif",
+    "emptyTitle": "Henüz favori tarif yok",
+    "emptyText": "Tariflerimizi keşfedin ve beğendiğiniz lezzetleri kaydedin.",
+    "exploreBtn": "Tarifleri Keşfet"
+  },
+  "settings": {
+    "title": "Ayarlar",
+    "subtitle": "Yemek pişirme deneyiminizi ve tercihlerinizi kişiselleştirin.",
+    "appearance": "Görünüm",
+    "appearanceDesc": "Açık ve koyu tema arasında geçiş yapın.",
+    "themeLight": "Açık Mod",
+    "themeDark": "Koyu Mod",
+    "language": "Dil",
+    "languageDesc": "Tercih ettiğiniz arayüz ve tarif dilini seçin.",
+    "about": "Lezzetli Tarifler Hakkında",
+    "aboutDesc": "Orta Doğu ve Anadolu mutfak mirasını kutlayan, özenle seçilmiş Suriye ve Türk tarifleri koleksiyonu.",
+    "version": "Sürüm 1.0.0"
+  },
+  "categories": {
+    "Main Dish": "Ana Yemek",
+    "Dessert": "Tatlı",
+    "Appetizer": "Meze",
+    "Salad": "Salata",
+    "Soup": "Çorba",
+    "Breakfast": "Kahvaltı"
+  },
+  "difficulties": {
+    "Easy": "Kolay",
+    "Medium": "Orta",
+    "Hard": "Zor"
+  },
+  "common": {
+    "viewRecipe": "Tarifi Gör",
+    "time": "Pişirme Süresi",
+    "difficulty": "Zorluk Derecesi",
+    "servings": "Porsiyon",
+    "ingredients": "Malzemeler",
+    "preparation": "Hazırlanışı",
+    "back": "Tariflere Dön",
+    "addFavorite": "Favorilere ekle",
+    "removeFavorite": "Favorilerden çıkar",
+    "notFoundTitle": "Tarif Bulunamadı",
+    "notFoundText": "Üzgünüz, aradığınız tarifi bulamadık.",
+    "ingredientsUnavailable": "Malzemeler henüz mevcut değil.",
+    "preparationUnavailable": "Hazırlama adımları henüz mevcut değil."
+  }
+}

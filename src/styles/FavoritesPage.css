@@ -1,0 +1,69 @@
+/* =========================
+   FAVORITES PAGE
+========================= */
+
+.favorites-page {
+  padding-bottom: 80px;
+}
+
+.favorites-header {
+  max-width: 650px;
+  margin: 10px auto 45px;
+  text-align: center;
+}
+
+.favorites-header h1 {
+  margin: 10px 0 14px;
+  font-size: clamp(32px, 5vw, 44px);
+  color: #2c211d;
+  line-height: 1.2;
+}
+
+.favorites-header p {
+  color: #666;
+  font-size: 17px;
+  line-height: 1.7;
+}
+
+.favorites-count {
+  margin-bottom: 25px;
+  color: #777;
+  text-align: center;
+  font-size: 16px;
+}
+
+.favorites-count strong {
+  color: #e76f51;
+  font-size: 20px;
+}
+
+/* Empty favorites */
+
+.empty-favorites {
+  max-width: 520px;
+  margin: 40px auto 70px;
+  padding: 50px 30px;
+  text-align: center;
+  background: white;
+  border-radius: 28px;
+  border: 1px dashed #eedcd4;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.03);
+}
+
+.empty-heart {
+  margin-bottom: 18px;
+  font-size: 60px;
+}
+
+.empty-favorites h2 {
+  margin-bottom: 10px;
+  font-size: 28px;
+  color: #2c211d;
+}
+
+.empty-favorites p {
+  margin-bottom: 30px;
+  color: #666;
+  line-height: 1.7;
+  font-size: 16px;
+}

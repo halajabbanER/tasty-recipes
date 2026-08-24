@@ -1,0 +1,101 @@
+{
+  "navbar": {
+    "home": "Home",
+    "recipes": "Recipes",
+    "favorites": "Favorites",
+    "settings": "Settings",
+    "logo": "Tasty Recipes",
+    "toggleTheme": "Toggle Theme",
+    "language": "Language",
+    "selectLanguage": "Select language"
+  },
+  "home": {
+    "badge": "Easy & Delicious Recipes",
+    "title1": "Discover Your Next",
+    "title2": "Favorite Recipe",
+    "description": "Explore delicious Syrian and Turkish recipes, traditional dishes and sweet desserts.",
+    "explore": "Explore Recipes",
+    "favorites": "My Favorites",
+    "syrian": "Syrian Recipes",
+    "syrianSmall": "Traditional Aleppo & Levant Dishes",
+    "turkish": "Turkish Recipes",
+    "turkishSmall": "Authentic Anatolian Classics",
+    "desserts": "Delicious Desserts",
+    "dessertSmall": "Sweet & Irresistible Treats",
+    "appetizers": "Appetizers & Starters",
+    "appetizerSmall": "Fresh & Flavorful Bites",
+    "viewAll": "View All"
+  },
+  "recipes": {
+    "subtitle": "Explore our collection",
+    "title": "All Recipes",
+    "syrianTitle": "Syrian Recipes",
+    "turkishTitle": "Turkish Recipes",
+    "dessertsTitle": "Desserts",
+    "appetizersTitle": "Appetizers",
+    "description": "Discover delicious Syrian and Turkish dishes, traditional recipes and sweet desserts.",
+    "searchPlaceholder": "Search by recipe name or ingredient...",
+    "searchAria": "Search recipes",
+    "clearSearch": "Clear search",
+    "all": "All",
+    "syrian": "Syrian",
+    "turkish": "Turkish",
+    "desserts": "Desserts",
+    "appetizers": "Appetizers",
+    "found": "recipes found",
+    "foundSingular": "recipe found",
+    "noResultsTitle": "No recipes found",
+    "noResultsText": "Try searching with different keywords or clear the filters."
+  },
+  "favorites": {
+    "badge": "Saved Recipes",
+    "title": "My Favorites",
+    "description": "Save your favorite recipes and find them easily whenever you want.",
+    "count": "favorite recipes",
+    "countSingular": "favorite recipe",
+    "emptyTitle": "No favorites yet",
+    "emptyText": "Explore our recipes and save the dishes you love.",
+    "exploreBtn": "Explore Recipes"
+  },
+  "settings": {
+    "title": "Settings",
+    "subtitle": "Personalize your cooking experience and preferences.",
+    "appearance": "Appearance",
+    "appearanceDesc": "Switch between light and dark themes.",
+    "themeLight": "Light Mode",
+    "themeDark": "Dark Mode",
+    "language": "Language",
+    "languageDesc": "Choose your preferred interface and recipe language.",
+    "about": "About Tasty Recipes",
+    "aboutDesc": "A curated collection of authentic Syrian and Turkish recipes, celebrating Middle Eastern culinary heritage.",
+    "version": "Version 1.0.0"
+  },
+  "categories": {
+    "Main Dish": "Main Dish",
+    "Dessert": "Dessert",
+    "Appetizer": "Appetizer",
+    "Salad": "Salad",
+    "Soup": "Soup",
+    "Breakfast": "Breakfast"
+  },
+  "difficulties": {
+    "Easy": "Easy",
+    "Medium": "Medium",
+    "Hard": "Hard"
+  },
+  "common": {
+    "viewRecipe": "View Recipe",
+    "time": "Cooking Time",
+    "difficulty": "Difficulty",
+    "servings": "Servings",
+    "ingredients": "Ingredients",
+    "preparation": "Preparation",
+    "back": "Back to Recipes",
+    "addFavorite": "Add to favorites",
+    "removeFavorite": "Remove from favorites",
+    "notFoundTitle": "Recipe Not Found",
+    "notFoundText": "Sorry, we couldn't find this recipe.",
+    "ingredientsUnavailable": "Ingredients are not available yet.",
+    "preparationUnavailable": "Preparation steps are not available yet."
+  }
+}

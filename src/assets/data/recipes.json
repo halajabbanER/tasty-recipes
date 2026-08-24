@@ -1,212 +1,2498 @@
 {
-  "recipes": [
+  "syrianRecipes": [
     {
-      "id": 1,
+      "id": "sy-1",
       "cuisine": "Syrian from Aleppo",
       "title": "Syrian Kibbeh",
+      "description": "A traditional Aleppine dish made with fine bulgur, minced meat, onions and aromatic spices. Kibbeh is one of the most famous dishes in Syrian cuisine.",
       "category": "Main Dish",
       "time": "60 min",
       "difficulty": "Medium",
-      "image": "/images/kibbah.webp"
-      
+      "servings": 6,
+      "image": "/images/kibbah.webp",
+      "ingredients": [
+        "2 cups fine bulgur",
+        "500 g minced beef",
+        "1 large onion",
+        "1 teaspoon salt",
+        "1 teaspoon black pepper",
+        "1 teaspoon Syrian mixed spices",
+        "2 tablespoons olive oil"
+      ],
+      "steps": [
+        "Wash the bulgur and soak it in water for 20 minutes.",
+        "Drain the bulgur well and mix it with part of the minced meat.",
+        "Add salt, black pepper and Syrian spices.",
+        "Prepare the filling by cooking the remaining meat with chopped onion.",
+        "Shape the kibbeh and place a small amount of filling inside.",
+        "Fry in hot oil or bake until golden brown."
+      ],
+      "localizations": {
+        "ar": {
+          "title": "الكبة السورية",
+          "cuisine": "سورية من حلب",
+          "description": "طبق حلبي تقليدي يُحضّر من البرغل الناعم واللحم المفروم والبصل والبهارات العطرية. تُعد الكبة من أشهر أطباق المطبخ السوري.",
+          "time": "60 دقيقة",
+          "ingredients": [
+            "كوبان من البرغل الناعم",
+            "500 غرام من اللحم المفروم",
+            "بصلة كبيرة مفرومة",
+            "ملعقة صغيرة ملح",
+            "ملعقة صغيرة فلفل أسود",
+            "ملعقة صغيرة بهارات سورية مشكلة",
+            "ملعقتان كبيرتان من زيت الزيتون"
+          ],
+          "steps": [
+            "اغسل البرغل وانقعه في الماء لمدة 20 دقيقة.",
+            "صفِّ البرغل جيدًا واخلطه مع جزء من اللحم المفروم.",
+            "أضف الملح والفلفل الأسود والبهارات السورية.",
+            "حضّر الحشوة بطهي بقية اللحم مع البصل المفروم.",
+            "شكّل حبات الكبة وضع كمية مناسبة من الحشوة داخل كل حبة.",
+            "اقْلِ الكبة في زيت ساخن أو اخبزها حتى تصبح ذهبية ومقرمشة."
+          ]
+        },
+        "tr": {
+          "title": "Suriye İçli Köftesi",
+          "cuisine": "Halep Usulü Suriye",
+          "description": "İnce bulgur, kıyma, soğan ve aromatik baharatlarla hazırlanan geleneksel bir Halep lezzeti. İçli köfte Suriye mutfağının en ünlü yemeklerindendir.",
+          "time": "60 dk",
+          "ingredients": [
+            "2 su bardağı ince bulgur",
+            "500 g kıyma",
+            "1 büyük soğan",
+            "1 çay kaşığı tuz",
+            "1 çay kaşığı karabiber",
+            "1 çay kaşığı karışık Suriye baharatı",
+            "2 yemek kaşığı zeytinyağı"
+          ],
+          "steps": [
+            "Bulguru yıkayıp 20 dakika ılık suda bekletin.",
+            "Bulguru iyice süzüp kıymanın bir kısmıyla yoğurun.",
+            "Tuz, karabiber ve baharatları ekleyin.",
+            "Kalan kıymayı doğranmış soğanla kavurarak iç harcı hazırlayın.",
+            "Köfteleri şekillendirip içini harç ile doldurun.",
+            "Kızgın yağda altın sarısı olana kadar kızartın veya fırınlayın."
+          ]
+        }
+      }
     },
     {
-      "id": 2,
-      "cuisine": "Syrian ",
+      "id": "sy-2",
+      "cuisine": "Syrian",
       "title": "Molokhia",
+      "description": "A comforting Syrian dish prepared with molokhia leaves, chicken and aromatic spices, usually served with rice and lemon.",
       "category": "Main Dish",
       "time": "75 min",
       "difficulty": "Medium",
-      "image": "/images/molokhia.jpg"
+      "servings": 5,
+      "image": "/images/molokhia.jpg",
+      "ingredients": [
+        "500 g molokhia leaves",
+        "500 g chicken",
+        "4 garlic cloves",
+        "1 tablespoon coriander",
+        "2 tablespoons vegetable oil",
+        "Salt",
+        "Black pepper",
+        "1 lemon"
+      ],
+      "steps": [
+        "Boil the chicken until fully cooked.",
+        "Wash and prepare the molokhia leaves.",
+        "Heat oil and fry garlic with coriander.",
+        "Add the molokhia and chicken broth.",
+        "Season with salt and black pepper.",
+        "Cook on low heat until the molokhia is tender.",
+        "Serve with chicken, rice and lemon."
+      ],
+      "localizations": {
+        "ar": {
+          "title": "الملوخية السورية",
+          "cuisine": "سورية",
+          "description": "طبق سوري شهي يُحضّر من أوراق الملوخية مع الدجاج والثوم والكزبرة والبهارات العطرية، ويُقدّم عادة مع الأرز بالبشيرية والليمون.",
+          "time": "75 دقيقة",
+          "ingredients": [
+            "500 غرام أوراق ملوخية مجففة أو طازجة",
+            "500 غرام دجاج مقطع",
+            "4 فصوص ثوم مهروس",
+            "ملعقة كبيرة كزبرة يابسة",
+            "ملعقتان كبيرتان زيت نباتي أو سمن",
+            "ملح حسب الرغبة",
+            "فلفل أسود",
+            "ليمونة طازجة"
+          ],
+          "steps": [
+            "اسلق الدجاج مع المطيبات حتى ينضج تمامًا واحتفظ بالمرق.",
+            "اغسل أوراق الملوخية وصفّها جيدًا.",
+            "سخّن الزيت وقلّب الثوم المهروس مع الكزبرة حتى تخرج رائحتهما.",
+            "أضف الملوخية وقلّبها برفق ثم أضف مرق الدجاج.",
+            "تبّل بالملح والفلفل الأسود واتركها على نار هادئة حتى تنضج.",
+            "قدّمها ساخنة مع قطع الدجاج والأرز والليمون المعصور."
+          ]
+        },
+        "tr": {
+          "title": "Suriye Usulü Mülukiye",
+          "cuisine": "Suriye",
+          "description": "Mülukiye yaprakları, tavuk ve aromatik baharatlarla hazırlanan, genellikle pirinç pilavı ve limonla servis edilen geleneksel bir lezzet.",
+          "time": "75 dk",
+          "ingredients": [
+            "500 g mülukiye yaprağı",
+            "500 g tavuk eti",
+            "4 diş sarımsak",
+            "1 yemek kaşığı kuru kişniş",
+            "2 yemek kaşığı sıvı yağ",
+            "Tuz",
+            "Karabiber",
+            "1 adet limon"
+          ],
+          "steps": [
+            "Tavuğu tamamen pişene kadar haşlayın ve suyunu ayırın.",
+            "Mülukiye yapraklarını yıkayıp hazırlayın.",
+            "Yağı ısıtıp ezilmiş sarımsak ve kişnişi soteleyin.",
+            "Mülukiyeyi ve tavuk suyunu tencereye ekleyin.",
+            "Tuz ve karabiber ile tatlandırın.",
+            "Kısık ateşte yapraklar yumuşayana kadar pişirin.",
+            "Tavuk parçaları, pilav ve limon eşliğinde servis edin."
+          ]
+        }
+      }
     },
     {
-      "id": 3,
+      "id": "sy-3",
       "cuisine": "Syrian from Aleppo",
       "title": "Mahshi",
+      "description": "A traditional Syrian dish of vegetables stuffed with rice, minced meat and spices, then slowly cooked in a flavorful sauce.",
       "category": "Main Dish",
       "time": "90 min",
       "difficulty": "Hard",
-      "image": "/images/mahashi.webp"
+      "servings": 6,
+      "image": "/images/mahashi.webp",
+      "ingredients": [
+        "6 zucchini",
+        "4 eggplants",
+        "2 cups rice",
+        "300 g minced meat",
+        "2 tablespoons tomato paste",
+        "Salt",
+        "Black pepper",
+        "Mixed spices",
+        "3 cups water"
+      ],
+      "steps": [
+        "Wash and hollow the zucchini and eggplants.",
+        "Wash the rice and mix it with minced meat.",
+        "Add salt, pepper and mixed spices.",
+        "Fill the vegetables without overfilling them.",
+        "Arrange them carefully in a cooking pot.",
+        "Mix tomato paste with water and pour over the vegetables.",
+        "Cook on medium-low heat until the rice and vegetables are tender."
+      ],
+      "localizations": {
+        "ar": {
+          "title": "المحشي السوري المشكل",
+          "cuisine": "سورية من حلب",
+          "description": "طبق حلبي شهير من الكوسا والباذنجان المحشو بالأرز المتبل واللحم المفروم، والمطهو بصلصة الطماطم الغنية.",
+          "time": "90 دقيقة",
+          "ingredients": [
+            "6 حبات كوسا متوسطة",
+            "4 حبات باذنجان صغيرة",
+            "كوبان من الأرز المصري المغسول",
+            "300 غرام لحم مفروم",
+            "ملعقتان كبيرتان معجون طماطم",
+            "ملح حسب الرغبة",
+            "فلفل أسود وبهارات مشكلة",
+            "نعناع يابس وثوم مهروس",
+            "3 أكواب ماء أو مرق"
+          ],
+          "steps": [
+            "اغسل الكوسا والباذنجان واحفرها بعناية.",
+            "اخلط الأرز مع اللحم المفروم والتوابل ومعجون الطماطم وقليل من السمن.",
+            "احشِ الخضار مع ترك فراغ بسيط لتمدد الأرز أثناء الطهي.",
+            "رتّب المحاشي في القدر بإحكام.",
+            "اخلط معجون الطماطم والماء والثوم والنعناع وصبه فوق المحاشي.",
+            "اطهِ على نار متوسطة ثم خفيفة حتى ينضج الأرز والخضار تمامًا."
+          ]
+        },
+        "tr": {
+          "title": "Halep Usulü Karışık Dolma",
+          "cuisine": "Halep Usulü Suriye",
+          "description": "Pirinç, kıyma ve baharatlarla doldurulmuş kabak ve patlıcanların lezzetli salçalı sosta ağır ateşte pişirildiği geleneksel dolma.",
+          "time": "90 dk",
+          "ingredients": [
+            "6 adet kabak",
+            "4 adet küçük patlıcan",
+            "2 su bardağı pirinç",
+            "300 g kıyma",
+            "2 yemek kaşığı domates salçası",
+            "Tuz",
+            "Karabiber ve karışık baharat",
+            "3 su bardağı su veya et suyu"
+          ],
+          "steps": [
+            "Kabak ve patlıcanları yıkayıp içlerini oyun.",
+            "Pirinci yıkayıp kıyma, tuz ve baharatlarla harmanlayın.",
+            "Sebzelerin içini pirincin şişme payını bırakarak doldurun.",
+            "Dolmaları tencereye düzgünce dizin.",
+            "Salçayı su ile karıştırıp dolmaların üzerine dökün.",
+            "Pirinçler ve sebzeler yumuşayana kadar kısık ateşte pişirin."
+          ]
+        }
+      }
     },
     {
-      "id": 4,
+      "id": "sy-4",
       "cuisine": "Syrian from Aleppo",
       "title": "Shish Barak",
+      "description": "Small meat-filled dumplings cooked in a creamy yogurt sauce. Shish Barak is a beloved traditional Syrian dish.",
       "category": "Main Dish",
       "time": "90 min",
       "difficulty": "Hard",
-      "image": "/images/Shish-Barak.jpg"
+      "servings": 5,
+      "image": "/images/Shish-Barak.jpg",
+      "ingredients": [
+        "2 cups flour",
+        "3/4 cup water",
+        "300 g minced meat",
+        "1 onion",
+        "1 kg yogurt",
+        "1 tablespoon cornstarch",
+        "3 garlic cloves",
+        "1 tablespoon dried mint",
+        "Salt",
+        "Black pepper"
+      ],
+      "steps": [
+        "Mix flour, water and salt to prepare the dough.",
+        "Cook minced meat with chopped onion and spices.",
+        "Roll out the dough and cut it into small circles.",
+        "Fill each circle with meat and close it into a dumpling shape.",
+        "Bake the dumplings until lightly golden.",
+        "Mix yogurt with cornstarch and heat while stirring continuously.",
+        "Add the dumplings to the yogurt sauce.",
+        "Finish with fried garlic and dried mint."
+      ],
+      "localizations": {
+        "ar": {
+          "title": "شيش برك",
+          "cuisine": "سورية من حلب",
+          "description": "فطائر صغيرة محشوة باللحم المفروم والبصل مطبوخة في صلصة لبن زبادي دافئة وغنية بالثوم والنعناع.",
+          "time": "90 دقيقة",
+          "ingredients": [
+            "كوبان من الدقيق",
+            "3/4 كوب ماء دافئ",
+            "300 غرام لحم مفروم ناعم",
+            "بصلة مفرومة ناعمًا",
+            "كيلوغرام لبن زبادي",
+            "ملعقة كبيرة نشاء الذرة",
+            "3 فصوص ثوم مهروس",
+            "ملعقة كبيرة نعناع مجفف",
+            "ملح وفلفل أسود"
+          ],
+          "steps": [
+            "اعجن الدقيق والماء والملح لتشكيل عجينة ملساء واتركها ترتاح.",
+            "اطهِ اللحم مع البصل والبهارات لتحضير الحشوة.",
+            "افرد العجينة وقطّعها إلى دوائر صغيرة.",
+            "احشِ كل دائرة واغلقها على شكل قبعة الشيش برك.",
+            "اخبز حبات الشيش برك قليلاً بالفرن لتتماسك.",
+            "اخفق اللبن مع النشاء واطهه مع التحريك المستمر حتى يغلي.",
+            "أضف حبات الشيش برك إلى اللبن واطبخها بضع دقائق.",
+            "أضف تقلية الثوم والنعناع بالزبدة فوق الطبق."
+          ]
+        },
+        "tr": {
+          "title": "Şiş Börek",
+          "cuisine": "Halep Usulü Suriye",
+          "description": "Kıymalı mini mantıların kremsi yoğurt sosunda sarımsak ve nane ile pişirildiği meşhur ve sevilen bir geleneksel yemek.",
+          "time": "90 dk",
+          "ingredients": [
+            "2 su bardağı un",
+            "3/4 su bardağı su",
+            "300 g kıyma",
+            "1 adet soğan",
+            "1 kg yoğurt",
+            "1 yemek kaşığı nişasta",
+            "3 diş sarımsak",
+            "1 yemek kaşığı kuru nane",
+            "Tuz ve karabiber"
+          ],
+          "steps": [
+            "Un, su ve tuz ile pürüzsüz bir hamur yoğurun.",
+            "Kıymayı soğan ve baharatlarla soteleyip soğumaya bırakın.",
+            "Hamuru açıp küçük yuvarlaklar kesin.",
+            "İçine harç koyup mantı şeklinde kapatın.",
+            "Mantıları fırında hafifçe fırınlayın.",
+            "Yoğurdu nişasta ile çırpıp sürekli karıştırarak kaynatın.",
+            "Mantıları yoğurt sosuna ekleyip birkaç dakika pişirin.",
+            "Üzerine tereyağında kavrulmuş sarımsak ve nane gezdirin."
+          ]
+        }
+      }
     },
     {
-      "id": 5,
+      "id": "sy-5",
       "cuisine": "Syrian",
       "title": "Bechamel Pasta",
+      "description": "A rich baked pasta dish layered with seasoned minced meat and creamy béchamel sauce.",
       "category": "Main Dish",
       "time": "60 min",
       "difficulty": "Medium",
-      "image": "/images/bechamel-pasta.jpg"
+      "servings": 6,
+      "image": "/images/bechamel-pasta.jpg",
+      "ingredients": [
+        "500 g pasta",
+        "400 g minced beef",
+        "1 onion",
+        "3 tablespoons butter",
+        "3 tablespoons flour",
+        "3 cups milk",
+        "1 cup shredded cheese",
+        "Salt",
+        "Black pepper"
+      ],
+      "steps": [
+        "Boil the pasta until slightly tender.",
+        "Cook minced beef with chopped onion.",
+        "Melt butter and stir in flour.",
+        "Gradually add milk while stirring to prepare the béchamel sauce.",
+        "Season the sauce with salt and pepper.",
+        "Layer pasta, meat and béchamel in a baking dish.",
+        "Add cheese on top.",
+        "Bake until golden."
+      ],
+      "localizations": {
+        "ar": {
+          "title": "معكرونة بالبشاميل",
+          "cuisine": "سورية",
+          "description": "صينية مكرونة شهية بطبقات من اللحم المفروم المتبل وصلصة البشاميل الكريمية والجبن الذهبي.",
+          "time": "60 دقيقة",
+          "ingredients": [
+            "500 غرام مكرونة قلم",
+            "400 غرام لحم مفروم",
+            "بصلة مفرومة",
+            "3 ملاعق كبيرة زبدة",
+            "3 ملاعق كبيرة دقيق",
+            "3 أكواب حليب دافئ",
+            "كوب جبن موزاريلا أو قشقوان مبشور",
+            "ملح وفلفل أسود ورشة جوزة الطيب"
+          ],
+          "steps": [
+            "اسلق المكرونة في ماء مملح حتى تقترب من النضج ثم صفّها.",
+            "عصّج اللحم مع البصل والملح والفلفل الأسود.",
+            "ذوّب الزبدة وأضف الدقيق وقلّب حتى تظهر رائحته.",
+            "أضف الحليب تدريجيًا مع الخفق المستمر لتحضير البشاميل.",
+            "اخلط نصف البشاميل مع المكرونة، وضع نصف الكمية بالصينية.",
+            "أضف طبقة اللحم المفروم ثم بقية المكرونة.",
+            "اسكب بقية البشاميل ورش الجبن على الوجه.",
+            "اخبز في الفرن حتى يحمر الوجه ويصبح ذهبيًا."
+          ]
+        },
+        "tr": {
+          "title": "Beşamel Soslu Fırın Makarna",
+          "cuisine": "Suriye",
+          "description": "Kıymalı harç, nefis beşamel sos ve üzeri erimiş peynirle fırınlanmış zengin ve lezzetli bir makarna yemeği.",
+          "time": "60 dk",
+          "ingredients": [
+            "500 g makarna",
+            "400 g kıyma",
+            "1 adet soğan",
+            "3 yemek kaşığı tereyağı",
+            "3 yemek kaşığı un",
+            "3 su bardağı süt",
+            "1 su bardağı rendelenmiş kaşar peyniri",
+            "Tuz ve karabiber"
+          ],
+          "steps": [
+            "Makarnayı hafif diri kalacak şekilde haşlayıp süzün.",
+            "Kıymayı soğan ve baharatlarla kavurun.",
+            "Tereyağını eritip unu kokusu çıkana kadar kavurun.",
+            "Sütü yavaşça ekleyerek pürüzsüz bir beşamel sos hazırlayın.",
+            "Makarnanın yarısını fırın kabına yayın, üzerine kıymalı harcı ekleyin.",
+            "Kalan makarnayı ve beşamel sosu dökün, peyniri serpin.",
+            "Üzeri nar gibi kızarana kadar fırında pişirin."
+          ]
+        }
+      }
     },
     {
-      "id": 6,
+      "id": "sy-6",
       "cuisine": "Syrian",
       "title": "Okra Stew",
+      "description": "A classic Syrian stew made with tender okra, tomato sauce, garlic and meat, usually served with rice.",
       "category": "Main Dish",
       "time": "60 min",
       "difficulty": "Medium",
-      "image": "/images/okra.jpg"
+      "servings": 5,
+      "image": "/images/okra.jpg",
+      "ingredients": [
+        "500 g okra",
+        "400 g beef or lamb",
+        "3 cups tomato sauce",
+        "4 garlic cloves",
+        "2 tablespoons vegetable oil",
+        "Salt",
+        "Black pepper",
+        "1 tablespoon coriander"
+      ],
+      "steps": [
+        "Cook the meat until tender.",
+        "Clean the okra and lightly fry it.",
+        "Add tomato sauce to the cooked meat.",
+        "Add okra and season with salt and pepper.",
+        "Cook on low heat until the okra is tender.",
+        "Fry garlic with coriander and add it to the stew.",
+        "Serve hot with rice."
+      ],
+      "localizations": {
+        "ar": {
+          "title": "بامية سورية باللحم",
+          "cuisine": "سورية",
+          "description": "يخنة سورية تقليدية شهيرة من قرون البامية الطرية مع قطع اللحم وصلصة الطماطم والثوم والكزبرة، تُقدم مع الأرز الأبيض.",
+          "time": "60 دقيقة",
+          "ingredients": [
+            "500 غرام بامية صغيرة",
+            "400 غرام لحم غنم أو عجل مقطع",
+            "3 أكواب عصير طماطم طازج",
+            "4 فصوص ثوم مفروم",
+            "ملعقة كبيرة كزبرة يابسة",
+            "ملعقتان كبيرتان زيت أو سمن",
+            "ملح وفلفل أسود وعصير نصف ليمونة"
+          ],
+          "steps": [
+            "اسلق اللحم حتى ينضج تمامًا واحتفظ بالمرق.",
+            "قم بتقميع البامية وتشويحها قليلاً بالزيت.",
+            "أضف عصير الطماطم والمرق إلى قطع اللحم.",
+            "أضف البامية وعصير الليمون والملح والفلفل.",
+            "اترك القدر يغلي على نار هادئة حتى تتسبك الصلصة وتنضج البامية.",
+            "حمّر الثوم والكزبرة واسكب الطشة فوق البامية.",
+            "قدّمها ساخنة مع الأرز بالشعيرية."
+          ]
+        },
+        "tr": {
+          "title": "Etli Bamya Yemeği",
+          "cuisine": "Suriye",
+          "description": "Taze bamyalar, lokum gibi pişmiş et parçaları, domates sosu, sarımsak ve kişnişle hazırlanan nefis bir tencere yemeği.",
+          "time": "60 dk",
+          "ingredients": [
+            "500 g bamya",
+            "400 g kuşbaşı et",
+            "3 su bardağı domates sosu",
+            "4 diş sarımsak",
+            "2 yemek kaşığı sıvı yağ",
+            "1 yemek kaşığı kuru kişniş",
+            "Tuz ve karabiber"
+          ],
+          "steps": [
+            "Eti yumuşayana kadar haşlayın.",
+            "Bamyaları ayıklayıp hafifçe soteleyin.",
+            "Haşlanan ete domates sosu ve et suyunu ilave edin.",
+            "Bamyaları ekleyip tuz ve karabiberle tatlandırın.",
+            "Kısık ateşte bamyalar pişene kadar kaynatın.",
+            "Sarımsak ve kişnişi yağda kavurup yemeğe ekleyin.",
+            "Pirinç pilavı eşliğinde sıcak servis yapın."
+          ]
+        }
+      }
     },
     {
-      "id": 7,
+      "id": "sy-7",
       "cuisine": "Syrian from Aleppo",
       "title": "Safarjaliyeh",
+      "description": "A famous Aleppine sweet-and-sour stew prepared with quince, meat, pomegranate molasses and spices.",
       "category": "Main Dish",
       "time": "80 min",
       "difficulty": "Medium",
-      "image": "/images/Kibbeh_Safarjaliyeh.jpg"
+      "servings": 5,
+      "image": "/images/Kibbeh_Safarjaliyeh.jpg",
+      "ingredients": [
+        "500 g lamb",
+        "3 quinces",
+        "2 tablespoons pomegranate molasses",
+        "2 tablespoons tomato paste",
+        "1 tablespoon sugar",
+        "Salt",
+        "Black pepper",
+        "Cinnamon",
+        "3 cups water"
+      ],
+      "steps": [
+        "Cut the meat into cubes and cook until tender.",
+        "Wash, peel and cut the quince into pieces.",
+        "Add quince to the cooked meat.",
+        "Mix tomato paste, pomegranate molasses and water.",
+        "Pour the sauce into the pot.",
+        "Add sugar and spices.",
+        "Cook until the quince becomes tender and the sauce thickens."
+      ],
+      "localizations": {
+        "ar": {
+          "title": "السفرجلية الحلبية",
+          "cuisine": "سورية من حلب",
+          "description": "من أشهر وأعرق أطباق حلب التاريخية، تجمع بين حلاوة السفرجل وحموضة دبس الرمان مع اللحم وكرات الكبة والنعناع.",
+          "time": "80 دقيقة",
+          "ingredients": [
+            "500 غرام لحم خروف بالعظم",
+            "3 حبات سفرجل مقشر ومقطع مكعبات",
+            "ملعقتان كبيرتان دبس رمان أصلي",
+            "ملعقتان كبيرتان معجون طماطم",
+            "ملعقة كبيرة سكر",
+            "ثوم مهروس ونعناع يابس",
+            "ملح وفلفل أسود وقرفة",
+            "3 أكواب ماء أو مرق لحم"
+          ],
+          "steps": [
+            "اسلق اللحم حتى يقترب من النضج الكامل.",
+            "قشر السفرجل وقطعه إلى مكعبات متوسطة الحجم.",
+            "أضف السفرجل إلى قدر اللحم والمرق.",
+            "اخلط معجون الطماطم ودبس الرمان والسكر والبهارات وصبه في القدر.",
+            "أضف الثوم والنعناع واترك الطبخة تتسبك على نار هادئة.",
+            "تُضاف كرات الكبة الصغيرة إليها قبل تمام النضج.",
+            "قدّمها ساخنة كوجبة حلبية فاخرة."
+          ]
+        },
+        "tr": {
+          "title": "Halep Usulü Ayvalı Et (Seferceliye)",
+          "cuisine": "Halep Usulü Suriye",
+          "description": "Ayva, kuzu eti, nar ekşisi ve baharatların mükemmel ekşi-tatlı dengesiyle hazırlanan ünlü bir Halep saray yemeği.",
+          "time": "80 dk",
+          "ingredients": [
+            "500 g kuzu eti",
+            "3 adet ayva",
+            "2 yemek kaşığı nar ekşisi",
+            "2 yemek kaşığı domates salçası",
+            "1 yemek kaşığı şeker",
+            "Tuz, karabiber, tarçın",
+            "3 su bardağı su"
+          ],
+          "steps": [
+            "Kuzu etini yumuşayana kadar haşlayın.",
+            "Ayvaları soyup küp küp doğrayın ve ete ekleyin.",
+            "Salça, nar ekşisi ve suyu karıştırıp tencereye ilave edin.",
+            "Şeker ve baharatları ekleyin.",
+            "Ayvalar yumuşayıp sos koyulaşana kadar kısık ateşte pişirin."
+          ]
+        }
+      }
     },
     {
-      "id": 8,
+      "id": "sy-8",
       "cuisine": "Syrian from Aleppo",
       "title": "Eggplant Kebab",
+      "description": "A flavorful Aleppine kebab prepared with alternating pieces of seasoned meat and eggplant, then baked until tender.",
       "category": "Main Dish",
       "time": "70 min",
       "difficulty": "Medium",
-      "image": "/images/eggplant-kebab.jpg"
+      "servings": 5,
+      "image": "/images/eggplant-kebab.jpg",
+      "ingredients": [
+        "4 eggplants",
+        "500 g minced meat",
+        "1 onion",
+        "2 tomatoes",
+        "Salt",
+        "Black pepper",
+        "Mixed spices",
+        "2 tablespoons olive oil"
+      ],
+      "steps": [
+        "Slice the eggplants into thick rounds.",
+        "Mix minced meat with onion, salt and spices.",
+        "Shape the meat into small patties.",
+        "Arrange alternating eggplant and meat pieces in a baking dish.",
+        "Add tomato slices on top.",
+        "Drizzle with olive oil.",
+        "Bake until the eggplant and meat are fully cooked."
+      ],
+      "localizations": {
+        "ar": {
+          "title": "كباب باذنجان حلبي",
+          "cuisine": "سورية من حلب",
+          "description": "كباب حلبي مشهور يُرتّب فيه اللحم المفروم المتبل مع حلقات الباذنجان والطماطم والفلفل ويُشوى في الفرن حتى النضج.",
+          "time": "70 دقيقة",
+          "ingredients": [
+            "4 حبات باذنجان متوسطة",
+            "500 غرام لحم مفروم مع قليل من الدهن",
+            "بصلة مفرومة ناعمًا",
+            "حبتان طماطم مقطعة شرائح",
+            "فلفل أخضر حار حسب الرغبة",
+            "ملح وفلفل أسود وبهارات مشكلة",
+            "ملعقتان كبيرتان زيت زيتون"
+          ],
+          "steps": [
+            "قطّع الباذنجان إلى حلقات سميكة.",
+            "تبّل اللحم المفروم بالبصل والملح والبهارات وشكّله على هيئة أقراص.",
+            "رتّب أقراص اللحم وحلقات الباذنجان بالتناوب في صينية الفرن.",
+            "وزّع شرائح الطماطم والفلفل الأخضر على الوجه.",
+            "رش زيت الزيتون وغطِّ الصينية بورق القصدير.",
+            "اخبز في الفرن الساخن حتى ينضج الباذنجان ويتحمر اللحم تمامًا."
+          ]
+        },
+        "tr": {
+          "title": "Halep Usulü Patlıcan Kebabı",
+          "cuisine": "Halep Usulü Suriye",
+          "description": "Baharatlı kıyma köfteleri ve patlıcan dilimlerinin tepsiye dizilip domates ve biberlerle fırınlandığı enfes kebap.",
+          "time": "70 dk",
+          "ingredients": [
+            "4 adet patlıcan",
+            "500 g orta yağlı kıyma",
+            "1 adet soğan",
+            "2 adet domates",
+            "Tuz, karabiber, kebap baharatı",
+            "2 yemek kaşığı zeytinyağı"
+          ],
+          "steps": [
+            "Patlıcanları kalın halkalar halinde dilimleyin.",
+            "Kıymayı soğan ve baharatlarla yoğurup yuvarlak köfteler yapın.",
+            "Fırın tepsisine sırasıyla bir patlıcan bir köfte dizin.",
+            "Üzerine domates dilimleri ve biber yerleştirin.",
+            "Zeytinyağı gezdirip fırında patlıcanlar yumuşayana kadar pişirin."
+          ]
+        }
+      }
     },
     {
-      "id": 9,
+      "id": "sy-9",
       "cuisine": "Syrian",
       "title": "Fattoush",
+      "description": "A fresh Levantine salad made with vegetables, crispy bread, sumac and a tangy pomegranate dressing.",
       "category": "Salad",
       "time": "20 min",
       "difficulty": "Easy",
-      "image": "/images/fattoush.webp"
+      "servings": 4,
+      "image": "/images/fattoush.webp",
+      "ingredients": [
+        "2 tomatoes",
+        "2 cucumbers",
+        "1 lettuce",
+        "1 green pepper",
+        "4 radishes",
+        "1 pita bread",
+        "2 tablespoons olive oil",
+        "1 tablespoon pomegranate molasses",
+        "1 teaspoon sumac",
+        "Lemon juice",
+        "Salt"
+      ],
+      "steps": [
+        "Wash and chop all vegetables.",
+        "Toast or fry the pita bread until crispy.",
+        "Mix olive oil, lemon juice and pomegranate molasses.",
+        "Add salt and sumac.",
+        "Mix the vegetables with the dressing.",
+        "Add crispy bread just before serving."
+      ],
+      "localizations": {
+        "ar": {
+          "title": "فتوش شامي أصيل",
+          "cuisine": "سورية",
+          "description": "سلطة بلاد الشام الشهيرة والمفضلة على كل مائدة، غنية بالخضار الطازجة والخبز المقرمش وتتبيلة السماق ودبس الرمان الحامضة.",
+          "time": "20 دقيقة",
+          "ingredients": [
+            "حبتان طماطم طازجة",
+            "حبتان خيار مقرمش",
+            "رأس خس طازج",
+            "فلفل أخضر وبقلة ونعناع",
+            "4 حبات فجل أحمر",
+            "رغيف خبز عربي مقلي أو محمص",
+            "ملعقتان كبيرتان زيت زيتون بكر",
+            "ملعقة كبيرة دبس رمان",
+            "ملعقة صغيرة سماق بلدي",
+            "عصير ليمونة وملح"
+          ],
+          "steps": [
+            "اغسل جميع الخضروات الورقية وجففها وقطّعها بحجم متوسط.",
+            "قطّع الخبز العربي واقلِه أو حمّصه في الفرن حتى يصبح ذهبيًا ومقرمشًا.",
+            "اخفق زيت الزيتون مع عصير الليمون ودبس الرمان والسماق والملح.",
+            "اخلط الخضار مع التتبيلة الشهية في وعاء التقديم.",
+            "وزّع الخبز المقرمش والسماق الإضافي على الوجه قبل التقديم مباشرة."
+          ]
+        },
+        "tr": {
+          "title": "Fettuş Salatası",
+          "cuisine": "Suriye",
+          "description": "Taze yeşillikler, çıtır pide parçaları, sumak ve nar ekşili özel sosuyla hazırlanan ferahlatıcı Levant salatası.",
+          "time": "20 dk",
+          "ingredients": [
+            "2 adet domates",
+            "2 adet salatalık",
+            "1 göbek marul",
+            "1 adet yeşil biber",
+            "4 adet turp",
+            "1 adet lavaş veya pide",
+            "2 yemek kaşığı zeytinyağı",
+            "1 yemek kaşığı nar ekşisi",
+            "1 tatlı kaşığı sumak",
+            "Limon suyu ve tuz"
+          ],
+          "steps": [
+            "Tüm sebzeleri yıkayıp iri iri doğrayın.",
+            "Pideleri küp doğrayıp fırında veya yağda kızartın.",
+            "Zeytinyağı, limon suyu, nar ekşisi, sumak ve tuzu çırpın.",
+            "Sebzeleri sosla harmanlayın.",
+            "Servis etmeden hemen önce çıtır pideleri ekleyin."
+          ]
+        }
+      }
     },
     {
-      "id": 10,
+      "id": "sy-10",
       "cuisine": "Syrian",
       "title": "Tabbouleh",
+      "description": "A refreshing Levantine salad prepared with parsley, tomatoes, bulgur, mint and fresh lemon juice.",
       "category": "Salad",
       "time": "25 min",
       "difficulty": "Easy",
-      "image": "/images/tabbouleh.jpg"
+      "servings": 4,
+      "image": "/images/tabbouleh.jpg",
+      "ingredients": [
+        "2 bunches parsley",
+        "2 tomatoes",
+        "1/4 cup fine bulgur",
+        "Fresh mint",
+        "2 green onions",
+        "1 lemon",
+        "3 tablespoons olive oil",
+        "Salt"
+      ],
+      "steps": [
+        "Wash and finely chop the parsley.",
+        "Soak the bulgur for several minutes and drain.",
+        "Finely chop tomatoes, mint and green onion.",
+        "Mix all ingredients together.",
+        "Add lemon juice, olive oil and salt.",
+        "Serve fresh."
+      ],
+      "localizations": {
+        "ar": {
+          "title": "التبولة السورية",
+          "cuisine": "سورية",
+          "description": "سلطة شامية راقية ومنعشة قوامها البقدونس المفروم ناعمًا مع الطماطم والنعناع والبرغل وزيت الزيتون والليمون.",
+          "time": "25 دقيقة",
+          "ingredients": [
+            "حزمتان من البقدونس الطازج المغسول جيدًا",
+            "حبتان طماطم مفرومة ناعمًا",
+            "ربع كوب برغل ناعم منقوع",
+            "أوراق نعناع أخضر طازج",
+            "عودان بصل أخضر مفروم",
+            "عصير ليمونتين",
+            "3 ملاعق كبيرة زيت زيتون ممتاز",
+            "ملح حسب الذوق"
+          ],
+          "steps": [
+            "افرم البقدونس والنعناع فرمًا ناعمًا جدًا بعد تجفيفهما تمامًا.",
+            "انقع البرغل الناعم في عصير الليمون لبضع دقائق.",
+            "افرم الطماطم والبصل الأخضر ناعمًا.",
+            "اخلط المكونات بلطف في وعاء التقديم.",
+            "أضف زيت الزيتون والملح وعصير الليمون الإضافي.",
+            "تُقدّم التبولة طازجة مع أوراق الخس أو الملفوف."
+          ]
+        },
+        "tr": {
+          "title": "Tebule Salatası",
+          "cuisine": "Suriye",
+          "description": "Bol ince kıyılmış maydanoz, taze nane, domates, ince bulgur ve zeytinyağlı limon sosuyla yapılan ferahlatıcı salata.",
+          "time": "25 dk",
+          "ingredients": [
+            "2 demet maydanoz",
+            "2 adet domates",
+            "1/4 su bardağı ince bulgur",
+            "Taze nane yaprakları",
+            "2 dal taze soğan",
+            "1 adet limon suyu",
+            "3 yemek kaşığı zeytinyağı",
+            "Tuz"
+          ],
+          "steps": [
+            "Maydanoz ve naneyi yıkayıp kurutun ve çok ince kıyın.",
+            "İnce bulguru limon suyunda hafifçe ıslatın.",
+            "Domates ve taze soğanı minik küpler halinde doğrayın.",
+            "Tüm malzemeleri karıştırma kabında birleştirin.",
+            "Zeytinyağı ve tuzu ekleyip nazikçe harmanlayın.",
+            "Marul yaprakları eşliğinde taze olarak servis edin."
+          ]
+        }
+      }
     },
-   
     {
-      "id": 12,
+      "id": "sy-11",
+      "cuisine": "Syrian",
+      "title": "Lahm Bi Ajeen",
+      "description": "Thin Syrian flatbread topped with a seasoned mixture of minced meat, tomatoes, onions and spices.",
+      "category": "Appetizer",
+      "time": "50 min",
+      "difficulty": "Medium",
+      "servings": 6,
+      "image": "/images/Lahm Bi Ajeen.jpg",
+      "ingredients": [
+        "3 cups flour",
+        "1 teaspoon yeast",
+        "1 cup warm water",
+        "400 g minced meat",
+        "1 onion",
+        "2 tomatoes",
+        "1 green pepper",
+        "1 tablespoon pomegranate molasses",
+        "Salt",
+        "Mixed spices"
+      ],
+      "steps": [
+        "Prepare a soft dough using flour, yeast, water and salt.",
+        "Leave the dough to rise.",
+        "Mix minced meat with finely chopped vegetables.",
+        "Add pomegranate molasses and spices.",
+        "Roll the dough into thin circles.",
+        "Spread the meat mixture over each piece.",
+        "Bake until the dough is golden and the meat is cooked."
+      ],
+      "localizations": {
+        "ar": {
+          "title": "لحم بعجين حلبي / صفيحة",
+          "cuisine": "سورية من حلب",
+          "description": "أقراص عجين رقيقة مقرمشة مغطاة بخلطة اللحم المفروم والبصل والطماطم ودبس الرمان والصنوبر، مخبوزة على حرارة عالية.",
+          "time": "50 دقيقة",
+          "ingredients": [
+            "3 أكواب دقيق فاخر",
+            "ملعقة صغيرة خميرة فورية",
+            "كوب ماء دافئ للعجن",
+            "400 غرام لحم غنم مفروم ناعم",
+            "بصلة كبيرة مفرومة",
+            "حبتان طماطم مقشرة ومفرومة",
+            "ملعقة كبيرة دبس رمان",
+            "صنوبر للتزيين",
+            "ملح وفلفل أسود وبهار حلبي"
+          ],
+          "steps": [
+            "اعجن الدقيق والماء والخميرة والملح حتى تتشكل عجينة طرية، واتركها لتختمر.",
+            "افرم البصل والطماطم واخلطها مع اللحم ودبس الرمان والتوابل.",
+            "قسّم العجين إلى كرات وافرد كل كرة على شكل قرص دائري رقيق.",
+            "افرد طبقة رقيقة من حشوة اللحم فوق العجين وزيّن بالصنوبر.",
+            "اخبز في فرن شديد السخونة حتى تصبح الأطراف ذهبية ومقرمشة.",
+            "قدّم الصفيحة ساخنة مع اللبن العيران والليمون."
+          ]
+        },
+        "tr": {
+          "title": "Halep Lahmacunu (Lahm Bi Ajeen)",
+          "cuisine": "Halep Usulü Suriye",
+          "description": "İncecik açılmış hamur üzerine nar ekşili, kıymalı, domatesli ve baharatlı harcın yayılıp fırınlandığı çıtır lezzet.",
+          "time": "50 dk",
+          "ingredients": [
+            "3 su bardağı un",
+            "1 tatlı kaşığı maya",
+            "1 su bardağı ılık su",
+            "400 g kıyma",
+            "1 adet soğan",
+            "2 adet domates",
+            "1 yemek kaşığı nar ekşisi",
+            "Tuz ve karışık baharatlar"
+          ],
+          "steps": [
+            "Un, maya, su ve tuzla yumuşak bir hamur yoğurup mayalandırın.",
+            "Kıymayı ince kıyılmış sebzeler, nar ekşisi ve baharatlarla karıştırın.",
+            "Hamurdan bezeler alıp incecik açın.",
+            "Kıymalı harcı hamurun üzerine eşit şekilde yayın.",
+            "Yüksek dereceli fırında kenarları çıtır olana kadar pişirin.",
+            "Ayran ve limonla sıcak servis yapın."
+          ]
+        }
+      }
+    },
+    {
+      "id": "sy-12",
       "cuisine": "Syrian",
       "title": "Lentil Soup",
+      "description": "A warm and comforting lentil soup made with red lentils, onion and cumin.",
       "category": "Soup",
       "time": "35 min",
       "difficulty": "Easy",
-      "image": "/images/lentil-soup.jpg"
+      "servings": 5,
+      "image": "/images/lentil-soup.jpg",
+      "ingredients": [
+        "2 cups red lentils",
+        "1 onion",
+        "1 carrot",
+        "1 potato",
+        "1 teaspoon cumin",
+        "Salt",
+        "Black pepper",
+        "6 cups water"
+      ],
+      "steps": [
+        "Wash the lentils thoroughly.",
+        "Add lentils, onion, carrot and potato to a pot.",
+        "Add water and cook until all ingredients are soft.",
+        "Blend until smooth.",
+        "Add cumin, salt and pepper.",
+        "Serve hot with lemon."
+      ],
+      "localizations": {
+        "ar": {
+          "title": "شوربة العدس السورية",
+          "cuisine": "سورية",
+          "description": "شوربة العدس الأصفر الدافئة والمغذية، مطبوخة مع الخضار والكمون وزيت الزيتون وتقدم مع الخبز المحمص والليمون.",
+          "time": "35 دقيقة",
+          "ingredients": [
+            "كوبان عدس أصفر مجروش",
+            "بصلة متوسطة مفرومة",
+            "حبة جزر مقطعة مكعبات",
+            "حبة بطاطا صغيرة",
+            "ملعقة صغيرة كمون مطحون",
+            "ملح وفلفل أسود ورشة كركم",
+            "6 أكواب ماء أو مرق دجاج",
+            "ملعقتان كبيرتان زيت زيتون"
+          ],
+          "steps": [
+            "اغسل العدس الأصفر جيدًا بالماء البارد.",
+            "شوّح البصل والجزر والبطاطا في قليل من الزيت ثم أضف العدس والماء.",
+            "اترك المكونات تغلي على نار متوسطة حتى تنضج تمامًا.",
+            "اطحن الشوربة بالخلاط اليدوي حتى تصبح ناعمة ومخملية.",
+            "أضف الكمون والملح والفلفل الأسود ورشة الكركم.",
+            "اسكب الشوربة في أطباق التقديم وزيّنها بالخبز المحمص وعصير الليمون."
+          ]
+        },
+        "tr": {
+          "title": "Suriye Usulü Mercimek Çorbası",
+          "cuisine": "Suriye",
+          "description": "Kırmızı mercimek, havuç, patates ve kimyonla hazırlanan, pürüzsüz kıvamda sıcacık ve besleyici bir çorba.",
+          "time": "35 dk",
+          "ingredients": [
+            "2 su bardağı kırmızı mercimek",
+            "1 adet soğan",
+            "1 adet havuç",
+            "1 adet patates",
+            "1 tatlı kaşığı kimyon",
+            "Tuz ve karabiber",
+            "6 su bardağı su veya et suyu"
+          ],
+          "steps": [
+            "Mercimekleri iyice yıkayın.",
+            "Doğranmış soğan, havuç, patates ve mercimeği tencereye alın.",
+            "Suyu ekleyip sebzeler yumuşayana kadar kaynatın.",
+            "Çorbayı pürüzsüz olana kadar blenderdan geçirin.",
+            "Kimyon, tuz ve karabiber ekleyin.",
+            "Limon ve kıtır ekmekle sıcak servis yapın."
+          ]
+        }
+      }
     }
   ],
-   "turkishRecipes": [
+
+  "turkishRecipes": [
     {
       "id": "tr-1",
+      "cuisine": "Turkish",
       "title": "İskender Kebab",
+      "description": "A famous Turkish dish made with thinly sliced döner meat served over bread with tomato sauce, yogurt and melted butter.",
       "category": "Main Dish",
       "time": "60 min",
       "difficulty": "Medium",
-      "image": "/images/tr-images/iskender-kebap.webp"
+      "servings": 4,
+      "image": "/images/tr-images/iskender-kebap.webp",
+      "ingredients": [
+        "500 g döner meat",
+        "2 pita breads",
+        "2 cups tomato sauce",
+        "1 cup yogurt",
+        "3 tablespoons butter",
+        "Salt",
+        "Black pepper"
+      ],
+      "steps": [
+        "Cut the bread into small pieces and place on serving plates.",
+        "Heat the döner meat.",
+        "Prepare and warm the tomato sauce.",
+        "Place the meat over the bread.",
+        "Pour tomato sauce over the meat.",
+        "Add yogurt on the side.",
+        "Drizzle melted butter over the dish."
+      ],
+      "localizations": {
+        "ar": {
+          "title": "إسكندر كباب تركي",
+          "cuisine": "تركية من بورصة",
+          "description": "أشهر أطباق المطبخ التركي من مدينة بورصة، يتكون من شرائح شاورما اللحم فوق الخبز المقرمش بصلصة الطماطم واللبن والزبدة الساخنة.",
+          "time": "60 دقيقة",
+          "ingredients": [
+            "500 غرام لحم شاورما (دونات) مقطع شرائح رفيعة",
+            "رغيفان من خبز البيدا التركي المقطع مكعبات",
+            "كوبان صلصة طماطم متبلة بالزبدة",
+            "كوب لبن زبادي سميك",
+            "3 ملاعق كبيرة زبدة ذائبة ساخنة",
+            "فلفل أخضر مشوي وطماطم مشوية للتقديم"
+          ],
+          "steps": [
+            "حمّص مكعبات الخبز ورتّبها في طبق التقديم الواسع.",
+            "سخّن شرائح اللحم جيدًا.",
+            "حضّر صلصة الطماطم الغنية وسخّنها.",
+            "وزّع شرائح اللحم فوق الخبز.",
+            "اسكب صلصة الطماطم الساخنة فوق اللحم.",
+            "ضع اللبن الزبادي على جانب الطبق مع الفلفل المشوي.",
+            "اسكب الزبدة الساخنة الفوارة فوق الطبق وقدمه فورًا."
+          ]
+        },
+        "tr": {
+          "title": "İskender Kebap",
+          "cuisine": "Bursa Usulü Türk",
+          "description": "Pide üzerine dizilen ince döner dilimleri, domates sosu, yoğurt ve cızırdayan tereyağı ile servis edilen dünyaca ünlü Türk klasiği.",
+          "time": "60 dk",
+          "ingredients": [
+            "500 g ince dilimlenmiş döner eti",
+            "2 adet tırnak pide",
+            "2 su bardağı domates sosu",
+            "1 su bardağı süzme yoğurt",
+            "3 yemek kaşığı tereyağı",
+            "Közlenmiş biber ve domates"
+          ],
+          "steps": [
+            "Pideleri küp şeklinde doğrayıp servis tabağına dizin.",
+            "Döner etini iyice ısıtın.",
+            "Domates sosunu hazırlayıp kaynatın.",
+            "Etleri pidelerin üzerine yerleştirin.",
+            "Sıcak domates sosunu etlerin üzerine gezdirin.",
+            "Tabağın kenarına yoğurt ve közlenmiş sebzeleri ekleyin.",
+            "Kızgın tereyağını cızırdayarak üzerine döküp servis edin."
+          ]
+        }
+      }
     },
     {
       "id": "tr-2",
-      "title": "Manti",
+      "cuisine": "Turkish",
+      "title": "Mantı",
+      "description": "Traditional Turkish dumplings filled with minced meat and served with garlic yogurt and butter sauce.",
       "category": "Main Dish",
       "time": "90 min",
       "difficulty": "Hard",
-      "image": "/images/tr-images/manti.jpg"
+      "servings": 5,
+      "image": "/images/tr-images/manti.jpg",
+      "ingredients": [
+        "3 cups flour",
+        "1 egg",
+        "1 cup water",
+        "300 g minced meat",
+        "1 onion",
+        "2 cups yogurt",
+        "2 garlic cloves",
+        "2 tablespoons butter",
+        "Paprika",
+        "Salt"
+      ],
+      "steps": [
+        "Prepare the dough using flour, egg, water and salt.",
+        "Mix minced meat with finely chopped onion.",
+        "Roll the dough thinly and cut into small squares.",
+        "Place meat filling in each square and close tightly.",
+        "Boil the mantı until cooked.",
+        "Mix yogurt with crushed garlic.",
+        "Serve mantı with garlic yogurt and melted butter with paprika."
+      ],
+      "localizations": {
+        "ar": {
+          "title": "المانتي التركي",
+          "cuisine": "تركية من قيصري",
+          "description": "زلابية تركية صغيرة محشوة باللحم المفروم المتبل ومسلوقة، تقدم مع صلصة اللبن بالثوم والزبدة بالفلفل الأحمر والسماق.",
+          "time": "90 دقيقة",
+          "ingredients": [
+            "3 أكواب دقيق",
+            "بيضة واحدة",
+            "كوب ماء دافئ للعجن",
+            "300 غرام لحم مفروم ناعم",
+            "بصلة مفرومة ناعمًا",
+            "كوبان لبن زبادي مصفى",
+            "فصان ثوم مهروس",
+            "ملعقتان كبيرتان زبدة وبابريكا ونعناع مجفف"
+          ],
+          "steps": [
+            "اعجن الدقيق والبيضة والماء والملح لتشكيل عجينة متماسكة.",
+            "افرد العجينة رقيقة وقطّعها إلى مربعات صغيرة جدًا.",
+            "ضع قطعة لحم مفروم صغيرة في كل مربع واقفل الأطراف بإحكام.",
+            "اسلق حبات المانتي في ماء مغلي مملح حتى تطفو وتنضج.",
+            "اخلط اللبن الزبادي مع الثوم المهروس والملح.",
+            "ذوّب الزبدة مع البابريكا والنعناع المجفف.",
+            "اسكب المانتي في الطبق، أضف اللبن بالثوم، ثم صلصة الزبدة."
+          ]
+        },
+        "tr": {
+          "title": "Kayseri Mantısı",
+          "cuisine": "Kayseri Usulü Türk",
+          "description": "Kıymalı mini hamur bohçalarının haşlanıp sarımsaklı yoğurt, tereyağlı pul biber ve nane ile buluştuğu eşsiz lezzet.",
+          "time": "90 dk",
+          "ingredients": [
+            "3 su bardağı un",
+            "1 adet yumurta",
+            "1 su bardağı su",
+            "300 g kıyma",
+            "1 adet ince doğranmış soğan",
+            "2 su bardağı süzme yoğurt",
+            "2 diş sarımsak",
+            "2 yemek kaşığı tereyağı",
+            "Pul biber, nane ve sumak"
+          ],
+          "steps": [
+            "Un, yumurta, su ve tuz ile sert bir hamur yoğurun.",
+            "Kıymayı soğan ve baharatlarla harmanlayın.",
+            "Hamuru ince açıp minik kareler kesin.",
+            "Karelerin ortasına kıyma koyup bohça şeklinde kapatın.",
+            "Kaynayan tuzlu suda mantıları haşlayın.",
+            "Yoğurdu ezilmiş sarımsakla karıştırın.",
+            "Mantıyı tabağa alıp sarımsaklı yoğurt ve kızdırılmış tereyağlı sos ile servis edin."
+          ]
+        }
+      }
     },
     {
       "id": "tr-3",
-      "title": "çiğ köfte",
+      "cuisine": "Turkish",
+      "title": "Çiğ Köfte",
+      "description": "A popular Turkish dish made with fine bulgur, tomato paste, pepper paste, herbs and aromatic spices.",
       "category": "Main Dish",
       "time": "50 min",
       "difficulty": "Medium",
-      "image": "/images/tr-images/cigkofte.jpg"
+      "servings": 6,
+      "image": "/images/tr-images/cigkofte.jpg",
+      "ingredients": [
+        "2 cups fine bulgur",
+        "2 tablespoons tomato paste",
+        "2 tablespoons pepper paste",
+        "1 onion",
+        "2 tablespoons pomegranate molasses",
+        "Olive oil",
+        "Paprika",
+        "Cumin",
+        "Salt",
+        "Fresh parsley"
+      ],
+      "steps": [
+        "Place fine bulgur in a large mixing bowl.",
+        "Add tomato paste and pepper paste.",
+        "Add grated onion and spices.",
+        "Knead the mixture thoroughly.",
+        "Add pomegranate molasses and olive oil.",
+        "Continue kneading until soft.",
+        "Add chopped parsley.",
+        "Shape by hand and serve with lettuce and lemon."
+      ],
+      "localizations": {
+        "ar": {
+          "title": "تشي كفتة تركية",
+          "cuisine": "تركية من أورفا",
+          "description": "أشهر مقبلات وأطباق الشارع التركي، تصنع من البرغل الناعم ومعجون الفليفلة ودبس الرمان والتوابل مع العجن المستمر باليد.",
+          "time": "50 دقيقة",
+          "ingredients": [
+            "كوبان برغل أسمر ناعم خاص بالكفتة",
+            "ملعقتان كبيرتان معجون طماطم",
+            "ملعقتان كبيرتان معجون فليفلة حارة أو حلوة",
+            "بصلة مبشورة ومصفاة من الماء",
+            "3 ملاعق كبيرة دبس رمان",
+            "نصف كوب زيت زيتون",
+            "سماق وإيسوت (فلفل أورفا الأسود) وكمون",
+            "بقدونس مفروم ناعمًا وليمون"
+          ],
+          "steps": [
+            "ضع البرغل في صينية العجن الخاصة.",
+            "أضف معجون الطماطم ومعجون الفليفلة والبصل والتوابل.",
+            "ادعك المكونات بقوة باليد حتى يلين البرغل ويمتص النكهات.",
+            "أضف دبس الرمان وزيت الزيتون وواصل العجن حتى يصبح القوام طريًا.",
+            "أضف البقدونس المفروم واخلطه بلطف.",
+            "شكّل الكفتة بقبضة اليد لتأخذ شكل الأصابع المميز.",
+            "قدّمها مع أوراق الخس وشرائح الليمون وخبز اللافاش."
+          ]
+        },
+        "tr": {
+          "title": "Etsiz Çiğ Köfte",
+          "cuisine": "Şanlıurfa Usulü Türk",
+          "description": "İnce esmer bulgur, isot, salçalar, baharatlar ve nar ekşisinin sabırla yoğrulmasıyla yapılan eşsiz sokak lezzeti.",
+          "time": "50 dk",
+          "ingredients": [
+            "2 su bardağı çiğ köftelik esmer bulgur",
+            "2 yemek kaşığı domates salçası",
+            "2 yemek kaşığı biber salçası",
+            "1 adet rendelenmiş soğan",
+            "2 yemek kaşığı nar ekşisi",
+            "Zeytinyağı, isot, kimyon, sumak",
+            "İnce kıyılmış maydanoz",
+            "Limon ve marul yaprakları"
+          ],
+          "steps": [
+            "Bulguru çiğ köfte tepsisine alın.",
+            "Salçaları, soğanı, sarımsağı ve baharatları ekleyin.",
+            "Buzlu su ilavesiyle bulgurlar yumuşayana kadar iyice yoğurun.",
+            "Nar ekşisi ve zeytinyağını ekleyip yoğurmaya devam edin.",
+            "Kıyılmış maydanozu ekleyin.",
+            "Elinizle sıkarak şekil verin.",
+            "Lavaş, göbek marul ve limon ile servis yapın."
+          ]
+        }
+      }
     },
     {
       "id": "tr-4",
+      "cuisine": "Turkish",
       "title": "Pide",
+      "description": "Traditional Turkish boat-shaped flatbread topped with cheese, meat or vegetables.",
       "category": "Main Dish",
       "time": "60 min",
       "difficulty": "Medium",
-      "image": "/images/tr-images/pide.jpg"
+      "servings": 4,
+      "image": "/images/tr-images/pide.jpg",
+      "ingredients": [
+        "3 cups flour",
+        "1 teaspoon yeast",
+        "1 cup warm water",
+        "300 g minced meat",
+        "1 onion",
+        "1 tomato",
+        "1 pepper",
+        "1 cup cheese",
+        "Salt"
+      ],
+      "steps": [
+        "Prepare the dough and leave it to rise.",
+        "Prepare the meat and vegetable topping.",
+        "Divide the dough into portions.",
+        "Roll each portion into an oval shape.",
+        "Add the filling in the center.",
+        "Fold the edges to create a boat shape.",
+        "Bake until golden."
+      ],
+      "localizations": {
+        "ar": {
+          "title": "الفطائر التركية (بيدا)",
+          "cuisine": "تركية من البحر الأسود",
+          "description": "فطائر تركية شهيرة بشكل القارب المميز محشوة باللحم المفروم المتبل والجبن التركي ومخبوزة في الفرن حتى القرمشة.",
+          "time": "60 دقيقة",
+          "ingredients": [
+            "3 أكواب دقيق",
+            "ملعقة صغيرة خميرة فورية",
+            "كوب ماء دافئ للعجن",
+            "300 غرام لحم مفروم",
+            "بصلة مفرومة وحبة طماطم وفلفل رومي",
+            "كوب جبن قشقوان أو موزاريلا مبشور",
+            "زبدة لدهن الأطراف وملح وبهارات"
+          ],
+          "steps": [
+            "اعجن الدقيق والماء والخميرة والملح واترك العجين يختمر ويتضاعف حجمه.",
+            "حضّر حشوة اللحم بالبصل والطماطم والفلفل والتوابل.",
+            "قسّم العجين إلى كرات وافرد كل كرة بشكل بيضاوي طويل.",
+            "وزّع حشوة اللحم والجبن في المنتصف.",
+            "اطوِ حواف العجين للداخل وثبّت الطرفين لتكوين شكل القارب.",
+            "ادهن الأطراف بالزبدة أو صفار البيض.",
+            "اخبز على حرارة عالية حتى يحمر القاع وتذوب الجبنة تمامًا."
+          ]
+        },
+        "tr": {
+          "title": "Kıymalı Kaşarlı Pide",
+          "cuisine": "Karadeniz Usulü Türk",
+          "description": "Kayık şeklinde açılan mayalı hamurun kıymalı harç ve kaşar peyniriyle buluşup fırında nar gibi kızardığı meşhur pide.",
+          "time": "60 dk",
+          "ingredients": [
+            "3 su bardağı un",
+            "1 tatlı kaşığı maya",
+            "1 su bardağı ılık su",
+            "300 g kıyma",
+            "1 adet soğan, 1 adet domates, 1 adet biber",
+            "1 su bardağı rendelenmiş kaşar",
+            "Tuz, karabiber, tereyağı"
+          ],
+          "steps": [
+            "Hamuru yoğurup 45 dakika mayalandırın.",
+            "Kıymayı ince kıyılmış sebzeler ve baharatlarla harmanlayın.",
+            "Hamurdan bezeler alıp oval şekilde açın.",
+            "Harcı ortasına yayıp üzerine kaşar serpin.",
+            "Kenarlarını içe doğru kıvırıp kayık şekli verin.",
+            "Kenarlarına tereyağı sürüp yüksek ısıda fırınlayın."
+          ]
+        }
+      }
     },
-   
     {
       "id": "tr-5",
+      "cuisine": "Turkish",
       "title": "Menemen",
+      "description": "A classic Turkish breakfast dish made with eggs, tomatoes and green peppers.",
       "category": "Breakfast",
       "time": "20 min",
       "difficulty": "Easy",
-      "image": "/images/tr-images/Menemen.jpg"
+      "servings": 3,
+      "image": "/images/tr-images/Menemen.jpg",
+      "ingredients": [
+        "4 eggs",
+        "3 tomatoes",
+        "2 green peppers",
+        "1 tablespoon butter",
+        "Salt",
+        "Black pepper"
+      ],
+      "steps": [
+        "Chop the peppers and tomatoes.",
+        "Heat butter in a pan.",
+        "Cook the peppers until slightly soft.",
+        "Add tomatoes and cook until juicy.",
+        "Add the eggs.",
+        "Stir gently until the eggs are cooked.",
+        "Season and serve hot."
+      ],
+      "localizations": {
+        "ar": {
+          "title": "شكشوكة مينيمين التركية",
+          "cuisine": "تركية",
+          "description": "طبق الفطور التركي الكلاسيكي الأكثر شهرة والمصنوع من البيض والطماطم الطازجة والفلفل الأخضر والزبدة الذائبة.",
+          "time": "20 دقيقة",
+          "ingredients": [
+            "4 بيضات طازجة",
+            "3 حبات طماطم ناضجة مقشرة ومفرومة",
+            "قرنان فلفل أخضر مقطع",
+            "ملعقتان كبيرتان زبدة بلدية أو زيت زيتون",
+            "ملح وفلفل أسود ورقائق فلفل حار (بول بيبر)"
+          ],
+          "steps": [
+            "سخّن الزبدة في مقلاة نحاسية أو مقلاة واسعة.",
+            "أضف الفلفل الأخضر وشوّحه حتى يلين وتخرج نكهته.",
+            "أضف الطماطم المفرومة واتركها تتسبك وتصبح صلصة طرية.",
+            "اكسر البيض فوق المقلاة وتبّل بالملح والفلفل.",
+            "حرّك البيض برفق مع الصلصة ليبقى قوامه طريًا وكريميًا.",
+            "يُرفع عن النار ويُقدّم ساخنًا مع الخبز الطازج والشاي التركي."
+          ]
+        },
+        "tr": {
+          "title": "Geleneksel Menemen",
+          "cuisine": "Türk",
+          "description": "Tereyağında sotelenmiş biber, domates ve yumurtanın buluştuğu, Türk kahvaltılarının vazgeçilmez klasiği.",
+          "time": "20 dk",
+          "ingredients": [
+            "4 adet yumurta",
+            "3 adet sulu domates",
+            "2 adet yeşil köy biberi",
+            "1 yemek kaşığı tereyağı",
+            "Tuz, karabiber, pul biber"
+          ],
+          "steps": [
+            "Biberleri ince doğrayıp tereyağında soteleyin.",
+            "Kabuğu soyulup doğranmış domatesleri ekleyin ve suyunu salıp çekene kadar pişirin.",
+            "Yumurtaları kırıp tuz ve baharatları ekleyin.",
+            "Yumurtaları hafifçe karıştırarak kıvam alana kadar pişirin.",
+            "Sıcak ekmek ve taze demlenmiş çay ile servis edin."
+          ]
+        }
+      }
     },
     {
       "id": "tr-6",
+      "cuisine": "Turkish",
       "title": "Karnıyarık",
+      "description": "A classic Turkish dish of fried eggplant filled with seasoned minced meat, onions and tomatoes.",
       "category": "Main Dish",
       "time": "70 min",
       "difficulty": "Medium",
-      "image": "/images/tr-images/karniyarik.jpg"
+      "servings": 4,
+      "image": "/images/tr-images/karniyarik.jpg",
+      "ingredients": [
+        "4 eggplants",
+        "400 g minced meat",
+        "1 onion",
+        "2 tomatoes",
+        "2 green peppers",
+        "2 tablespoons tomato paste",
+        "Salt",
+        "Black pepper",
+        "Oil"
+      ],
+      "steps": [
+        "Peel strips from the eggplants.",
+        "Fry or bake the eggplants until soft.",
+        "Cook minced meat with onion.",
+        "Add chopped tomato, pepper and seasoning.",
+        "Cut each eggplant through the middle.",
+        "Fill with the meat mixture.",
+        "Add tomato sauce and bake until fully cooked."
+      ],
+      "localizations": {
+        "ar": {
+          "title": "قارني يارق (باذنجان محشي تركي)",
+          "cuisine": "تركية",
+          "description": "طبق عثماني كلاسيكي عريق يتكون من حبات الباذنجان المشقوقة والمحشوة باللحم المفروم والمطهوة بصلصة الطماطم.",
+          "time": "70 دقيقة",
+          "ingredients": [
+            "4 حبات باذنجان متوسطة",
+            "400 غرام لحم مفروم",
+            "بصلة مفرومة وفصان ثوم",
+            "حبتان طماطم مفرومة",
+            "قرنان فلفل أخضر حار أو حلو للتزيين",
+            "ملعقتان كبيرتان معجون طماطم",
+            "ملح وفلفل أسود وبقدونس مفروم"
+          ],
+          "steps": [
+            "قشّر الباذنجان خطوطًا (مقلمًا) واقلِه في الزيت حتى يلين ويتحمر.",
+            "شوّح البصل والثوم واللحم المفروم ثم أضف الطماطم والبهارات والبقدونس.",
+            "اصنع شقًا طوليًا في وسط كل حبة باذنجان واضغط بالملعقة لفتحها.",
+            "املأ الباذنجان بحشوة اللحم المفروم وزيّنه بقرن فلفل وشريحة طماطم.",
+            "أذب معجون الطماطم في كوب ماء ساخن واسكبه في قاع الصينية.",
+            "اخبز في الفرن حتى تتسبك الصلصة وتتشرب النكهات."
+          ]
+        },
+        "tr": {
+          "title": "Karnıyarık",
+          "cuisine": "Türk",
+          "description": "Kızartılmış patlıcanların ortası açılarak kıymalı, soğanlı ve domatesli nefis iç harçla doldurulup fırınlandığı klasik ana yemek.",
+          "time": "70 dk",
+          "ingredients": [
+            "4 adet kemer patlıcan",
+            "400 g kıyma",
+            "1 adet soğan, 2 diş sarımsak",
+            "2 adet domates, 2 adet yeşil biber",
+            "2 yemek kaşığı domates salçası",
+            "Tuz, karabiber, maydanoz",
+            "Kızartmak için sıvı yağ"
+          ],
+          "steps": [
+            "Patlıcanları alacalı soyup tuzlu suda bekletin ve kızartın.",
+            "Kıymayı soğan, sarımsak, domates ve baharatlarla kavurup maydanoz ekleyin.",
+            "Patlıcanların ortasını boydan boya yarıp içini kıymalı harçla doldurun.",
+            "Üzerlerine biber ve domates dilimleri koyun.",
+            "Salçalı sıcak suyu tepsiye döküp fırında pişirin.",
+            "Pirinç pilavı ve cacık ile servis yapın."
+          ]
+        }
+      }
     }
-    ],
-    "dessertRecipes": [
-  {
-    "id": "ds-1",
-    "title": "Kunafa",
-    "category": "Dessert",
-    "cuisine": "Syrian",
-    "time": "45 min",
-    "difficulty": "Medium",
-    "image": "/images/desserts/Kunafa.jpg"
-  },
+  ],
+
+  "dessertRecipes": [
     {
-    "id": "ds-2",
-    "title": "halu arabic",
-    "category": "Dessert",
-    "cuisine": "Turkish",
-    "time": "50 min",
-    "difficulty": "Easy",
-    "image": "/images/desserts/halu arabic.jpg"
-  },
-  {
-    "id": "ds-3",
-    "title": "Halawet El Jibn",
-    "category": "Dessert",
-    "cuisine": "Syrian",
-    "time": "50 min",
-    "difficulty": "Medium",
-    "image": "/images/desserts/Halawet El Jibn.jpg"
-  },
-  {
-    "id": "ds-4",
-    "title": "Baklava",
-    "category": "Dessert",
-    "cuisine": "Turkish",
-    "time": "90 min",
-    "difficulty": "Hard",
-    "image": "/images/desserts/Baklava.jpg"
-  },
-  {
-    "id": "ds-5",
-    "title": "Sütlaç",
-    "category": "Dessert",
-    "cuisine": "Turkish",
-    "time": "45 min",
-    "difficulty": "Easy",
-    "image": "/images/tr-images/Sütlaç.jpg"
-  },
- {
-      "id": 11,
+      "id": "ds-1",
+      "title": "Kunafa",
+      "category": "Dessert",
+      "cuisine": "Syrian",
+      "description": "A famous Middle Eastern dessert made with crispy kunafa dough, creamy cheese and sweet sugar syrup.",
+      "time": "45 min",
+      "difficulty": "Medium",
+      "servings": 8,
+      "image": "/images/desserts/kunafa.jpg",
+      "ingredients": [
+        "500 g kunafa dough",
+        "300 g cheese",
+        "150 g butter",
+        "2 cups sugar",
+        "1 cup water",
+        "1 teaspoon lemon juice",
+        "Pistachios"
+      ],
+      "steps": [
+        "Prepare the sugar syrup with sugar, water and lemon.",
+        "Mix kunafa dough with melted butter.",
+        "Place half of the dough in a baking tray.",
+        "Add the cheese layer.",
+        "Cover with the remaining kunafa.",
+        "Bake until golden.",
+        "Pour cooled syrup over the hot kunafa.",
+        "Decorate with pistachios."
+      ],
+      "localizations": {
+        "ar": {
+          "title": "الكنافة بالجبن",
+          "cuisine": "سورية",
+          "description": "ملكة الحلويات الشرقية، تصنع من شعيرات الكنافة المقرمشة بالزبدة البلدية المحشوة بالجبنة العكاوية المذابة والمحلاة بالقطر والفستق.",
+          "time": "45 دقيقة",
+          "ingredients": [
+            "500 غرام عجينة كنافة طازجة",
+            "300 غرام جبنة عكاوي أو نابلسية محلاة ومصفاة",
+            "150 غرام سمن بلدي أو زبدة ذائبة",
+            "كوبان سكر وكوب ماء للقطر (الشيرة)",
+            "ملعقة صغيرة عصير ليمون وماء زهر",
+            "فستق حلبي مطحون للتزيين"
+          ],
+          "steps": [
+            "حضّر القطر بغلي السكر والماء والليمون وماء الزهر واتركه ليبرد.",
+            "افرك عجينة الكنافة بالسمن الذائب جيدًا.",
+            "افرد نصف كمية الكنافة في صينية الخبز واضغطها بإحكام.",
+            "وزّع طبقة الجبن المحلى المصفى فوق الكنافة.",
+            "غطِّ بالطبقة المتبقية من الكنافة واخبزها حتى تصبح ذهبية مقرمشة.",
+            "اسكب القطر البارد فور خروج الكنافة ساخنة من الفرن.",
+            "زيّن بالفستق الحلبي وقدّمها دافئة وهي تمط."
+          ]
+        },
+        "tr": {
+          "title": "Künefe",
+          "cuisine": "Hatay Usulü Türk / Suriye",
+          "description": "Tel kadayıfın tereyağı ile harmanlanıp özel peynirle doldurulduğu, şerbet ve bol Antep fıstığıyla sıcak sunulan tatlı.",
+          "time": "45 dk",
+          "ingredients": [
+            "500 g tel kadayıf",
+            "300 g künefelik tuzsuz peynir",
+            "150 g tereyağı",
+            "2 su bardağı şeker, 1 su bardağı su",
+            "1 çay kaşığı limon suyu",
+            "Toz Antep fıstığı"
+          ],
+          "steps": [
+            "Şeker, su ve limon suyunu kaynatıp ılık şerbeti hazırlayın.",
+            "Kadayıfı eritilmiş tereyağı ile iyice didikleyin.",
+            "Kadayıfın yarısını tepsiye bastırarak yerleştirin.",
+            "Peyniri ufalayarak yayın ve kalan kadayıfla üzerini kapatın.",
+            "İki tarafı da altın sarısı olana kadar pişirin.",
+            "Sıcak künefeye ılık şerbeti dökün.",
+            "Bol Antep fıstığı ile sıcak servis yapın."
+          ]
+        }
+      }
+    },
+    {
+      "id": "ds-2",
+      "title": "Halu Arabic",
+      "category": "Dessert",
+      "cuisine": "Turkish",
+      "description": "A sweet dessert with rich flavors and a soft texture, perfect for serving with tea or coffee.",
+      "time": "50 min",
+      "difficulty": "Easy",
+      "servings": 6,
+      "image": "/images/desserts/halu arabic.jpg",
+      "ingredients": [
+        "2 cups flour",
+        "1 cup sugar",
+        "1 cup milk",
+        "100 g butter",
+        "1 teaspoon vanilla",
+        "Mixed nuts"
+      ],
+      "steps": [
+        "Mix the dry ingredients together.",
+        "Add milk and melted butter.",
+        "Mix until smooth.",
+        "Pour into a prepared baking dish.",
+        "Bake until golden.",
+        "Decorate with nuts before serving."
+      ],
+      "localizations": {
+        "ar": {
+          "title": "الحلوى الشرقية الفاخرة",
+          "cuisine": "تركية",
+          "description": "حلوى تقليدية غنية بالنكهات وقوامها ناعم ومميز، تقدم مع الشاي أو القهوة العربية.",
+          "time": "50 دقيقة",
+          "ingredients": [
+            "كوبان دقيق فاخر",
+            "كوب سكر",
+            "كوب حليب طازج",
+            "100 غرام زبدة",
+            "ملعقة صغيرة فانيليا",
+            "مكسرات مشكلة للتزيين"
+          ],
+          "steps": [
+            "اخلط المكونات الجافة في وعاء مناسب.",
+            "أضف الحليب والزبدة الذائبة واخلط جيدًا.",
+            "اسكب المزيج في صينية مدهونة.",
+            "اخبز في الفرن حتى يصبح ذهبي اللون.",
+            "زيّن بالمكسرات وقدّمها دافئة."
+          ]
+        },
+        "tr": {
+          "title": "Geleneksel Şerbetli Tatlı",
+          "cuisine": "Türk",
+          "description": "Zengin aroması ve yumuşacık dokusuyla çay ve kahve saatlerine eşlik eden geleneksel bir fırın tatlısı.",
+          "time": "50 dk",
+          "ingredients": [
+            "2 su bardağı un",
+            "1 su bardağı şeker",
+            "1 su bardağı süt",
+            "100 g tereyağı",
+            "1 paket vanilin",
+            "Karışık kuruyemiş"
+          ],
+          "steps": [
+            "Kuru malzemeleri bir kapta karıştırın.",
+            "Süt ve eritilmiş tereyağını ekleyin.",
+            "Pürüzsüz kıvama gelene kadar karıştırıp fırın kabına dökün.",
+            "Altın sarısı olana kadar pişirin.",
+            "Üzerini kuruyemişlerle süsleyip servis yapın."
+          ]
+        }
+      }
+    },
+    {
+      "id": "ds-3",
+      "title": "Halawet El Jibn",
+      "category": "Dessert",
+      "cuisine": "Syrian",
+      "description": "A famous Syrian dessert made with a soft cheese and semolina dough filled with cream and topped with syrup and pistachios.",
+      "time": "50 min",
+      "difficulty": "Medium",
+      "servings": 8,
+      "image": "/images/desserts/Halawet El Jibn.jpg",
+      "ingredients": [
+        "300 g mozzarella cheese",
+        "1 cup semolina",
+        "1 cup sugar",
+        "1 cup water",
+        "2 cups cream",
+        "Rose water",
+        "Pistachios"
+      ],
+      "steps": [
+        "Prepare sugar syrup with water and sugar.",
+        "Heat cheese with semolina until a soft dough forms.",
+        "Add a small amount of syrup and rose water.",
+        "Roll the dough into a thin layer.",
+        "Spread cream over the dough.",
+        "Roll and cut into small pieces.",
+        "Decorate with pistachios and syrup."
+      ],
+      "localizations": {
+        "ar": {
+          "title": "حلاوة الجبن الحمصية والحلبية",
+          "cuisine": "سورية",
+          "description": "من أروع الحلويات السورية الفاخرة، تصنع من رقائق الجبن والسميد الطرية المحشوة بالقشطة البلدية والمعطرة بماء الزهر والقطر.",
+          "time": "50 دقيقة",
+          "ingredients": [
+            "300 غرام جبنة عكاوي أو موزاريلا غير مملحة",
+            "كوب سميد ناعم (فرخة)",
+            "كوب سكر وكوب ماء للقطر",
+            "كوبان قشطة بلدية طازجة",
+            "ملعقة كبيرة ماء زهر وماء ورد",
+            "فستق حلبي مطحون ومربى زهر الليمون للتزيين"
+          ],
+          "steps": [
+            "حضّر القطر الخفيف مع ماء الزهر وماء الورد.",
+            "ذوّب الجبن على نار هادئة ثم أضف السميد والقطر تدريجيًا حتى تتشكل عجينة مطاطية ناعمة.",
+            "افرد العجينة ساخنة بين نايلون مدهون بالقطر لسمك رقيق.",
+            "وزّع القشطة البلدية على أطراف العجين ولفّها على شكل أسطوانات.",
+            "قطّع الرولات إلى قطع متساوية وزيّنها بالفستق وزهر الليمون.",
+            "قدّمها باردة مع سكب القطر الخفيف فوقها."
+          ]
+        },
+        "tr": {
+          "title": "Halavet El Cibin (Peynir Helvası Tatlısı)",
+          "cuisine": "Suriye",
+          "description": "İrmik ve peynirden yapılan yumuşak hamurun kaymak ile sarılıp gül suyu, şerbet ve fıstıkla süslendiği enfes tatlı.",
+          "time": "50 dk",
+          "ingredients": [
+            "300 g tuzsuz taze peynir",
+            "1 su bardağı ince irmik",
+            "1 su bardağı şeker, 1 su bardağı su",
+            "2 su bardağı taze kaymak",
+            "Gül suyu ve portakal çiçeği suyu",
+            "Antep fıstığı"
+          ],
+          "steps": [
+            "Şeker ve sudan hafif bir şerbet hazırlayın.",
+            "Peyniri eritip irmik ve şerbetle pürüzsüz hamur kıvamına gelene kadar pişirin.",
+            "Hamuru incecik açıp şerit halinde kaymak yerleştirin.",
+            "Rulo şeklinde sarıp dilimleyin.",
+            "Üzerine şerbet gezdirip fıstıkla süsleyerek soğuk servis edin."
+          ]
+        }
+      }
+    },
+    {
+      "id": "ds-4",
+      "title": "Baklava",
+      "category": "Dessert",
+      "cuisine": "Turkish",
+      "description": "A classic layered pastry made with thin phyllo dough, nuts, butter and sweet syrup.",
+      "time": "90 min",
+      "difficulty": "Hard",
+      "servings": 10,
+      "image": "/images/desserts/Baklava.jpg",
+      "ingredients": [
+        "500 g phyllo dough",
+        "300 g pistachios or walnuts",
+        "200 g butter",
+        "2 cups sugar",
+        "1 cup water",
+        "Lemon juice"
+      ],
+      "steps": [
+        "Prepare the sugar syrup and leave it to cool.",
+        "Brush the baking tray with butter.",
+        "Layer sheets of phyllo dough with butter.",
+        "Add chopped nuts between layers.",
+        "Continue until all dough is used.",
+        "Cut the baklava before baking.",
+        "Bake until golden brown.",
+        "Pour cold syrup over hot baklava."
+      ],
+      "localizations": {
+        "ar": {
+          "title": "البقلاوة بالفستق",
+          "cuisine": "تركية من غازي عنتاب",
+          "description": "أميرة الحلويات الشرقية، رقائق عجين البقلاوة الهشة المدهونة بالسمن النقي والمحشوة بالفستق الحلبي الغني والمسقية بالقطر.",
+          "time": "90 دقيقة",
+          "ingredients": [
+            "500 غرام رقائق عجين بقلاوة خاصة (جلاش)",
+            "300 غرام فستق حلبي مجروش ناعمًا",
+            "200 غرام سمن بلدي نقي مصفى",
+            "كوبان سكر وكوب ماء للقطر",
+            "ملعقة صغيرة عصير ليمون"
+          ],
+          "steps": [
+            "اغلِ السكر والماء والليمون لتحضير القطر واتركه يبرد تمامًا.",
+            "ادهن صينية البقلاوة بالسمن ورتّب نصف طبقات الرقائق مع دهن كل طبقة.",
+            "وزّع كمية الفستق الحلبي بالتساوي.",
+            "أكمل رص الطبقات المتبقية مع دهن السمن.",
+            "قطّع البقلاوة بشكل مربعات أو معينات قبل الخبز.",
+            "اخبز في الفرن على حرارة هادئة حتى تصبح ذهبية مقرمشة ومورقة.",
+            "اسكب القطر البارد فور خروج البقلاوة ساخنة ودعها تتشرب."
+          ]
+        },
+        "tr": {
+          "title": "Gaziantep Baklavası",
+          "cuisine": "Gaziantep Usulü Türk",
+          "description": "İncecik 40 kat yufkanın arasına bol Antep fıstığı ve sade yağ konularak fırınlanan, şerbetiyle çıtırdayan dünya markası tatlı.",
+          "time": "90 dk",
+          "ingredients": [
+            "500 g hazır baklavalık yufka",
+            "300 g çekilmiş Antep fıstığı",
+            "200 g eritilmiş sade yağ (tereyağı)",
+            "2 su bardağı şeker, 1 su bardağı su",
+            "Birkaç damla limon suyu"
+          ],
+          "steps": [
+            "Şerbeti kaynatıp soğumaya bırakın.",
+            "Tepsiyi yağlayıp yufkaları tek tek tereyağı ile yağlayarak dizin.",
+            "Orta kata bolca Antep fıstığı serpin.",
+            "Kalan yufkaları da aynı şekilde dizin.",
+            "Baklavayı dilimleyip kalan yağı üzerine gezdirin.",
+            "Fırında altın sarısı olana kadar pişirin.",
+            "Fırından çıkan sıcak baklavaya soğuk şerbeti verin."
+          ]
+        }
+      }
+    },
+    {
+      "id": "ds-5",
+      "title": "Sütlaç",
+      "category": "Dessert",
+      "cuisine": "Turkish",
+      "description": "Traditional Turkish rice pudding made with milk, rice and sugar, served chilled or baked.",
+      "time": "45 min",
+      "difficulty": "Easy",
+      "servings": 6,
+      "image": "/images/tr-images/Sütlaç.jpg",
+      "ingredients": [
+        "1/2 cup rice",
+        "1 liter milk",
+        "1 cup sugar",
+        "2 tablespoons cornstarch",
+        "1 teaspoon vanilla",
+        "Cinnamon"
+      ],
+      "steps": [
+        "Cook rice in water until soft.",
+        "Add milk and sugar.",
+        "Cook while stirring.",
+        "Mix cornstarch with a little milk.",
+        "Add it to the pot and continue stirring.",
+        "Pour into serving bowls.",
+        "Chill and decorate with cinnamon."
+      ],
+      "localizations": {
+        "ar": {
+          "title": "سوتلاش (الأرز باللبن التركي المخبوز)",
+          "cuisine": "تركية",
+          "description": "بودينغ الأرز باللبن التركي الشهير المخبوز في أوانٍ فخارية بالفرن حتى يأخذ وجهه لون الكراميل المحمر الرائع.",
+          "time": "45 دقيقة",
+          "ingredients": [
+            "نصف كوب أرز مصري مغسول",
+            "لتر حليب كامل الدسم",
+            "كوب سكر",
+            "ملعقتان كبيرتان نشاء الذرة",
+            "ملعقة صغيرة فانيليا",
+            "صفار بيضة للوجه (اختياري)",
+            "قرفة مطحونة وبندق مجروش للتزيين"
+          ],
+          "steps": [
+            "اسلق الأرز في كوب ونصف ماء حتى يلين تمامًا.",
+            "أضف الحليب والسكر إلى الأرز وقلّب على نار متوسطة.",
+            "أذب النشاء في قليل من الحليب البارد وصبه تدريجيًا مع التحريك المستمر.",
+            "اسكب السوتلاش في طواجن فخارية مناسبة للفرن.",
+            "ضع الطواجن في صينية بها ماء وحمّر الوجه تحت شواية الفرن.",
+            "دعه يبرد في الثلاجة وقدّمه باردًا مع رشة قرفة وبندق."
+          ]
+        },
+        "tr": {
+          "title": "Fırın Sütlaç",
+          "cuisine": "Türk",
+          "description": "Süt, pirinç, şeker ve vanilyanın fırında güveç kaplarında üzeri nar gibi kızartılmasıyla yapılan nefis sütlü tatlı.",
+          "time": "45 dk",
+          "ingredients": [
+            "1/2 su bardağı pirinç",
+            "1 litre tam yağlı süt",
+            "1 su bardağı toz şeker",
+            "2 yemek kaşığı buğday nişastası",
+            "1 paket vanilin",
+            "Tarçın ve fındık kırığı"
+          ],
+          "steps": [
+            "Pirinci haşlayıp yumuşatın.",
+            "Sütü ve şekeri ekleyip kaynatın.",
+            "Nişastayı az sütle açıp tencereye ekleyin ve koyulaşana kadar karıştırın.",
+            "Sütlacı fırın güveçlerine paylaştırın.",
+            "Fırın tepsisine su koyup güveçleri yerleştirin ve üst rafta üzeri kızarana kadar fırınlayın.",
+            "Soğuduktan sonra tarçın ve fındıkla servis edin."
+          ]
+        }
+      }
+    },
+    {
+      "id": "ds-6",
       "cuisine": "Syrian",
       "title": "Maamoul",
       "category": "Dessert",
+      "description": "Traditional Syrian cookies filled with dates, pistachios or walnuts and commonly prepared for holidays.",
       "time": "60 min",
       "difficulty": "Medium",
-      "image": "/images/maamoul.jpg"
+      "servings": 12,
+      "image": "/images/maamoul.jpg",
+      "ingredients": [
+        "3 cups semolina",
+        "1 cup flour",
+        "1 cup butter",
+        "1/2 cup milk",
+        "Dates or pistachios",
+        "Powdered sugar"
+      ],
+      "steps": [
+        "Mix semolina, flour and butter.",
+        "Leave the mixture to rest.",
+        "Add milk gradually to form a soft dough.",
+        "Prepare the date or nut filling.",
+        "Fill small pieces of dough.",
+        "Shape using a maamoul mold.",
+        "Bake until lightly golden.",
+        "Decorate with powdered sugar."
+      ],
+      "localizations": {
+        "ar": {
+          "title": "المعمول السوري الفاخر",
+          "cuisine": "سورية",
+          "description": "حلوى الأعياد الشامية المصنوعة من السميد والسمن البلدي والمحشوة بالتمر أو الفستق الحلبي أو الجوز، المعطرة بماء الزهر والمحلب.",
+          "time": "60 دقيقة",
+          "ingredients": [
+            "3 أكواب سميد فرخة ناعم",
+            "كوب دقيق أبيض",
+            "كوب سمن بلدي دافئ",
+            "نصف كوب ماء زهر وحليب دافئ",
+            "ملعقة صغيرة محلب مطحون",
+            "عجوة تمر متبلة بالهيل أو فستق حلبي متبل",
+            "سكر بودرة للتزيين"
+          ],
+          "steps": [
+            "ابْسُس السميد والدقيق بالسمن البلدي واتركه يرتاح ليلة كاملة.",
+            "أضف ماء الزهر والحليب والمحلب واجمع العجينة بلطف دون عجن زائد.",
+            "شكّل كرات من العجين واحشِ كل كرة بالتمر أو الفستق.",
+            "اضغط الحبة في قالب المعمول الخشبي التقليدي لتأخذ النقشة الجميلة.",
+            "اخبز في فرن محمى حتى تكتسب الحبات لونًا ذهبيًا خفيفًا.",
+            "رش السكر البودرة فوق معمول الفستق والجوز قبل التقديم."
+          ]
+        },
+        "tr": {
+          "title": "Geleneksel Mamul Kurabiyesi",
+          "cuisine": "Suriye",
+          "description": "İrmik ve tereyağıyla yoğrulan hamurun hurma, ceviz veya fıstık dolgusuyla ahşap kalıplarda şekillendirildiği bayram kurabiyesi.",
+          "time": "60 dk",
+          "ingredients": [
+            "3 su bardağı ince irmik",
+            "1 su bardağı un",
+            "1 su bardağı tereyağı veya sade yağ",
+            "1/2 su bardağı ılık süt ve gül suyu",
+            "Hurma ezmesi veya ceviz içi",
+            "Pudra şekeri"
+          ],
+          "steps": [
+            "İrmik, un ve eritilmiş yağı karıştırıp dinlendirin.",
+            "Süt ve gül suyu ekleyerek yumuşak hamur yapın.",
+            "Hamur bezelerinin içine hurma veya ceviz harcı koyun.",
+            "Özel ahşap mamul kalıbında şekillendirin.",
+            "Fırında hafif pembeleşene kadar pişirin.",
+            "Pudra şekeri serpip servis yapın."
+          ]
+        }
+      }
+    },
+    {
+      "id": "ds-7",
+      "cuisine": "Syrian",
+      "title": "Harise",
+      "category": "Dessert",
+      "cuisine": "Syrian",
+      "description": "A traditional Syrian semolina cake soaked in sweet syrup and often decorated with almonds or pistachios.",
+      "time": "60 min",
+      "difficulty": "Medium",
+      "servings": 10,
+      "image": "/images/desserts/harisa.jpg",
+      "ingredients": [
+        "2 cups semolina",
+        "1 cup yogurt",
+        "1 cup sugar",
+        "1/2 cup melted butter",
+        "1 teaspoon baking powder",
+        "Almonds",
+        "Sugar syrup"
+      ],
+      "steps": [
+        "Mix semolina, sugar and baking powder.",
+        "Add yogurt and melted butter.",
+        "Spread the mixture into a baking tray.",
+        "Decorate with almonds.",
+        "Bake until golden.",
+        "Pour cold syrup over the hot harise.",
+        "Allow it to cool before cutting."
+      ],
+      "localizations": {
+        "ar": {
+          "title": "الهريسة النبكية السورية",
+          "cuisine": "سورية",
+          "description": "الهريسة السورية الشهيرة بالسميد والسمن البلدي والمكسرات المحمصة، مشربة بالقطر الساخن ومميزة بطراوتها وحلاوتها الغنية.",
+          "time": "60 دقيقة",
+          "ingredients": [
+            "كوبان سميد خشن",
+            "كوب لبن زبادي أو حليب",
+            "كوب سكر",
+            "نصف كوب سمن بلدي ذائب",
+            "ملعقة صغيرة بيكنج باودر ونصف ملعقة كربونات",
+            "لوز مقشر وفستق حلبي للتزيين",
+            "كوبان قطر سميك دافئ مع سمنة بلدية"
+          ],
+          "steps": [
+            "اخلط السميد مع السكر والبيكنج باودر والسمن.",
+            "أضف اللبن وافرك الخليط جيدًا حتى يتجانس.",
+            "افرد العجينة في صينية مدهونة بالطحينة أو السمن.",
+            "قطّع السطح بخطوط وزيّن كل قطعة بحبات اللوز والفستق.",
+            "اترك الصينية ترتاح ثم اخبزها حتى تتحمر الحواف والقاع.",
+            "اسكب القطر الساخن مع ملعقة سمن بلدي فوق الهريسة فور خروجها.",
+            "اتركها تبرد تمامًا قبل التقطيع والتقديم."
+          ]
+        },
+        "tr": {
+          "title": "Suriye Usulü Harise (Şambali)",
+          "cuisine": "Suriye",
+          "description": "İrmik, yoğurt ve tereyağı ile hazırlanan, üzeri bademlerle süslenip fırınlanan ve şerbetle buluşan enfes tatlı.",
+          "time": "60 dk",
+          "ingredients": [
+            "2 su bardağı irmik",
+            "1 su bardağı yoğurt",
+            "1 su bardağı şeker",
+            "1/2 su bardağı eritilmiş tereyağı",
+            "1 paket kabartma tozu",
+            "Soyulmuş badem",
+            "Şeker şerbeti"
+          ],
+          "steps": [
+            "İrmik, şeker ve kabartma tozunu karıştırın.",
+            "Yoğurt ve tereyağını ekleyip hamuru tepsiye yayın.",
+            "Üzerini dilimleyip bademlerle süsleyin.",
+            "Fırında altın sarısı olana kadar pişirin.",
+            "Sıcak tatlıya şerbetini dökün.",
+            "Soğuduktan sonra dilimleyip servis edin."
+          ]
+        }
+      }
+    },
+    {
+      "id": "ds-8",
+      "cuisine": "Syrian from Idlib",
+      "title": "Ishabyat",
+      "description": "A crispy Syrian pastry filled with cream and topped with sweet syrup and crushed pistachios.",
+      "time": "40 min",
+      "difficulty": "Medium",
+      "servings": 8,
+      "image": "/images/desserts/ishabyat.jpg",
+      "ingredients": [
+        "400 g phyllo dough",
+        "2 cups cream",
+        "100 g butter",
+        "1 cup sugar syrup",
+        "Pistachios"
+      ],
+      "steps": [
+        "Cut phyllo dough into squares.",
+        "Brush each piece with melted butter.",
+        "Add cream in the center.",
+        "Fold the pastry into triangles.",
+        "Bake until crisp and golden.",
+        "Pour syrup over the pastries.",
+        "Decorate with pistachios."
+      ],
+      "localizations": {
+        "ar": {
+          "title": "الشعيبيات الإدلبية / الوربات بالقشطة",
+          "cuisine": "سورية من إدلب",
+          "description": "مثلثات العجين المورق المقرمشة المليئة بطبقات القشطة الحليبية الفاخرة، مغمورة بالقطر ومزينة بالفستق الحلبي الأخضر.",
+          "time": "40 دقيقة",
+          "ingredients": [
+            "400 غرام رقائق عجين البقلاوة أو الشعيبيات",
+            "كوبان قشطة حليب بلدية مطبوخة ومبردة",
+            "100 غرام سمن بلدي نقي مذاب",
+            "كوب قطر سميك مع ماء زهر",
+            "فستق حلبي ناعم للتزيين"
+          ],
+          "steps": [
+            "قطّع رقائق العجين إلى مربعات متساوية.",
+            "ادهن الرقائق بالسمن البلدي ورصّها فوق بعضها.",
+            "ضع ملعقة من القشطة الباردة في منتصف كل مربع.",
+            "اطوِ المربع على شكل مثلث واضغط الأطراف برفق.",
+            "اخبز في فرن ساخن حتى تنتفخ الطبقات وتصبح ذهبية ومقرمشة.",
+            "اسكب القطر البارد على الشعيبيات الساخنة فور خروجها.",
+            "اغمس أطراف المثلثات في الفستق الحلبي وقدّمها طازجة."
+          ]
+        },
+        "tr": {
+          "title": "Şubiyet (İdlib Usulü)",
+          "cuisine": "İdlib Usulü Suriye",
+          "description": "İncecik çıtır baklava yufkalarının içine kaymak konularak üçgen katlanan ve şerbetle tatlandırılan enfes tatlı.",
+          "time": "40 dk",
+          "ingredients": [
+            "400 g baklavalık yufka",
+            "2 su bardağı kaymak",
+            "100 g tereyağı veya sade yağ",
+            "1 su bardağı şerbet",
+            "Toz Antep fıstığı"
+          ],
+          "steps": [
+            "Yufkaları kare şeklinde kesin ve aralarını yağlayın.",
+            "Ortalarına kaymak koyup üçgen şeklinde kapatın.",
+            "Fırında kat kat kabarıp kızarana kadar pişirin.",
+            "Sıcak tatlıya ılık şerbet dökün.",
+            "Antep fıstığı ile süsleyip servis yapın."
+          ]
+        }
+      }
     }
-]
+  ],
+
+  "appetizerRecipes": [
+    {
+      "id": "ap-1",
+      "title": "Pizza",
+      "category": "Appetizer",
+      "cuisine": "Syrian",
+      "description": "A homemade pizza topped with tomato sauce, cheese and vegetables.",
+      "time": "45 min",
+      "difficulty": "Medium",
+      "servings": 4,
+      "image": "/images/Meals/pizza.avif",
+      "ingredients": [
+        "3 cups flour",
+        "1 teaspoon yeast",
+        "1 cup warm water",
+        "Tomato sauce",
+        "Mozzarella cheese",
+        "Olives",
+        "Green peppers",
+        "Oregano"
+      ],
+      "steps": [
+        "Prepare the pizza dough and leave it to rise.",
+        "Roll the dough into a round shape.",
+        "Spread tomato sauce over the dough.",
+        "Add cheese and vegetables.",
+        "Sprinkle oregano.",
+        "Bake until the cheese melts and the crust is golden."
+      ],
+      "localizations": {
+        "ar": {
+          "title": "بيتزا الخضار والجبن المنزلية",
+          "cuisine": "سورية",
+          "description": "بيتزا شهية محضرة بعجينة هشة وصلصة الطماطم بالأعشاب مع جبن الموزاريلا والخضار والزيتون والزعتر البري.",
+          "time": "45 دقيقة",
+          "ingredients": [
+            "3 أكواب دقيق",
+            "ملعقة صغيرة خميرة فورية ورشة سكر",
+            "كوب ماء دافئ وملعقتان زيت زيتون",
+            "كوب صلصة بيتزا بالطماطم والريحان",
+            "كوبان جبن موزاريلا مبشور",
+            "زيتون أسود وفلفل رومي وفطر",
+            "رشة أوريغانو (زعتر بري)"
+          ],
+          "steps": [
+            "اعجن الدقيق والخميرة والماء وزيت الزيتون حتى تتماسك العجينة واتركها لتختمر.",
+            "افرد العجينة في صينية الخبز المدهونة.",
+            "وزّع صلصة الطماطم المتبلة على العجينة بالتساوي.",
+            "أضف نصف الجبن ثم الخضروات والزيتون.",
+            "أضف بقية الجبن ورش الأوريغانو على الوجه.",
+            "اخبز على حرارة عالية حتى تذوب الجبنة وتتحمر الأطراف."
+          ]
+        },
+        "tr": {
+          "title": "Ev Yapımı Karışık Pizza",
+          "cuisine": "Suriye / Akdeniz",
+          "description": "Yumuşacık hamur, aromatik domates sosu, bol mozzarella peyniri, zeytin ve taze sebzelerle hazırlanan nefis pizza.",
+          "time": "45 dk",
+          "ingredients": [
+            "3 su bardağı un",
+            "1 tatlı kaşığı maya",
+            "1 su bardağı ılık su",
+            "Domates sosu ve kekik",
+            "Mozzarella peyniri",
+            "Zeytin, yeşil biber ve mantar"
+          ],
+          "steps": [
+            "Hamuru yoğurup mayalanmaya bırakın.",
+            "Hamuru tepsi boyutunda açın.",
+            "Domates sosunu hamurun üzerine yayın.",
+            "Peynir ve sebzeleri yerleştirip kekik serpin.",
+            "Peynir eriyip kenarlar kızarana kadar fırınlayın."
+          ]
+        }
+      }
+    },
+    {
+      "id": "ap-2",
+      "title": "Syrian Fatayer",
+      "category": "Appetizer",
+      "cuisine": "Syrian",
+      "description": "Small Syrian pastries filled with cheese, spinach or seasoned meat.",
+      "time": "55 min",
+      "difficulty": "Medium",
+      "servings": 8,
+      "image": "/images/Meals/Syrian Fatayer.webp",
+      "ingredients": [
+        "3 cups flour",
+        "1 teaspoon yeast",
+        "1 cup water",
+        "Spinach or cheese",
+        "1 onion",
+        "Olive oil",
+        "Sumac",
+        "Salt"
+      ],
+      "steps": [
+        "Prepare the dough and leave it to rise.",
+        "Prepare the desired filling.",
+        "Divide the dough into small pieces.",
+        "Roll each piece into a circle.",
+        "Add filling in the center.",
+        "Fold into triangles or boats.",
+        "Bake until golden."
+      ],
+      "localizations": {
+        "ar": {
+          "title": "الفطاير السورية المشكلة (سبانخ وجبن)",
+          "cuisine": "سورية",
+          "description": "فطائر ومخبوزات شامية هشة مثلثة الشكل محشوة بالسبانخ مع البصل والسماق أو بالجبنة البلدية مع حبة البركة.",
+          "time": "55 دقيقة",
+          "ingredients": [
+            "3 أكواب دقيق فاخر",
+            "ملعقة صغيرة خميرة فورية",
+            "كوب ماء دافئ وربع كوب زيت زيتون",
+            "500 غرام سبانخ طازجة مفرومة أو جبن عكاوي مبشور",
+            "بصلة مفرومة وعصير ليمون",
+            "ملعقة كبيرة سماق بلدي ورشة حبة البركة",
+            "ملح وفلفل أسود"
+          ],
+          "steps": [
+            "اعجن الدقيق والخميرة والماء والزيت والملح واترك العجين يختمر.",
+            "اعصر السبانخ جيدًا بعد فركها بالملح واخلطها مع البصل والسماق والليمون وزيت الزيتون.",
+            "قسّم العجين إلى دوائر صغيرة وافرد كل دائرة.",
+            "ضع الحشوة في المنتصف واطوِ الأطراف لتشكيل مثلث محكم الإغلاق.",
+            "ادهن الوجه بزيت الزيتون واخبز في فرن ساخن حتى يصبح ذهبيًا."
+          ]
+        },
+        "tr": {
+          "title": "Suriye Usulü Ispanaklı ve Peynirli Börek (Fatayer)",
+          "cuisine": "Suriye",
+          "description": "Yumuşak mayalı hamurun ıspanak, soğan, sumak veya peynir harcıyla üçgen şeklinde kapatılıp fırınlandığı geleneksel hamur işi.",
+          "time": "55 dk",
+          "ingredients": [
+            "3 su bardağı un",
+            "1 tatlı kaşığı maya",
+            "1 su bardağı ılık su, zeytinyağı",
+            "Taze ıspanak veya peynir",
+            "1 adet soğan, sumak, limon suyu, tuz"
+          ],
+          "steps": [
+            "Hamuru yoğurup 40 dakika dinlendirin.",
+            "Ispanakları doğrayıp soğan, sumak, zeytinyağı ve limonla harmanlayın.",
+            "Hamurdan parçalar koparıp yuvarlak açın.",
+            "İç harcı koyup üçgen şeklinde kapatın.",
+            "Altın sarısı olana kadar fırında pişirin."
+          ]
+        }
+      }
+    },
+    {
+      "id": "ap-3",
+      "title": "Falafel",
+      "category": "Appetizer",
+      "cuisine": "Syrian",
+      "description": "Crispy Syrian falafel made from chickpeas, herbs, garlic and spices.",
+      "time": "40 min",
+      "difficulty": "Easy",
+      "servings": 6,
+      "image": "/images/Meals/Falafel.jpg",
+      "ingredients": [
+        "2 cups dried chickpeas",
+        "1 onion",
+        "4 garlic cloves",
+        "Fresh parsley",
+        "Fresh coriander",
+        "1 teaspoon cumin",
+        "1 teaspoon coriander powder",
+        "Salt"
+      ],
+      "steps": [
+        "Soak chickpeas overnight.",
+        "Drain the chickpeas well.",
+        "Blend chickpeas with onion, garlic and herbs.",
+        "Add spices and mix.",
+        "Shape into small balls.",
+        "Fry in hot oil until crispy and golden.",
+        "Serve with tahini sauce."
+      ],
+      "localizations": {
+        "ar": {
+          "title": "الفلافل السورية المقرمشة",
+          "cuisine": "سورية",
+          "description": "أقراص الفلافل الذهبية المقرمشة المصنوعة من الحمص المنقوع والأعشاب الخضراء الطازجة والكمون والكزبرة والسمسم.",
+          "time": "40 دقيقة",
+          "ingredients": [
+            "كوبان حمص يابس منقوع 24 ساعة ومصفى",
+            "بصلة متوسطة و4 فصوص ثوم",
+            "نصف باقة كزبرة خضراء وبقدونس",
+            "ملعقة صغيرة كزبرة يابسة مطحونة",
+            "ملعقة صغيرة كمون وملح ورشة كربونات",
+            "سمسم للتزيين وزيت غزير للقلي"
+          ],
+          "steps": [
+            "اطحن الحمص المنقوع مع البصل والثوم والكزبرة والبقدونس في مفرمة اللحم مرتين.",
+            "تبّل المزيج بالملح والكمون والكزبرة اليابسة ورشة الكربونات.",
+            "شكّل أقراص الفلافل باستخدام القالب الخاص ورش عليها السمسم.",
+            "اقْلِ الأقراص في زيت ساخن وغزير حتى تصبح مقرمشة ومحمرة.",
+            "قدّم الفلافل ساخنة مع صلصة الطرطور (الطحينة) والمخللات والخضار."
+          ]
+        },
+        "tr": {
+          "title": "Çıtır Falafel",
+          "cuisine": "Suriye / Levant",
+          "description": "Nohut, taze otlar, sarımsak ve baharatlarla hazırlanan, dışı çıtır içi yumuşacık lezzetli köfteler.",
+          "time": "40 dk",
+          "ingredients": [
+            "2 su bardağı akşamdan ıslatılmış nohut",
+            "1 adet soğan, 4 diş sarımsak",
+            "Taze maydanoz ve kişniş",
+            "1 tatlı kaşığı kimyon, 1 tatlı kaşığı kişniş tozu, tuz",
+            "Susam ve kızartma yağı"
+          ],
+          "steps": [
+            "Nohut, soğan, sarımsak ve yeşillikleri robottan geçirin.",
+            "Baharatları ve tuzu ekleyip yoğurun.",
+            "Kalıp veya kaşıkla yuvarlak köfteler şekillendirip susamlayın.",
+            "Kızgın bol yağda çıtır olana kadar kızartın.",
+            "Tahin sosu eşliğinde servis edin."
+          ]
+        }
+      }
+    },
+    {
+      "id": "ap-4",
+      "title": "Foul",
+      "category": "Appetizer",
+      "cuisine": "Syrian",
+      "description": "A traditional breakfast and appetizer made with warm fava beans, lemon, garlic and olive oil.",
+      "time": "20 min",
+      "difficulty": "Easy",
+      "servings": 4,
+      "image": "/images/Meals/Foul.webp",
+      "ingredients": [
+        "2 cups cooked fava beans",
+        "2 garlic cloves",
+        "1 lemon",
+        "3 tablespoons olive oil",
+        "1 tomato",
+        "Fresh parsley",
+        "Salt",
+        "Cumin"
+      ],
+      "steps": [
+        "Heat the cooked fava beans.",
+        "Mash some of the beans lightly.",
+        "Add crushed garlic and lemon juice.",
+        "Season with salt and cumin.",
+        "Transfer to a serving bowl.",
+        "Add olive oil, tomato and parsley."
+      ],
+      "localizations": {
+        "ar": {
+          "title": "الفول المدمس السوري بزيت الزيتون والطحينة",
+          "cuisine": "سورية",
+          "description": "طبق الفطور والمقبلات الشعبي الأبرز، حبوب فول مدمسة دافئة ومتبلة بالثوم وعصير الليمون والكمون وزيت الزيتون البكر والطماطم.",
+          "time": "20 دقيقة",
+          "ingredients": [
+            "كوبان فول مدمس مسلوق ساخن",
+            "فصان ثوم مهروس",
+            "عصير ليمونة كاملة",
+            "3 ملاعق كبيرة زيت زيتون بكر ممتاز",
+            "حبة طماطم مفرومة وبقدونس مفروم",
+            "ملعقة صغيرة كمون مطحون وملح ورشة فلفل أحمر"
+          ],
+          "steps": [
+            "سخّن الفول في قدر واهرس نصف الكمية بالشوكة برفق.",
+            "أضف الثوم المهروس وعصير الليمون والملح والكمون واخلط جيدًا.",
+            "اسكب الفول في طبق التقديم الواسع.",
+            "زيّن بالطماطم المفرومة والبقدونس ورشة كمون وبابريكا.",
+            "اسكب كمية سخية من زيت الزيتون على الوجه وقدّمه مع الخبز الساخن."
+          ]
+        },
+        "tr": {
+          "title": "Zeytinyağlı Bakla Mezesi (Foul)",
+          "cuisine": "Suriye",
+          "description": "Ilık haşlanmış bakla tanelerinin sarımsak, limon, kimyon, taze domates ve sızma zeytinyağı ile harmanlandığı doyurucu meze.",
+          "time": "20 dk",
+          "ingredients": [
+            "2 su bardağı haşlanmış bakla",
+            "2 diş sarımsak",
+            "1 adet limon suyu",
+            "3 yemek kaşığı sızma zeytinyağı",
+            "1 adet domates, taze maydanoz",
+            "Tuz, kimyon, pul biber"
+          ],
+          "steps": [
+            "Baklaları ısıtıp hafifçe ezin.",
+            "Ezilmiş sarımsak, limon suyu, tuz ve kimyonu ekleyip karıştırın.",
+            "Servis tabağına alın.",
+            "Doğranmış domates, maydanoz ve bol zeytinyağı ile süsleyerek servis yapın."
+          ]
+        }
+      }
+    },
+    {
+      "id": "ap-5",
+      "title": "Hummus",
+      "category": "Appetizer",
+      "cuisine": "Syrian",
+      "description": "A creamy chickpea dip blended with tahini, lemon and garlic.",
+      "time": "15 min",
+      "difficulty": "Easy",
+      "servings": 4,
+      "image": "/images/Meals/Hummus.jpg",
+      "ingredients": [
+        "2 cups cooked chickpeas",
+        "1/2 cup tahini",
+        "1 lemon",
+        "2 garlic cloves",
+        "Salt",
+        "Olive oil",
+        "Paprika"
+      ],
+      "steps": [
+        "Place chickpeas in a food processor.",
+        "Add tahini, garlic, lemon juice and salt.",
+        "Blend until smooth.",
+        "Add a little cold water if necessary.",
+        "Transfer to a serving plate.",
+        "Decorate with olive oil and paprika."
+      ],
+      "localizations": {
+        "ar": {
+          "title": "حمص بطحينة شامي كريمي",
+          "cuisine": "سورية",
+          "description": "سيد المقبلات الشامية، حمص مسلوق ومطحون بقوام حريري ناعم مع الطحينة وعصير الليمون والثوم وزيت الزيتون البكر.",
+          "time": "15 دقيقة",
+          "ingredients": [
+            "كوبان حمص مسلوق جيدًا وبارد",
+            "نصف كوب طحينة فاخرة",
+            "عصير ليمونة طازجة",
+            "فص ثوم مهروس ناعمًا",
+            "مكعب ثلج أو ملعقتان ماء مثلج",
+            "ملح وزيت زيتون ممتاز وبابريكا وكمون وحبوب حمص للزينة"
+          ],
+          "steps": [
+            "اطحن الحمص المسلوق في محضرة الطعام حتى يصبح ناعمًا جدًا.",
+            "أضف الطحينة وعصير الليمون والثوم والملح ومكعب الثلج.",
+            "اخفق المزيج حتى يتحول إلى قوام كريمي أملس وفاتح اللون.",
+            "افرد الحمص في طبق التقديم بلمسة دائرية بالملعقة.",
+            "زيّن بحبوب الحمص والبابريكا والكمون واسكب زيت الزيتون في المنتصف."
+          ]
+        },
+        "tr": {
+          "title": "Geleneksel Humus",
+          "cuisine": "Suriye / Hatay",
+          "description": "Haşlanmış nohut, tahin, sarımsak, taze limon suyu ve zeytinyağının pürüzsüz ipeksi kıvamda buluştuğu baş meze.",
+          "time": "15 dk",
+          "ingredients": [
+            "2 su bardağı haşlanmış nohut",
+            "1/2 su bardağı tahin",
+            "1 adet limon suyu",
+            "2 diş sarımsak",
+            "Tuz, sızma zeytinyağı, kimyon ve toz kırmızı biber"
+          ],
+          "steps": [
+            "Nohutları mutfak robotunda püre haline getirin.",
+            "Tahin, sarımsak, limon suyu ve tuzu ekleyin.",
+            "İpeksi bir kıvam alana kadar buzlu su ilavesiyle çekin.",
+            "Tabağa yayıp üzerine zeytinyağı, kimyon ve kırmızı biber gezdirin."
+          ]
+        }
+      }
+    },
+    {
+      "id": "ap-6",
+      "title": "Mutabbal",
+      "category": "Appetizer",
+      "cuisine": "Syrian",
+      "description": "A smoky Syrian eggplant dip mixed with tahini, yogurt, garlic and lemon juice.",
+      "time": "30 min",
+      "difficulty": "Easy",
+      "servings": 4,
+      "image": "/images/Meals/Mutabbal.jpg",
+      "ingredients": [
+        "2 large eggplants",
+        "3 tablespoons tahini",
+        "2 tablespoons yogurt",
+        "2 garlic cloves",
+        "1 lemon",
+        "Salt",
+        "Olive oil",
+        "Pomegranate seeds"
+      ],
+      "steps": [
+        "Roast the eggplants until soft and smoky.",
+        "Peel the eggplants and remove excess liquid.",
+        "Mash the eggplant.",
+        "Add tahini, yogurt, garlic and lemon juice.",
+        "Season with salt.",
+        "Serve with olive oil and pomegranate seeds."
+      ],
+      "localizations": {
+        "ar": {
+          "title": "متبل باذنجان حلبي مدخن",
+          "cuisine": "سورية",
+          "description": "متبل باذنجان مشوي بنكهة التدخين الأصيلة، مهروس مع الطحينة واللبن الزبادي والثوم والليمون ومزين بحبات الرمان وزيت الزيتون.",
+          "time": "30 دقيقة",
+          "ingredients": [
+            "حبتان كبيرتان باذنجان رومي",
+            "3 ملاعق كبيرة طحينة سمسم",
+            "ملعقتان كبيرتان لبن زبادي سميك",
+            "فصان ثوم مهروس",
+            "عصير ليمونة طازجة وملح",
+            "زيت زيتون بكر وحبات رمان وجوز ونعناع للتزيين"
+          ],
+          "steps": [
+            "اشوِ الباذنجان على عين الغاز مباشرة أو في الفرن ليكتسب نكهة التدخين المميزة.",
+            "قشّر الباذنجان المشوي وتخلص من السوائل الزائدة.",
+            "اهرس لحم الباذنجان بالشوكة أو الساطور ليظل محتفظًا بقوامه.",
+            "أضف الطحينة واللبن الزبادي والثوم المهروس وعصير الليمون والملح واخلط جيدًا.",
+            "اسكب المتبل في طبق التقديم.",
+            "زيّن بحبات الرمان والجوز ورشة نعناع واسكب زيت الزيتون البكر."
+          ]
+        },
+        "tr": {
+          "title": "Mütebbel (Tahinli Köz Patlıcan Mezesi)",
+          "cuisine": "Suriye / Hatay",
+          "description": "Közlenmiş patlıcanın köz kokusu, tahin, yoğurt, sarımsak, limon ve nar taneleriyle hazırlanan eşsiz lezzetli meze.",
+          "time": "30 dk",
+          "ingredients": [
+            "2 adet büyük boy patlıcan",
+            "3 yemek kaşığı tahin",
+            "2 yemek kaşığı süzme yoğurt",
+            "2 diş sarımsak",
+            "1 adet limon suyu, tuz",
+            "Sızma zeytinyağı ve nar taneleri"
+          ],
+          "steps": [
+            "Patlıcanları ocakta veya fırında közleyin.",
+            "Kabuklarını soyup suyunu süzdürün ve çatalla ezin.",
+            "Tahin, yoğurt, sarımsak, limon suyu ve tuzu ekleyip karıştırın.",
+            "Servis tabağına alıp zeytinyağı ve nar taneleri ile süsleyin."
+          ]
+        }
+      }
+    }
+  ]
 }

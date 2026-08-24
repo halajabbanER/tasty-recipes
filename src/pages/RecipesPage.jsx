@@ -1,13 +1,14 @@
-import { useMemo, useState } from "react";
+import { useContext, useMemo, useState } from "react";
 import { useSearchParams } from "react-router-dom";
 
 import RecipeCard from "../components/RecipeCard";
 import recipesData from "../assets/data/recipes.json";
+import { LanguageContext } from "../context/LanguageContext";
 import "../styles/RecipesPage.css";
 
 function RecipesPage() {
+  const { t } = useContext(LanguageContext);
   const [searchParams, setSearchParams] = useSearchParams();
-
   const [searchTerm, setSearchTerm] = useState("");
 
   const cuisine = searchParams.get("cuisine");
@@ -15,13 +16,14 @@ function RecipesPage() {
 
   const filteredRecipes = useMemo(() => {
     let recipes = [
-      ...recipesData.recipes,
+      ...recipesData.syrianRecipes,
       ...recipesData.turkishRecipes,
       ...recipesData.dessertRecipes,
+      ...recipesData.appetizerRecipes,
     ];
 
     if (cuisine === "syrian") {
-      recipes = recipesData.recipes;
+      recipes = recipesData.syrianRecipes;
     }
 
     if (cuisine === "turkish") {
@@ -32,12 +34,48 @@ function RecipesPage() {
       recipes = recipesData.dessertRecipes;
     }
 
-    if (searchTerm.trim()) {
-      recipes = recipes.filter((recipe) =>
-        recipe.title
-          .toLowerCase()
-          .includes(searchTerm.toLowerCase())
-      );
+    if (category === "appetizer") {
+      recipes = recipesData.appetizerRecipes;
+    }
+
+    const query = searchTerm.trim().toLowerCase();
+    if (query) {
+      recipes = recipes.filter((recipe) => {
+        // Search in base English data
+        const matchBaseTitle = recipe.title?.toLowerCase().includes(query);
+        const matchBaseDesc = recipe.description?.toLowerCase().includes(query);
+        const matchBaseIngredients = recipe.ingredients?.some((ing) =>
+          ing.toLowerCase().includes(query)
+        );
+
+        // Search in Arabic localizations
+        const arData = recipe.localizations?.ar;
+        const matchArTitle = arData?.title?.toLowerCase().includes(query);
+        const matchArDesc = arData?.description?.toLowerCase().includes(query);
+        const matchArIngredients = arData?.ingredients?.some((ing) =>
+          ing.toLowerCase().includes(query)
+        );
+
+        // Search in Turkish localizations
+        const trData = recipe.localizations?.tr;
+        const matchTrTitle = trData?.title?.toLowerCase().includes(query);
+        const matchTrDesc = trData?.description?.toLowerCase().includes(query);
+        const matchTrIngredients = trData?.ingredients?.some((ing) =>
+          ing.toLowerCase().includes(query)
+        );
+
+        return (
+          matchBaseTitle ||
+          matchBaseDesc ||
+          matchBaseIngredients ||
+          matchArTitle ||
+          matchArDesc ||
+          matchArIngredients ||
+          matchTrTitle ||
+          matchTrDesc ||
+          matchTrIngredients
+        );
+      });
     }
 
     return recipes;
@@ -45,18 +83,22 @@ function RecipesPage() {
 
   const getPageTitle = () => {
     if (cuisine === "syrian") {
-      return "Syrian Recipes 🇸🇾";
+      return `${t.recipes?.syrianTitle || "Syrian Recipes"} 🇸🇾`;
     }
 
     if (cuisine === "turkish") {
-      return "Turkish Recipes 🇹🇷";
+      return `${t.recipes?.turkishTitle || "Turkish Recipes"} 🇹🇷`;
     }
 
     if (category === "dessert") {
-      return "Desserts 🍰";
+      return `${t.recipes?.dessertsTitle || "Desserts"} 🍰`;
     }
 
-    return "All Recipes 🍽️";
+    if (category === "appetizer") {
+      return `${t.recipes?.appetizersTitle || "Appetizers"} 🥗`;
+    }
+
+    return `${t.recipes?.title || "All Recipes"} 🍽️`;
   };
 
   const showAllRecipes = () => {
@@ -81,54 +123,53 @@ function RecipesPage() {
     });
   };
 
+  const showAppetizers = () => {
+    setSearchParams({
+      category: "appetizer",
+    });
+  };
+
   return (
     <div className="recipes-page">
 
-      {/* Header */}
       <div className="recipes-page-header">
-        <span>Explore our collection</span>
+        <span>{t.recipes?.subtitle || "Explore our collection"}</span>
 
         <h1>{getPageTitle()}</h1>
 
         <p>
-          Discover delicious Syrian and Turkish dishes,
-          traditional recipes and sweet desserts.
+          {t.recipes?.description ||
+            "Discover delicious Syrian and Turkish dishes, traditional recipes and sweet desserts."}
         </p>
       </div>
 
-
-      {/* Search */}
-      <div className="recipes-search">
-
-        <span className="search-icon">
-          🔍
-        </span>
+      <div className="recipe-search">
+        <span className="search-icon" aria-hidden="true">🔍</span>
 
         <input
-          type="text"
-          placeholder="Search recipes..."
+          type="search"
+          placeholder={t.recipes?.searchPlaceholder || "Search by recipe name or ingredient..."}
+          aria-label={t.recipes?.searchAria || "Search recipes"}
           value={searchTerm}
-          onChange={(event) =>
-            setSearchTerm(event.target.value)
-          }
+          onChange={(event) => setSearchTerm(event.target.value)}
         />
 
         {searchTerm && (
           <button
             className="clear-search"
+            type="button"
+            aria-label={t.recipes?.clearSearch || "Clear search"}
             onClick={() => setSearchTerm("")}
           >
             ✕
           </button>
         )}
-
       </div>
 
-
-      {/* Filters */}
-      <div className="recipe-filters">
+      <div className="recipe-filters" role="group" aria-label="Recipe Filters">
 
         <button
+          type="button"
           className={
             !cuisine && !category
               ? "filter-btn active-filter"
@@ -136,10 +177,11 @@ function RecipesPage() {
           }
           onClick={showAllRecipes}
         >
-          🍽️ All
+          {t.recipes?.all || "All"}
         </button>
 
         <button
+          type="button"
           className={
             cuisine === "syrian"
               ? "filter-btn active-filter"
@@ -147,10 +189,11 @@ function RecipesPage() {
           }
           onClick={showSyrianRecipes}
         >
-          Syrian Foods
+          🇸🇾 {t.recipes?.syrian || "Syrian"}
         </button>
 
         <button
+          type="button"
           className={
             cuisine === "turkish"
               ? "filter-btn active-filter"
@@ -158,10 +201,11 @@ function RecipesPage() {
           }
           onClick={showTurkishRecipes}
         >
-           Turkish Foods
+          🇹🇷 {t.recipes?.turkish || "Turkish"}
         </button>
 
         <button
+          type="button"
           className={
             category === "dessert"
               ? "filter-btn active-filter"
@@ -169,51 +213,51 @@ function RecipesPage() {
           }
           onClick={showDesserts}
         >
-          🍰 Desserts 
+          🍰 {t.recipes?.desserts || "Desserts"}
+        </button>
+
+        <button
+          type="button"
+          className={
+            category === "appetizer"
+              ? "filter-btn active-filter"
+              : "filter-btn"
+          }
+          onClick={showAppetizers}
+        >
+          🥗 {t.recipes?.appetizers || "Appetizers"}
         </button>
 
       </div>
 
-
       {/* Results count */}
       <div className="recipes-results">
-
         <p>
-          <strong>{filteredRecipes.length}</strong>
-          {" "}recipes found
+          <strong>{filteredRecipes.length}</strong>{" "}
+          {filteredRecipes.length === 1
+            ? t.recipes?.foundSingular || t.recipes?.found || "recipe found"
+            : t.recipes?.found || "recipes found"}
         </p>
-
       </div>
 
-
-      {/* Recipes */}
+      {/* Recipes Grid */}
       {filteredRecipes.length > 0 ? (
-
         <div className="recipes-grid">
-
           {filteredRecipes.map((recipe) => (
             <RecipeCard
               key={recipe.id}
               recipe={recipe}
             />
           ))}
-
         </div>
-
       ) : (
-
         <div className="no-recipes">
-
-          <div>🔍</div>
-
-          <h3>No recipes found</h3>
-
+          <div aria-hidden="true">🔍</div>
+          <h3>{t.recipes?.noResultsTitle || "No recipes found"}</h3>
           <p>
-            Try searching for another recipe.
+            {t.recipes?.noResultsText || "Try searching with different keywords or clear the filters."}
           </p>
-
         </div>
-
       )}
 
     </div>
