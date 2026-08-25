@@ -143,6 +143,16 @@ function RecipeDetailsPage() {
 
       </section>
 
+      {localizedRecipe.didYouKnow && (
+        <aside className="did-you-know-card">
+          <span className="did-you-know-icon" aria-hidden="true">💡</span>
+          <div>
+            <h2>{t.common?.didYouKnow || "Did You Know?"}</h2>
+            <p dir="auto">{localizedRecipe.didYouKnow}</p>
+          </div>
+        </aside>
+      )}
+
       {/* =========================
           INGREDIENTS + STEPS
       ========================= */}

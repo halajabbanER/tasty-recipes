@@ -1,12 +1,14 @@
 import { Routes, Route } from "react-router-dom";
 
 import Navbar from "./components/Navbar";
+import Footer from "./components/Footer";
 
 import HomePage from "./pages/HomePage";
 import RecipesPage from "./pages/RecipesPage";
+import RecipeDetailsPage from "./pages/RecipeDetailsPage";
 import FavoritesPage from "./pages/FavoritesPage";
 import SettingsPage from "./pages/SettingsPage";
-import RecipeDetailsPage from "./pages/RecipeDetailsPage";
+import AboutPage from "./pages/AboutPage";
 
 function App() {
   return (
@@ -15,13 +17,39 @@ function App() {
 
       <main className="page-container">
         <Routes>
-          <Route path="/" element={<HomePage />} />
-          <Route path="/recipes" element={<RecipesPage />} />
-          <Route path="/favorites" element={<FavoritesPage />} />
-          <Route path="/settings" element={<SettingsPage />} />
-          <Route path="/recipe/:id" element={<RecipeDetailsPage />} />
+          <Route
+            path="/"
+            element={<HomePage />}
+          />
+
+          <Route
+            path="/recipes"
+            element={<RecipesPage />}
+          />
+
+          <Route
+            path="/recipe/:id"
+            element={<RecipeDetailsPage />}
+          />
+
+          <Route
+            path="/favorites"
+            element={<FavoritesPage />}
+          />
+
+          <Route
+            path="/about"
+            element={<AboutPage />}
+          />
+
+          <Route
+            path="/settings"
+            element={<SettingsPage />}
+          />
         </Routes>
       </main>
+
+      <Footer />
     </>
   );
 }

@@ -34,6 +34,7 @@ export function getLocalizedRecipe(recipe, currentLang = "en") {
     title: localizedData.title || recipe.title,
     cuisine: localizedData.cuisine || recipe.cuisine,
     description: localizedData.description || recipe.description,
+    didYouKnow: localizedData.didYouKnow || recipe.didYouKnow,
     time: localizedData.time || recipe.time,
     ingredients: localizedData.ingredients || recipe.ingredients,
     steps: localizedData.steps || recipe.steps,

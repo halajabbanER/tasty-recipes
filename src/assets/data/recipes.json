@@ -49,7 +49,8 @@
             "حضّر الحشوة بطهي بقية اللحم مع البصل المفروم.",
             "شكّل حبات الكبة وضع كمية مناسبة من الحشوة داخل كل حبة.",
             "اقْلِ الكبة في زيت ساخن أو اخبزها حتى تصبح ذهبية ومقرمشة."
-          ]
+          ],
+          "didYouKnow": "للكبة عشرات الأنواع المحلية في سوريا، وتشتهر حلب خصوصًا بتنوع أشكالها وطرق تحضيرها."
         },
         "tr": {
           "title": "Suriye İçli Köftesi",
@@ -72,9 +73,11 @@
             "Kalan kıymayı doğranmış soğanla kavurarak iç harcı hazırlayın.",
             "Köfteleri şekillendirip içini harç ile doldurun.",
             "Kızgın yağda altın sarısı olana kadar kızartın veya fırınlayın."
-          ]
+          ],
+          "didYouKnow": "Kibbenin Suriye genelinde onlarca yöresel çeşidi vardır; Halep özellikle farklı kibbe türleriyle ünlüdür."
         }
-      }
+      },
+      "didYouKnow": "Kibbeh has dozens of regional varieties across Syria, and Aleppo is especially famous for its many forms."
     },
     {
       "id": "sy-2",
@@ -128,7 +131,8 @@
             "أضف الملوخية وقلّبها برفق ثم أضف مرق الدجاج.",
             "تبّل بالملح والفلفل الأسود واتركها على نار هادئة حتى تنضج.",
             "قدّمها ساخنة مع قطع الدجاج والأرز والليمون المعصور."
-          ]
+          ],
+          "didYouKnow": "تُطهى أوراق الملوخية في شرق المتوسط منذ قرون، ويمكن تقديمها مفرومة أو بأوراقها الكاملة."
         },
         "tr": {
           "title": "Suriye Usulü Mülukiye",
@@ -153,9 +157,11 @@
             "Tuz ve karabiber ile tatlandırın.",
             "Kısık ateşte yapraklar yumuşayana kadar pişirin.",
             "Tavuk parçaları, pilav ve limon eşliğinde servis edin."
-          ]
+          ],
+          "didYouKnow": "Molohiya yaprakları Doğu Akdeniz'de yüzyıllardır pişirilir; doğranmış veya bütün olarak sunulabilir."
         }
-      }
+      },
+      "didYouKnow": "Molokhia leaves have been cooked in the Eastern Mediterranean for centuries and can be served chopped or whole."
     },
     {
       "id": "sy-3",
@@ -211,7 +217,8 @@
             "رتّب المحاشي في القدر بإحكام.",
             "اخلط معجون الطماطم والماء والثوم والنعناع وصبه فوق المحاشي.",
             "اطهِ على نار متوسطة ثم خفيفة حتى ينضج الأرز والخضار تمامًا."
-          ]
+          ],
+          "didYouKnow": "تعني كلمة محشي أن الخضار محشوة، وتختلف الحشوة بحسب نوع الخضار والموسم ووصفة العائلة."
         },
         "tr": {
           "title": "Halep Usulü Karışık Dolma",
@@ -235,9 +242,11 @@
             "Dolmaları tencereye düzgünce dizin.",
             "Salçayı su ile karıştırıp dolmaların üzerine dökün.",
             "Pirinçler ve sebzeler yumuşayana kadar kısık ateşte pişirin."
-          ]
+          ],
+          "didYouKnow": "Mahşi kelimesi “doldurulmuş” anlamına gelir; iç harcı sebzeye, mevsime ve aile tarifine göre değişir."
         }
-      }
+      },
+      "didYouKnow": "The word mahshi means “stuffed,” and the filling changes with the vegetable, season and family recipe."
     },
     {
       "id": "sy-4",
@@ -297,7 +306,8 @@
             "اخفق اللبن مع النشاء واطهه مع التحريك المستمر حتى يغلي.",
             "أضف حبات الشيش برك إلى اللبن واطبخها بضع دقائق.",
             "أضف تقلية الثوم والنعناع بالزبدة فوق الطبق."
-          ]
+          ],
+          "didYouKnow": "يُسمّى الشيش برك أحيانًا دامبلنغ بلاد الشام لأن قطعه الصغيرة المحشوة باللحم تشبه الزلابية المحشوة."
         },
         "tr": {
           "title": "Şiş Börek",
@@ -324,9 +334,11 @@
             "Yoğurdu nişasta ile çırpıp sürekli karıştırarak kaynatın.",
             "Mantıları yoğurt sosuna ekleyip birkaç dakika pişirin.",
             "Üzerine tereyağında kavrulmuş sarımsak ve nane gezdirin."
-          ]
+          ],
+          "didYouKnow": "Şiş Barak, küçük et dolgulu parçaları mantıya benzediği için bazen Levant mantısı olarak anılır."
         }
-      }
+      },
+      "didYouKnow": "Shish Barak is sometimes called the dumpling of the Levant because its tiny meat-filled parcels resemble dumplings."
     },
     {
       "id": "sy-5",
@@ -384,7 +396,8 @@
             "أضف طبقة اللحم المفروم ثم بقية المكرونة.",
             "اسكب بقية البشاميل ورش الجبن على الوجه.",
             "اخبز في الفرن حتى يحمر الوجه ويصبح ذهبيًا."
-          ]
+          ],
+          "didYouKnow": "أصبحت معكرونة البشاميل طبقًا منزليًا محبوبًا في المنطقة بدمج المعكرونة مع صلصة كريمية مستوحاة من المطبخ الفرنسي."
         },
         "tr": {
           "title": "Beşamel Soslu Fırın Makarna",
@@ -409,9 +422,11 @@
             "Makarnanın yarısını fırın kabına yayın, üzerine kıymalı harcı ekleyin.",
             "Kalan makarnayı ve beşamel sosu dökün, peyniri serpin.",
             "Üzeri nar gibi kızarana kadar fırında pişirin."
-          ]
+          ],
+          "didYouKnow": "Beşamel soslu makarna, makarnayı Fransız esintili kremalı sosla birleştirerek bölgede sevilen bir ev yemeği oldu."
         }
-      }
+      },
+      "didYouKnow": "Béchamel pasta became a popular home dish in the region by combining pasta with a creamy French-inspired sauce."
     },
     {
       "id": "sy-6",
@@ -465,7 +480,8 @@
             "اترك القدر يغلي على نار هادئة حتى تتسبك الصلصة وتنضج البامية.",
             "حمّر الثوم والكزبرة واسكب الطشة فوق البامية.",
             "قدّمها ساخنة مع الأرز بالشعيرية."
-          ]
+          ],
+          "didYouKnow": "تساعد البامية طبيعيًا على تكثيف صلصة الطهي، وهذا ما يمنح اليخنة قوامها الغني."
         },
         "tr": {
           "title": "Etli Bamya Yemeği",
@@ -489,9 +505,11 @@
             "Kısık ateşte bamyalar pişene kadar kaynatın.",
             "Sarımsak ve kişnişi yağda kavurup yemeğe ekleyin.",
             "Pirinç pilavı eşliğinde sıcak servis yapın."
-          ]
+          ],
+          "didYouKnow": "Bamya pişerken sosu doğal olarak koyulaştırır ve yemeğe zengin dokusunu verir."
         }
-      }
+      },
+      "didYouKnow": "Okra naturally thickens its cooking sauce, which helps give this stew its rich texture."
     },
     {
       "id": "sy-7",
@@ -547,7 +565,8 @@
             "أضف الثوم والنعناع واترك الطبخة تتسبك على نار هادئة.",
             "تُضاف كرات الكبة الصغيرة إليها قبل تمام النضج.",
             "قدّمها ساخنة كوجبة حلبية فاخرة."
-          ]
+          ],
+          "didYouKnow": "تشتهر السفرجلية بموازنة حلاوة السفرجل مع حموضة دبس الرمان."
         },
         "tr": {
           "title": "Halep Usulü Ayvalı Et (Seferceliye)",
@@ -569,9 +588,11 @@
             "Salça, nar ekşisi ve suyu karıştırıp tencereye ilave edin.",
             "Şeker ve baharatları ekleyin.",
             "Ayvalar yumuşayıp sos koyulaşana kadar kısık ateşte pişirin."
-          ]
+          ],
+          "didYouKnow": "Seferceliye, ayvanın tatlılığıyla nar ekşisinin mayhoşluğunu dengelemesiyle bilinir."
         }
-      }
+      },
+      "didYouKnow": "Safarjaliyeh is known for balancing quince sweetness with the tart flavor of pomegranate molasses."
     },
     {
       "id": "sy-8",
@@ -624,7 +645,8 @@
             "وزّع شرائح الطماطم والفلفل الأخضر على الوجه.",
             "رش زيت الزيتون وغطِّ الصينية بورق القصدير.",
             "اخبز في الفرن الساخن حتى ينضج الباذنجان ويتحمر اللحم تمامًا."
-          ]
+          ],
+          "didYouKnow": "يمتص الباذنجان النكهات المدخنة جيدًا، لذلك يُعد رفيقًا مثاليًا للحم الكباب المشوي."
         },
         "tr": {
           "title": "Halep Usulü Patlıcan Kebabı",
@@ -645,9 +667,11 @@
             "Fırın tepsisine sırasıyla bir patlıcan bir köfte dizin.",
             "Üzerine domates dilimleri ve biber yerleştirin.",
             "Zeytinyağı gezdirip fırında patlıcanlar yumuşayana kadar pişirin."
-          ]
+          ],
+          "didYouKnow": "Patlıcan isli aromaları çok iyi emer; bu yüzden ızgara kebap etiyle klasik bir uyum oluşturur."
         }
-      }
+      },
+      "didYouKnow": "Eggplant absorbs smoky flavors especially well, making it a classic partner for grilled kebab meat."
     },
     {
       "id": "sy-9",
@@ -704,7 +728,8 @@
             "اخفق زيت الزيتون مع عصير الليمون ودبس الرمان والسماق والملح.",
             "اخلط الخضار مع التتبيلة الشهية في وعاء التقديم.",
             "وزّع الخبز المقرمش والسماق الإضافي على الوجه قبل التقديم مباشرة."
-          ]
+          ],
+          "didYouKnow": "يستخدم الفتوش تقليديًا قطع الخبز المتبقي المحمصة أو المقلية لتصبح إضافة مقرمشة للسلطة."
         },
         "tr": {
           "title": "Fettuş Salatası",
@@ -729,9 +754,11 @@
             "Zeytinyağı, limon suyu, nar ekşisi, sumak ve tuzu çırpın.",
             "Sebzeleri sosla harmanlayın.",
             "Servis etmeden hemen önce çıtır pideleri ekleyin."
-          ]
+          ],
+          "didYouKnow": "Fettuşta geleneksel olarak kalan yassı ekmek kızartılır ve salataya çıtır bir dokunuş olarak eklenir."
         }
-      }
+      },
+      "didYouKnow": "Fattoush traditionally uses toasted or fried pieces of leftover flatbread, turning them into a crunchy salad topping."
     },
     {
       "id": "sy-10",
@@ -784,7 +811,8 @@
             "اخلط المكونات بلطف في وعاء التقديم.",
             "أضف زيت الزيتون والملح وعصير الليمون الإضافي.",
             "تُقدّم التبولة طازجة مع أوراق الخس أو الملفوف."
-          ]
+          ],
+          "didYouKnow": "التبولة في أساسها سلطة بقدونس، والبرغل فيها مكوّن مساعد وليس المكوّن الرئيسي."
         },
         "tr": {
           "title": "Tebule Salatası",
@@ -808,9 +836,11 @@
             "Tüm malzemeleri karıştırma kabında birleştirin.",
             "Zeytinyağı ve tuzu ekleyip nazikçe harmanlayın.",
             "Marul yaprakları eşliğinde taze olarak servis edin."
-          ]
+          ],
+          "didYouKnow": "Tabbule aslında maydanoz ağırlıklı bir salatadır; bulgur ana malzeme değil, otları tamamlayan bir unsurdur."
         }
-      }
+      },
+      "didYouKnow": "Tabbouleh is primarily a parsley salad; bulgur supports the herbs rather than being the main ingredient."
     },
     {
       "id": "sy-11",
@@ -867,7 +897,8 @@
             "افرد طبقة رقيقة من حشوة اللحم فوق العجين وزيّن بالصنوبر.",
             "اخبز في فرن شديد السخونة حتى تصبح الأطراف ذهبية ومقرمشة.",
             "قدّم الصفيحة ساخنة مع اللبن العيران والليمون."
-          ]
+          ],
+          "didYouKnow": "يعني اسم لحم بعجين حرفيًا اللحم مع العجين، وغالبًا يُخبز بحرارة عالية للحصول على قاعدة مقرمشة."
         },
         "tr": {
           "title": "Halep Lahmacunu (Lahm Bi Ajeen)",
@@ -891,9 +922,11 @@
             "Kıymalı harcı hamurun üzerine eşit şekilde yayın.",
             "Yüksek dereceli fırında kenarları çıtır olana kadar pişirin.",
             "Ayran ve limonla sıcak servis yapın."
-          ]
+          ],
+          "didYouKnow": "Lahm bi ajeen adı kelime anlamıyla “hamurla et” demektir ve çıtır taban için çok sıcak fırında pişirilir."
         }
-      }
+      },
+      "didYouKnow": "Lahm bi ajeen literally means “meat with dough” and is often baked in very hot ovens for a crisp base."
     },
     {
       "id": "sy-12",
@@ -946,7 +979,8 @@
             "اطحن الشوربة بالخلاط اليدوي حتى تصبح ناعمة ومخملية.",
             "أضف الكمون والملح والفلفل الأسود ورشة الكركم.",
             "اسكب الشوربة في أطباق التقديم وزيّنها بالخبز المحمص وعصير الليمون."
-          ]
+          ],
+          "didYouKnow": "يُعد العدس من أقدم الأغذية المزروعة في العالم، وقد غذّى مجتمعات الشرق الأوسط منذ آلاف السنين."
         },
         "tr": {
           "title": "Suriye Usulü Mercimek Çorbası",
@@ -969,12 +1003,13 @@
             "Çorbayı pürüzsüz olana kadar blenderdan geçirin.",
             "Kimyon, tuz ve karabiber ekleyin.",
             "Limon ve kıtır ekmekle sıcak servis yapın."
-          ]
+          ],
+          "didYouKnow": "Mercimek dünyanın en eski tarım ürünlerinden biridir ve Orta Doğu toplumlarını binlerce yıldır besler."
         }
-      }
+      },
+      "didYouKnow": "Lentils are among the world's oldest cultivated foods and have nourished Middle Eastern communities for thousands of years."
     }
   ],
-
   "turkishRecipes": [
     {
       "id": "tr-1",
@@ -1026,7 +1061,8 @@
             "اسكب صلصة الطماطم الساخنة فوق اللحم.",
             "ضع اللبن الزبادي على جانب الطبق مع الفلفل المشوي.",
             "اسكب الزبدة الساخنة الفوارة فوق الطبق وقدمه فورًا."
-          ]
+          ],
+          "didYouKnow": "سُمّي إسكندر كباب نسبةً إلى إسكندر أفندي الذي طوّر الطبق في بورصة في القرن التاسع عشر."
         },
         "tr": {
           "title": "İskender Kebap",
@@ -1049,9 +1085,11 @@
             "Sıcak domates sosunu etlerin üzerine gezdirin.",
             "Tabağın kenarına yoğurt ve közlenmiş sebzeleri ekleyin.",
             "Kızgın tereyağını cızırdayarak üzerine döküp servis edin."
-          ]
+          ],
+          "didYouKnow": "İskender Kebap, yemeği 19. yüzyılda Bursa'da geliştiren İskender Efendi'nin adını taşır."
         }
-      }
+      },
+      "didYouKnow": "İskender Kebab is named after İskender Efendi, who developed the dish in Bursa in the nineteenth century."
     },
     {
       "id": "tr-2",
@@ -1108,7 +1146,8 @@
             "اخلط اللبن الزبادي مع الثوم المهروس والملح.",
             "ذوّب الزبدة مع البابريكا والنعناع المجفف.",
             "اسكب المانتي في الطبق، أضف اللبن بالثوم، ثم صلصة الزبدة."
-          ]
+          ],
+          "didYouKnow": "في بعض التقاليد التركية تُحضّر حبات المانتي صغيرة جدًا حتى يمكن أن تتسع الملعقة لعشرات منها."
         },
         "tr": {
           "title": "Kayseri Mantısı",
@@ -1134,9 +1173,11 @@
             "Kaynayan tuzlu suda mantıları haşlayın.",
             "Yoğurdu ezilmiş sarımsakla karıştırın.",
             "Mantıyı tabağa alıp sarımsaklı yoğurt ve kızdırılmış tereyağlı sos ile servis edin."
-          ]
+          ],
+          "didYouKnow": "Bazı Türk geleneklerinde mantılar, bir kaşığa onlarcası sığacak kadar küçük hazırlanır."
         }
-      }
+      },
+      "didYouKnow": "In some Turkish traditions, mantı dumplings are made tiny enough that dozens can fit on one spoon."
     },
     {
       "id": "tr-3",
@@ -1194,7 +1235,8 @@
             "أضف البقدونس المفروم واخلطه بلطف.",
             "شكّل الكفتة بقبضة اليد لتأخذ شكل الأصابع المميز.",
             "قدّمها مع أوراق الخس وشرائح الليمون وخبز اللافاش."
-          ]
+          ],
+          "didYouKnow": "رغم أن اسم تشي كفتة يعني الكفتة النيئة، فإن نسختها الحديثة الشائعة تُحضّر من البرغل والتوابل دون لحم."
         },
         "tr": {
           "title": "Etsiz Çiğ Köfte",
@@ -1219,9 +1261,11 @@
             "Kıyılmış maydanozu ekleyin.",
             "Elinizle sıkarak şekil verin.",
             "Lavaş, göbek marul ve limon ile servis yapın."
-          ]
+          ],
+          "didYouKnow": "Adı “çiğ köfte” olsa da günümüzde yaygın etsiz çeşidi bulgur ve baharatlarla hazırlanır."
         }
-      }
+      },
+      "didYouKnow": "Despite its name meaning “raw meatball,” modern meat-free çiğ köfte is commonly made with bulgur and spices."
     },
     {
       "id": "tr-4",
@@ -1276,7 +1320,8 @@
             "اطوِ حواف العجين للداخل وثبّت الطرفين لتكوين شكل القارب.",
             "ادهن الأطراف بالزبدة أو صفار البيض.",
             "اخبز على حرارة عالية حتى يحمر القاع وتذوب الجبنة تمامًا."
-          ]
+          ],
+          "didYouKnow": "تحصل البيدة على شكلها القاربي المميز عند طي الحافتين الطويلتين للعجين حول الحشوة."
         },
         "tr": {
           "title": "Kıymalı Kaşarlı Pide",
@@ -1299,9 +1344,11 @@
             "Harcı ortasına yayıp üzerine kaşar serpin.",
             "Kenarlarını içe doğru kıvırıp kayık şekli verin.",
             "Kenarlarına tereyağı sürüp yüksek ısıda fırınlayın."
-          ]
+          ],
+          "didYouKnow": "Pide, hamurun uzun kenarları harcın etrafına kıvrıldığında kendine özgü kayık şeklini alır."
         }
-      }
+      },
+      "didYouKnow": "Pide takes its distinctive boat shape when the long edges of the dough are folded around the filling."
     },
     {
       "id": "tr-5",
@@ -1350,7 +1397,8 @@
             "اكسر البيض فوق المقلاة وتبّل بالملح والفلفل.",
             "حرّك البيض برفق مع الصلصة ليبقى قوامه طريًا وكريميًا.",
             "يُرفع عن النار ويُقدّم ساخنًا مع الخبز الطازج والشاي التركي."
-          ]
+          ],
+          "didYouKnow": "سُمّي المينمن نسبةً إلى منطقة في إزمير، ويُقدّم تقليديًا مباشرةً من المقلاة."
         },
         "tr": {
           "title": "Geleneksel Menemen",
@@ -1370,9 +1418,11 @@
             "Yumurtaları kırıp tuz ve baharatları ekleyin.",
             "Yumurtaları hafifçe karıştırarak kıvam alana kadar pişirin.",
             "Sıcak ekmek ve taze demlenmiş çay ile servis edin."
-          ]
+          ],
+          "didYouKnow": "Menemen adını İzmir'in Menemen ilçesinden alır ve geleneksel olarak tavadan servis edilir."
         }
-      }
+      },
+      "didYouKnow": "Menemen is named after a district in İzmir and is traditionally served straight from the pan."
     },
     {
       "id": "tr-6",
@@ -1426,7 +1476,8 @@
             "املأ الباذنجان بحشوة اللحم المفروم وزيّنه بقرن فلفل وشريحة طماطم.",
             "أذب معجون الطماطم في كوب ماء ساخن واسكبه في قاع الصينية.",
             "اخبز في الفرن حتى تتسبك الصلصة وتتشرب النكهات."
-          ]
+          ],
+          "didYouKnow": "يعني اسم كارني ياريك البطن المشقوق، في وصف للباذنجان المفتوح من الوسط ليحمل الحشوة."
         },
         "tr": {
           "title": "Karnıyarık",
@@ -1449,12 +1500,13 @@
             "Üzerlerine biber ve domates dilimleri koyun.",
             "Salçalı sıcak suyu tepsiye döküp fırında pişirin.",
             "Pirinç pilavı ve cacık ile servis yapın."
-          ]
+          ],
+          "didYouKnow": "Karnıyarık adı, iç harcı alması için ortası açılan patlıcanın görünümünü anlatır."
         }
-      }
+      },
+      "didYouKnow": "Karnıyarık means “split belly,” describing the eggplant opened in the middle to hold its savory filling."
     }
   ],
-
   "dessertRecipes": [
     {
       "id": "ds-1",
@@ -1507,7 +1559,8 @@
             "غطِّ بالطبقة المتبقية من الكنافة واخبزها حتى تصبح ذهبية مقرمشة.",
             "اسكب القطر البارد فور خروج الكنافة ساخنة من الفرن.",
             "زيّن بالفستق الحلبي وقدّمها دافئة وهي تمط."
-          ]
+          ],
+          "didYouKnow": "تتميز الكنافة بالتباين بين عجينتها المقرمشة وحشوة الجبن الطرية والقطر المعطر."
         },
         "tr": {
           "title": "Künefe",
@@ -1530,9 +1583,11 @@
             "İki tarafı da altın sarısı olana kadar pişirin.",
             "Sıcak künefeye ılık şerbeti dökün.",
             "Bol Antep fıstığı ile sıcak servis yapın."
-          ]
+          ],
+          "didYouKnow": "Künefe; çıtır hamuru, yumuşak peynir dolgusu ve kokulu şerbeti arasındaki karşıtlıkla sevilir."
         }
-      }
+      },
+      "didYouKnow": "Kunafa is prized for the contrast between its crisp pastry, soft cheese filling and fragrant syrup."
     },
     {
       "id": "ds-2",
@@ -1580,7 +1635,8 @@
             "اسكب المزيج في صينية مدهونة.",
             "اخبز في الفرن حتى يصبح ذهبي اللون.",
             "زيّن بالمكسرات وقدّمها دافئة."
-          ]
+          ],
+          "didYouKnow": "تُحضّر تشكيلات الحلويات السورية غالبًا بقطع صغيرة لتذوق عدة نكهات وقوامات معًا."
         },
         "tr": {
           "title": "Suriye Usulü Doğu Tatlısı",
@@ -1601,9 +1657,11 @@
             "Pürüzsüz kıvama gelene kadar karıştırıp fırın kabına dökün.",
             "Altın sarısı olana kadar pişirin.",
             "Üzerini kuruyemişlerle süsleyip servis yapın."
-          ]
+          ],
+          "didYouKnow": "Suriye tatlı çeşitleri, farklı lezzet ve dokuların birlikte tadılabilmesi için çoğunlukla küçük parçalar halinde hazırlanır."
         }
-      }
+      },
+      "didYouKnow": "Many Syrian sweet assortments are prepared in small pieces so several flavors and textures can be shared together."
     },
     {
       "id": "ds-3",
@@ -1654,7 +1712,8 @@
             "وزّع القشطة البلدية على أطراف العجين ولفّها على شكل أسطوانات.",
             "قطّع الرولات إلى قطع متساوية وزيّنها بالفستق وزهر الليمون.",
             "قدّمها باردة مع سكب القطر الخفيف فوقها."
-          ]
+          ],
+          "didYouKnow": "تحصل حلاوة الجبن على عجينتها الطرية والمطاطية من إذابة الجبن مع السميد الناعم."
         },
         "tr": {
           "title": "Halavet El Cibin (Peynir Helvası Tatlısı)",
@@ -1675,9 +1734,11 @@
             "Hamuru incecik açıp şerit halinde kaymak yerleştirin.",
             "Rulo şeklinde sarıp dilimleyin.",
             "Üzerine şerbet gezdirip fıstıkla süsleyerek soğuk servis edin."
-          ]
+          ],
+          "didYouKnow": "Halavet el Cibin'in esnek ve narin hamuru, peynirin ince irmikle eritilmesiyle oluşur."
         }
-      }
+      },
+      "didYouKnow": "Halawet El Jibn gets its stretchy, delicate dough from melting cheese together with fine semolina."
     },
     {
       "id": "ds-4",
@@ -1728,7 +1789,8 @@
             "قطّع البقلاوة بشكل مربعات أو معينات قبل الخبز.",
             "اخبز في الفرن على حرارة هادئة حتى تصبح ذهبية مقرمشة ومورقة.",
             "اسكب القطر البارد فور خروج البقلاوة ساخنة ودعها تتشرب."
-          ]
+          ],
+          "didYouKnow": "تحبس طبقات البقلاوة الرقيقة الزبدة والبخار أثناء الخَبز، فتمنحها قرمشتها المميزة."
         },
         "tr": {
           "title": "Gaziantep Baklavası",
@@ -1750,9 +1812,11 @@
             "Baklavayı dilimleyip kalan yağı üzerine gezdirin.",
             "Fırında altın sarısı olana kadar pişirin.",
             "Fırından çıkan sıcak baklavaya soğuk şerbeti verin."
-          ]
+          ],
+          "didYouKnow": "Baklavanın ince katları pişerken tereyağı ve buharı hapseder, böylece kendine özgü çıtırlığı oluşur."
         }
-      }
+      },
+      "didYouKnow": "Baklava's many thin layers trap butter and steam during baking, creating its characteristic crisp texture."
     },
     {
       "id": "ds-5",
@@ -1803,7 +1867,8 @@
             "اسكب السوتلاش في طواجن فخارية مناسبة للفرن.",
             "ضع الطواجن في صينية بها ماء وحمّر الوجه تحت شواية الفرن.",
             "دعه يبرد في الثلاجة وقدّمه باردًا مع رشة قرفة وبندق."
-          ]
+          ],
+          "didYouKnow": "السوتلاش من أقدم حلويات الحليب التركية، وتكتسب نسخته المخبوزة وجهًا مكرملًا مميزًا."
         },
         "tr": {
           "title": "Fırın Sütlaç",
@@ -1825,9 +1890,11 @@
             "Sütlacı fırın güveçlerine paylaştırın.",
             "Fırın tepsisine su koyup güveçleri yerleştirin ve üst rafta üzeri kızarana kadar fırınlayın.",
             "Soğuduktan sonra tarçın ve fındıkla servis edin."
-          ]
+          ],
+          "didYouKnow": "Sütlaç Türkiye'nin en eski sütlü tatlılarındandır; fırınlanan çeşidinin üzeri karamelize olur."
         }
-      }
+      },
+      "didYouKnow": "Sütlaç is one of Türkiye's oldest milk desserts, and its oven-baked version develops a caramelized top."
     },
     {
       "id": "ds-6",
@@ -1879,7 +1946,8 @@
             "اضغط الحبة في قالب المعمول الخشبي التقليدي لتأخذ النقشة الجميلة.",
             "اخبز في فرن محمى حتى تكتسب الحبات لونًا ذهبيًا خفيفًا.",
             "رش السكر البودرة فوق معمول الفستق والجوز قبل التقديم."
-          ]
+          ],
+          "didYouKnow": "تُحفر قوالب المعمول بنقوش مختلفة تساعد على تمييز حشوة التمر عن الجوز أو الفستق."
         },
         "tr": {
           "title": "Geleneksel Mamul Kurabiyesi",
@@ -1901,16 +1969,17 @@
             "Özel ahşap mamul kalıbında şekillendirin.",
             "Fırında hafif pembeleşene kadar pişirin.",
             "Pudra şekeri serpip servis yapın."
-          ]
+          ],
+          "didYouKnow": "Mamul kalıplarındaki farklı desenler hurma, ceviz veya Antep fıstığı dolgusunu ayırt etmeye yardımcı olur."
         }
-      }
+      },
+      "didYouKnow": "Maamoul molds are carved with different patterns that can help identify whether the filling is dates, walnuts or pistachios."
     },
     {
       "id": "ds-7",
       "cuisine": "Syrian",
       "title": "Harise",
       "category": "Dessert",
-      "cuisine": "Syrian",
       "description": "A traditional Syrian semolina cake soaked in sweet syrup and often decorated with almonds or pistachios.",
       "time": "60 min",
       "difficulty": "Medium",
@@ -1957,7 +2026,8 @@
             "اترك الصينية ترتاح ثم اخبزها حتى تتحمر الحواف والقاع.",
             "اسكب القطر الساخن مع ملعقة سمن بلدي فوق الهريسة فور خروجها.",
             "اتركها تبرد تمامًا قبل التقطيع والتقديم."
-          ]
+          ],
+          "didYouKnow": "تكتسب الهريسة قوامها المميز عندما يمتص السميد اللبن أو القطر قبل الخَبز وبعده."
         },
         "tr": {
           "title": "Suriye Usulü Harise (Şambali)",
@@ -1980,9 +2050,11 @@
             "Fırında altın sarısı olana kadar pişirin.",
             "Sıcak tatlıya şerbetini dökün.",
             "Soğuduktan sonra dilimleyip servis edin."
-          ]
+          ],
+          "didYouKnow": "Harise karakteristik dokusunu, irmiğin pişmeden önce ve sonra yoğurt ya da şerbeti emmesiyle kazanır."
         }
-      }
+      },
+      "didYouKnow": "Harise develops its signature texture by allowing semolina to absorb yogurt or syrup before and after baking."
     },
     {
       "id": "ds-8",
@@ -2030,7 +2102,8 @@
             "اخبز في فرن ساخن حتى تنتفخ الطبقات وتصبح ذهبية ومقرمشة.",
             "اسكب القطر البارد على الشعيبيات الساخنة فور خروجها.",
             "اغمس أطراف المثلثات في الفستق الحلبي وقدّمها طازجة."
-          ]
+          ],
+          "didYouKnow": "تُطوى الشعيبيات على شكل طبقات تصبح مقرمشة من الخارج وتحافظ على حشوة كريمية في الداخل."
         },
         "tr": {
           "title": "Şubiyet (İdlib Usulü)",
@@ -2050,12 +2123,13 @@
             "Fırında kat kat kabarıp kızarana kadar pişirin.",
             "Sıcak tatlıya ılık şerbet dökün.",
             "Antep fıstığı ile süsleyip servis yapın."
-          ]
+          ],
+          "didYouKnow": "Şaabiyat hamuru katlanarak şekillenir; dışı çıtırlaşırken içindeki krema yumuşak kalır."
         }
-      }
+      },
+      "didYouKnow": "Ishabyat pastries are folded into layered shapes that become crisp outside while holding a creamy center."
     }
   ],
-
   "appetizerRecipes": [
     {
       "id": "ap-1",
@@ -2107,7 +2181,8 @@
             "أضف نصف الجبن ثم الخضروات والزيتون.",
             "أضف بقية الجبن ورش الأوريغانو على الوجه.",
             "اخبز على حرارة عالية حتى تذوب الجبنة وتتحمر الأطراف."
-          ]
+          ],
+          "didYouKnow": "تصبح عجينة البيتزا أغنى نكهة عند تخميرها ببطء، لأن الوقت يسمح بتكوّن روائح ونكهات أعمق."
         },
         "tr": {
           "title": "Ev Yapımı Karışık Pizza",
@@ -2128,9 +2203,11 @@
             "Domates sosunu hamurun üzerine yayın.",
             "Peynir ve sebzeleri yerleştirip kekik serpin.",
             "Peynir eriyip kenarlar kızarana kadar fırınlayın."
-          ]
+          ],
+          "didYouKnow": "Pizza hamuru yavaş mayalandığında daha lezzetli olur; zaman, karmaşık aromaların gelişmesini sağlar."
         }
-      }
+      },
+      "didYouKnow": "Pizza dough becomes more flavorful when it ferments slowly, because time allows complex aromas to develop."
     },
     {
       "id": "ap-2",
@@ -2182,7 +2259,8 @@
             "قسّم العجين إلى دوائر صغيرة وافرد كل دائرة.",
             "ضع الحشوة في المنتصف واطوِ الأطراف لتشكيل مثلث محكم الإغلاق.",
             "ادهن الوجه بزيت الزيتون واخبز في فرن ساخن حتى يصبح ذهبيًا."
-          ]
+          ],
+          "didYouKnow": "تُشكّل الفطاير السورية بأشكال مختلفة للدلالة على الحشوة، مثل المثلثات لفطاير السبانخ."
         },
         "tr": {
           "title": "Suriye Usulü Ispanaklı ve Peynirli Börek (Fatayer)",
@@ -2202,9 +2280,11 @@
             "Hamurdan parçalar koparıp yuvarlak açın.",
             "İç harcı koyup üçgen şeklinde kapatın.",
             "Altın sarısı olana kadar fırında pişirin."
-          ]
+          ],
+          "didYouKnow": "Suriye fatayerleri iç harcını göstermek için farklı şekillenir; ıspanaklı olanlar genellikle üçgendir."
         }
-      }
+      },
+      "didYouKnow": "Syrian fatayer are shaped differently to signal their filling, such as triangles for spinach."
     },
     {
       "id": "ap-3",
@@ -2255,7 +2335,8 @@
             "شكّل أقراص الفلافل باستخدام القالب الخاص ورش عليها السمسم.",
             "اقْلِ الأقراص في زيت ساخن وغزير حتى تصبح مقرمشة ومحمرة.",
             "قدّم الفلافل ساخنة مع صلصة الطرطور (الطحينة) والمخللات والخضار."
-          ]
+          ],
+          "didYouKnow": "يُحضّر الفلافل من الحمص في معظم بلاد الشام، بينما تستخدم بعض النسخ المحلية الفول."
         },
         "tr": {
           "title": "Çıtır Falafel",
@@ -2275,9 +2356,11 @@
             "Kalıp veya kaşıkla yuvarlak köfteler şekillendirip susamlayın.",
             "Kızgın bol yağda çıtır olana kadar kızartın.",
             "Tahin sosu eşliğinde servis edin."
-          ]
+          ],
+          "didYouKnow": "Falafel Levant'ın büyük bölümünde nohuttan, bazı bölgesel çeşitlerde ise bakladan yapılır."
         }
-      }
+      },
+      "didYouKnow": "Falafel is made from chickpeas in much of the Levant, while some regional versions use fava beans."
     },
     {
       "id": "ap-4",
@@ -2327,7 +2410,8 @@
             "اسكب الفول في طبق التقديم الواسع.",
             "زيّن بالطماطم المفرومة والبقدونس ورشة كمون وبابريكا.",
             "اسكب كمية سخية من زيت الزيتون على الوجه وقدّمه مع الخبز الساخن."
-          ]
+          ],
+          "didYouKnow": "يؤكل الفول منذ العصور القديمة، ويُقدّم تقليديًا كفطور مشبع وغني بالبروتين النباتي."
         },
         "tr": {
           "title": "Zeytinyağlı Bakla Mezesi (Foul)",
@@ -2347,9 +2431,11 @@
             "Ezilmiş sarımsak, limon suyu, tuz ve kimyonu ekleyip karıştırın.",
             "Servis tabağına alın.",
             "Doğranmış domates, maydanoz ve bol zeytinyağı ile süsleyerek servis yapın."
-          ]
+          ],
+          "didYouKnow": "Ful antik çağlardan beri tüketilir ve geleneksel olarak bitkisel protein açısından zengin, doyurucu bir kahvaltıdır."
         }
-      }
+      },
+      "didYouKnow": "Foul has been eaten since ancient times and is traditionally served as a filling breakfast rich in plant protein."
     },
     {
       "id": "ap-5",
@@ -2398,7 +2484,8 @@
             "اخفق المزيج حتى يتحول إلى قوام كريمي أملس وفاتح اللون.",
             "افرد الحمص في طبق التقديم بلمسة دائرية بالملعقة.",
             "زيّن بحبوب الحمص والبابريكا والكمون واسكب زيت الزيتون في المنتصف."
-          ]
+          ],
+          "didYouKnow": "تعني كلمة حمص اسم الحبوب نفسها بالعربية، وهي المكوّن الرئيسي الذي منح الطبق اسمه."
         },
         "tr": {
           "title": "Geleneksel Humus",
@@ -2417,9 +2504,11 @@
             "Tahin, sarımsak, limon suyu ve tuzu ekleyin.",
             "İpeksi bir kıvam alana kadar buzlu su ilavesiyle çekin.",
             "Tabağa yayıp üzerine zeytinyağı, kimyon ve kırmızı biber gezdirin."
-          ]
+          ],
+          "didYouKnow": "Humus kelimesi Arapçada “nohut” demektir; meze adını ana malzemesinden alır."
         }
-      }
+      },
+      "didYouKnow": "The word hummus simply means “chickpeas” in Arabic, the main ingredient that gives the dip its name."
     },
     {
       "id": "ap-6",
@@ -2470,7 +2559,8 @@
             "أضف الطحينة واللبن الزبادي والثوم المهروس وعصير الليمون والملح واخلط جيدًا.",
             "اسكب المتبل في طبق التقديم.",
             "زيّن بحبات الرمان والجوز ورشة نعناع واسكب زيت الزيتون البكر."
-          ]
+          ],
+          "didYouKnow": "تأتي نكهة المتبل المدخنة تقليديًا من شوي الباذنجان مباشرةً فوق اللهب."
         },
         "tr": {
           "title": "Mütebbel (Tahinli Köz Patlıcan Mezesi)",
@@ -2490,9 +2580,11 @@
             "Kabuklarını soyup suyunu süzdürün ve çatalla ezin.",
             "Tahin, yoğurt, sarımsak, limon suyu ve tuzu ekleyip karıştırın.",
             "Servis tabağına alıp zeytinyağı ve nar taneleri ile süsleyin."
-          ]
+          ],
+          "didYouKnow": "Mutabbalın isli tadı geleneksel olarak patlıcanın doğrudan açık ateşte közlenmesinden gelir."
         }
-      }
+      },
+      "didYouKnow": "Mutabbal's smoky flavor traditionally comes from charring eggplants directly over an open flame."
     }
   ]
 }

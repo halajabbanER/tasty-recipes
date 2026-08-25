@@ -34,6 +34,10 @@ function Navbar() {
             {t.navbar?.settings || "Settings"}
           </NavLink>
 
+          <NavLink to="/about">
+            {t.navbar?.about || "About"}
+          </NavLink>
+
           <div className="nav-actions">
             <button
               type="button"
