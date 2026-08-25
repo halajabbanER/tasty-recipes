@@ -151,6 +151,8 @@
     "Hard": "Zor"
   },
   "common": {
+    "cancel": "İptal",
+    "confirm": "Onayla",
     "viewRecipe": "Tarifi Gör",
     "time": "Pişirme Süresi",
     "difficulty": "Zorluk Derecesi",

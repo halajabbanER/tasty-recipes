@@ -26,10 +26,10 @@ function Tabs() {
   const insets = useSafeAreaInsets();
   const tabs = [
     ["Home", HomeScreen, t.navbar?.home, "home-outline"],
-    ["Recipes", RecipesScreen, t.navbar?.recipes, "restaurant-outline"],
     ["Categories", CategoriesScreen, t.navbar?.categories, "grid-outline"],
     ["Favorites", FavoritesScreen, t.navbar?.favorites, "heart-outline"],
     ["Settings", SettingsScreen, t.navbar?.settings, "settings-outline"],
+    ["About", AboutScreen, t.navbar?.about, "information-circle-outline"],
   ];
   return (
     <Tab.Navigator screenOptions={({ route }) => ({
@@ -67,8 +67,8 @@ function Navigator() {
     <NavigationContainer theme={theme}>
       <Stack.Navigator screenOptions={{ headerShown: false }}>
         <Stack.Screen name="Tabs" component={Tabs} />
+        <Stack.Screen name="Recipes" component={RecipesScreen} />
         <Stack.Screen name="RecipeDetails" component={RecipeDetailsScreen} />
-        <Stack.Screen name="About" component={AboutScreen} />
       </Stack.Navigator>
     </NavigationContainer>
   );

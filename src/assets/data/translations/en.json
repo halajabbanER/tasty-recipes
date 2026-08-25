@@ -151,6 +151,8 @@
     "Hard": "Hard"
   },
   "common": {
+    "cancel": "Cancel",
+    "confirm": "Confirm",
     "viewRecipe": "View Recipe",
     "time": "Cooking Time",
     "difficulty": "Difficulty",

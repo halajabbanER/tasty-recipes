@@ -11,24 +11,24 @@ export default function AboutScreen({ navigation }) {
   const about = t.about ?? {};
 
   const features = [
-    { icon: "restaurant-outline", title: about.syrianTitle ?? "Syrian cuisine", text: about.syrianText ?? "Authentic recipes from Syria and Aleppo." },
-    { icon: "cafe-outline", title: about.turkishTitle ?? "Turkish cuisine", text: about.turkishText ?? "Popular traditional Turkish recipes." },
-    { icon: "language-outline", title: about.languagesTitle ?? "Three languages", text: about.languagesText ?? "Arabic, Turkish and English in one experience." },
+    { icon: "restaurant-outline", title: about.syrianTitle, text: about.syrianDescription },
+    { icon: "cafe-outline", title: about.turkishTitle, text: about.turkishDescription },
+    { icon: "ice-cream-outline", title: about.dessertsTitle, text: about.dessertsDescription },
   ];
 
   return (
     <View style={[styles.screen, { backgroundColor: colors.background }]}>
-      <AppHeader navigation={navigation} title={about.title ?? t.navbar?.about ?? "About"} canGoBack />
+      <AppHeader navigation={navigation} title={t.navbar?.about} />
       <ScrollView contentContainerStyle={styles.content} showsVerticalScrollIndicator={false}>
         <View style={[styles.hero, { backgroundColor: colors.primarySoft, borderColor: colors.border }]}>
           <View style={[styles.logoCircle, { backgroundColor: colors.surface }]}>
             <Ionicons name="restaurant" size={38} color={colors.primary} />
           </View>
-          <Text style={[styles.heroTitle, { color: colors.primary, fontFamily: fonts.heading, textAlign }]}>{about.heroTitle ?? "Tasty Recipes"}</Text>
-          <Text style={[styles.heroText, { color: colors.text, fontFamily: fonts.body, textAlign }]}>{about.heroText ?? "A warm collection of Syrian and Turkish recipes made for every table."}</Text>
+          <Text style={[styles.heroTitle, { color: colors.primary, fontFamily: fonts.heading, textAlign }]}>{about.title}</Text>
+          <Text style={[styles.heroText, { color: colors.text, fontFamily: fonts.body, textAlign }]}>{about.description}</Text>
         </View>
 
-        <Text style={[styles.heading, { color: colors.text, fontFamily: fonts.heading, textAlign }]}>{about.whyTitle ?? "What you will find"}</Text>
+        <Text style={[styles.heading, { color: colors.text, fontFamily: fonts.heading, textAlign }]}>{about.badge}</Text>
         {features.map((feature) => (
           <View key={feature.title} style={[styles.card, { backgroundColor: colors.surface, borderColor: colors.border }]}>
             <View style={[styles.iconBox, { backgroundColor: colors.primarySoft }]}>
@@ -42,8 +42,10 @@ export default function AboutScreen({ navigation }) {
         ))}
 
         <View style={[styles.story, { borderColor: colors.border }]}>
-          <Text style={[styles.heading, { color: colors.text, fontFamily: fonts.heading, textAlign }]}>{about.storyTitle ?? "Our story"}</Text>
-          <Text style={[styles.storyText, { color: colors.mutedText, fontFamily: fonts.body, textAlign }]}>{about.storyText ?? "We preserve beloved family recipes and make them easy to discover, cook and share."}</Text>
+          <Text style={[styles.heading, { color: colors.text, fontFamily: fonts.heading, textAlign }]}>{about.ideaTitle}</Text>
+          {[about.ideaParagraph1, about.ideaParagraph2, about.ideaParagraph3].map((paragraph) => (
+            <Text key={paragraph} style={[styles.storyText, { color: colors.mutedText, fontFamily: fonts.body, textAlign }]}>{paragraph}</Text>
+          ))}
         </View>
       </ScrollView>
     </View>

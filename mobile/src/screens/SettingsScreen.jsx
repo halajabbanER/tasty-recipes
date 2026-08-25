@@ -18,10 +18,10 @@ export default function SettingsScreen({ navigation }) {
   const { clearFavorites } = useFavorites();
 
   const resetApplication = () => {
-    Alert.alert(t.settings?.resetTitle ?? "Reset settings", t.settings?.resetConfirm ?? "Are you sure?", [
-      { text: t.common?.cancel ?? "Cancel", style: "cancel" },
+    Alert.alert(t.settings?.resetTitle, t.settings?.resetDesc, [
+      { text: t.common?.cancel, style: "cancel" },
       {
-        text: t.common?.confirm ?? "Confirm",
+        text: t.common?.confirm,
         style: "destructive",
         onPress: async () => {
           await clearFavorites();
@@ -59,8 +59,8 @@ export default function SettingsScreen({ navigation }) {
         <SettingSection title={t.settings?.appearance ?? "Appearance"} icon="color-palette-outline" colors={colors} fonts={fonts} textAlign={textAlign}>
           <View style={styles.optionGrid}>
             {[
-              { value: "light", label: t.settings?.light ?? "Light", icon: "sunny-outline" },
-              { value: "dark", label: t.settings?.dark ?? "Dark", icon: "moon-outline" },
+              { value: "light", label: t.settings?.themeLight, icon: "sunny-outline" },
+              { value: "dark", label: t.settings?.themeDark, icon: "moon-outline" },
             ].map((item) => {
               const selected = themeName === item.value;
               return (
@@ -87,7 +87,7 @@ export default function SettingsScreen({ navigation }) {
 
         <Pressable onPress={resetApplication} style={[styles.resetButton, { borderColor: colors.primary }]}>
           <Ionicons name="refresh-outline" size={21} color={colors.primary} />
-          <Text style={[styles.resetText, { color: colors.primary, fontFamily: fonts.heading }]}>{t.settings?.reset ?? "Reset settings"}</Text>
+          <Text style={[styles.resetText, { color: colors.primary, fontFamily: fonts.heading }]}>{t.settings?.resetBtn}</Text>
         </Pressable>
       </ScrollView>
     </View>
