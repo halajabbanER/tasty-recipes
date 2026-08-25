@@ -74,7 +74,8 @@ function HomePage() {
 
           <div>
             <span className="section-small-title">
-              🇸🇾 {t.home.syrianSmall}
+              <span className="country-flag" aria-hidden="true">🇸🇾</span>{" "}
+              {t.home.syrianSmall}
             </span>
 
             <h2>
@@ -117,7 +118,8 @@ function HomePage() {
 
           <div>
             <span className="section-small-title">
-              🇹🇷 {t.home.turkishSmall}
+              <span className="country-flag" aria-hidden="true">🇹🇷</span>{" "}
+              {t.home.turkishSmall}
             </span>
 
             <h2>

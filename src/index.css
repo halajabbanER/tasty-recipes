@@ -1416,6 +1416,10 @@ body.dark .nav-links {
 }
 
 @media (max-width: 768px) {
+  .country-flag {
+    display: none;
+  }
+
   .navbar {
     position: relative;
     padding: 12px 16px;
