@@ -12,6 +12,13 @@
     "android": {
       "package": "com.halajabban.tastyrecipes"
     },
-    "plugins": ["expo-font"]
+    "plugins": [
+      "expo-font"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "e1cf268b-9e4b-463f-a413-580773b65278"
+      }
+    }
   }
 }
