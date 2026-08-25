@@ -9,6 +9,7 @@ import RecipeDetailsPage from "./pages/RecipeDetailsPage";
 import FavoritesPage from "./pages/FavoritesPage";
 import SettingsPage from "./pages/SettingsPage";
 import AboutPage from "./pages/AboutPage";
+import CategoriesPage from "./pages/CategoriesPage";
 
 function App() {
   return (
@@ -25,6 +26,11 @@ function App() {
           <Route
             path="/recipes"
             element={<RecipesPage />}
+          />
+
+          <Route
+            path="/categories"
+            element={<CategoriesPage />}
           />
 
           <Route

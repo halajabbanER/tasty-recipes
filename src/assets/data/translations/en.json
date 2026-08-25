@@ -2,6 +2,7 @@
   "navbar": {
     "home": "Home",
     "recipes": "Recipes",
+    "categories": "Categories",
     "favorites": "Favorites",
     "settings": "Settings",
     "about": "About",
@@ -47,6 +48,20 @@
     "foundSingular": "recipe found",
     "noResultsTitle": "No recipes found",
     "noResultsText": "Try searching with different keywords or clear the filters."
+  },
+  "categoriesPage": {
+    "badge": "Browse by category",
+    "title": "Recipe Categories",
+    "description": "Choose a category and discover recipes selected for every meal and occasion.",
+    "mainDishes": "Main Dishes",
+    "soups": "Soups",
+    "salads": "Salads",
+    "desserts": "Desserts",
+    "appetizers": "Appetizers",
+    "breakfast": "Breakfast",
+    "recipeSingular": "recipe",
+    "recipePlural": "recipes",
+    "viewAll": "View All Recipes"
   },
   "favorites": {
     "badge": "Saved Recipes",

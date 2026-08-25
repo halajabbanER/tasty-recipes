@@ -2,6 +2,7 @@
   "navbar": {
     "home": "الرئيسية",
     "recipes": "الوصفات",
+    "categories": "الأقسام",
     "favorites": "المفضلة",
     "settings": "الإعدادات",
     "about": "حول الموقع",
@@ -47,6 +48,20 @@
     "foundSingular": "وصفة موجودة",
     "noResultsTitle": "لم يتم العثور على وصفات",
     "noResultsText": "جرب البحث بكلمات مختلفة أو قم بإلغاء تصفيات البحث."
+  },
+  "categoriesPage": {
+    "badge": "تصفح حسب القسم",
+    "title": "أقسام الوصفات",
+    "description": "اختر القسم الذي تفضله واكتشف وصفات متنوعة لكل وجبة ومناسبة.",
+    "mainDishes": "الأطباق الرئيسية",
+    "soups": "الشوربات",
+    "salads": "السلطات",
+    "desserts": "الحلويات",
+    "appetizers": "المقبلات",
+    "breakfast": "الفطور",
+    "recipeSingular": "وصفة",
+    "recipePlural": "وصفات",
+    "viewAll": "عرض جميع الوصفات"
   },
   "favorites": {
     "badge": "الوصفات المحفوظة",

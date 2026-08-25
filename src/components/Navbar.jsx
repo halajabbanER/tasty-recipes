@@ -22,8 +22,8 @@ function Navbar() {
             {t.navbar?.home || "Home"}
           </NavLink>
 
-          <NavLink to="/recipes">
-            {t.navbar?.recipes || "Recipes"}
+          <NavLink to="/categories">
+            {t.navbar?.categories || "Categories"}
           </NavLink>
 
           <NavLink to="/favorites">

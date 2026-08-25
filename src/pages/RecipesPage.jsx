@@ -6,6 +6,15 @@ import recipesData from "../assets/data/recipes.json";
 import { LanguageContext } from "../context/LanguageContext";
 import "../styles/RecipesPage.css";
 
+const categoryMap = {
+  "main-dish": { value: "Main Dish", label: "mainDishes", icon: "🍲" },
+  soup: { value: "Soup", label: "soups", icon: "🥣" },
+  salad: { value: "Salad", label: "salads", icon: "🥗" },
+  dessert: { value: "Dessert", label: "desserts", icon: "🍰" },
+  appetizer: { value: "Appetizer", label: "appetizers", icon: "🧆" },
+  breakfast: { value: "Breakfast", label: "breakfast", icon: "🍳" },
+};
+
 function RecipesPage() {
   const { t } = useContext(LanguageContext);
   const [searchParams, setSearchParams] = useSearchParams();
@@ -13,6 +22,7 @@ function RecipesPage() {
 
   const cuisine = searchParams.get("cuisine");
   const category = searchParams.get("category");
+  const selectedCategory = categoryMap[category];
 
   const filteredRecipes = useMemo(() => {
     let recipes = [
@@ -30,12 +40,10 @@ function RecipesPage() {
       recipes = recipesData.turkishRecipes;
     }
 
-    if (category === "dessert") {
-      recipes = recipesData.dessertRecipes;
-    }
-
-    if (category === "appetizer") {
-      recipes = recipesData.appetizerRecipes;
+    if (selectedCategory) {
+      recipes = recipes.filter(
+        (recipe) => recipe.category === selectedCategory.value
+      );
     }
 
     const query = searchTerm.trim().toLowerCase();
@@ -79,7 +87,7 @@ function RecipesPage() {
     }
 
     return recipes;
-  }, [cuisine, category, searchTerm]);
+  }, [cuisine, selectedCategory, searchTerm]);
 
   const getPageTitle = () => {
     if (cuisine === "syrian") {
@@ -90,12 +98,8 @@ function RecipesPage() {
       return t.recipes?.turkishTitle || "Turkish Recipes";
     }
 
-    if (category === "dessert") {
-      return `${t.recipes?.dessertsTitle || "Desserts"} 🍰`;
-    }
-
-    if (category === "appetizer") {
-      return `${t.recipes?.appetizersTitle || "Appetizers"} 🥗`;
+    if (selectedCategory) {
+      return `${t.categoriesPage?.[selectedCategory.label] || selectedCategory.value} ${selectedCategory.icon}`;
     }
 
     return `${t.recipes?.title || "All Recipes"} 🍽️`;

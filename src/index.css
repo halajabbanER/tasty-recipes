@@ -33,6 +33,21 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+#root {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+#root > main {
+  width: 100%;
+  flex: 1 0 auto;
+}
+
+#root > .footer {
+  flex-shrink: 0;
+}
+
 /* RTL Typography & Direction */
 [dir="rtl"] body,
 html[dir="rtl"] body {
@@ -68,7 +83,8 @@ button {
 }
 
 .navbar {
-  max-width: 1240px;
+  width: min(94%, 1400px);
+  max-width: 1400px;
   margin: 0 auto;
   min-height: 72px;
   padding: 0 24px;
@@ -100,7 +116,7 @@ button {
 .nav-links {
   display: flex;
   align-items: center;
-  gap: 28px;
+  gap: clamp(14px, 1.6vw, 28px);
 }
 
 .nav-links a {
@@ -629,14 +645,17 @@ button {
 ========================= */
 
 .recipe-details-page {
-  padding-bottom: 80px;
+  width: 100%;
+  max-width: 1160px;
+  margin: 0 auto;
+  padding: 4px 0 56px;
 }
 
 .back-link {
   display: inline-flex;
   align-items: center;
   gap: 8px;
-  margin-bottom: 30px;
+  margin-bottom: 22px;
   color: var(--primary);
   font-size: 15px;
   font-weight: 700;
@@ -655,10 +674,10 @@ button {
   display: grid;
   grid-template-columns: minmax(0, 1.1fr) minmax(0, 1fr);
   align-items: center;
-  gap: 48px;
-  margin-bottom: 60px;
+  gap: 38px;
+  margin-bottom: 32px;
   background: white;
-  padding: 36px;
+  padding: 32px;
   border-radius: 32px;
   border: 1px solid #ebdcd5;
   box-shadow: 0 12px 35px rgba(72, 44, 31, 0.06);
@@ -666,7 +685,7 @@ button {
 
 .recipe-details-image {
   width: 100%;
-  height: 420px;
+  height: 430px;
   overflow: hidden;
   border-radius: 24px;
   background: #f7ede8;
@@ -699,6 +718,13 @@ button {
   font-size: clamp(30px, 4.5vw, 44px);
   line-height: 1.2;
   color: #241915;
+}
+
+.recipe-details-content {
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
 }
 
 .recipe-details-favorite {
@@ -739,6 +765,7 @@ button {
 }
 
 .recipe-details-meta {
+  width: 100%;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 12px;
@@ -785,7 +812,7 @@ button {
   display: flex;
   align-items: flex-start;
   gap: 18px;
-  margin: -24px 0 36px;
+  margin: 0 0 32px;
   padding: 24px 28px;
   background: linear-gradient(135deg, #fff8df, #fff3d0);
   border: 1px solid #f1d98c;
@@ -1449,8 +1476,12 @@ body.dark .nav-links {
 
   .recipe-details-hero {
     grid-template-columns: 1fr;
-    gap: 30px;
+    gap: 26px;
     padding: 24px;
+  }
+
+  .recipe-details-image {
+    height: min(52vw, 390px);
   }
 
   .recipe-content-grid {
@@ -1510,8 +1541,25 @@ body.dark .nav-links {
 @media (max-width: 480px) {
   .did-you-know-card {
     gap: 12px;
-    margin-top: -10px;
     padding: 20px;
+  }
+
+  .recipe-details-page {
+    padding-bottom: 28px;
+  }
+
+  .recipe-details-hero {
+    padding: 16px;
+    border-radius: 22px;
+  }
+
+  .recipe-details-image {
+    height: 270px;
+    border-radius: 17px;
+  }
+
+  .recipe-details-content h1 {
+    font-size: 30px;
   }
 
   .did-you-know-icon {
