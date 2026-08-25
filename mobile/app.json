@@ -1,0 +1,17 @@
+{
+  "expo": {
+    "name": "Tasty Recipes",
+    "slug": "tasty-recipes-mobile",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "package": "com.halajabban.tastyrecipes"
+    },
+    "plugins": ["expo-font"]
+  }
+}

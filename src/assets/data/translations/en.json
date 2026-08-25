@@ -130,6 +130,10 @@
     "languages": "Arabic / Turkish / English",
     "favoriteFeature": "Save your favorite recipes",
     "themeFeature": "Dark & Light Mode",
+    "kitchenTips": "Kitchen Tips",
+    "tipSeasoning": "Taste before adding more seasoning",
+    "tipFreshness": "Use fresh ingredients for better flavor",
+    "tipPreparation": "Prepare ingredients before cooking",
     "rights": "All rights reserved.",
     "designedBy": "Designed & Developed by"
   },

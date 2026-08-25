@@ -47,7 +47,7 @@ function LanguageProvider({ children }) {
     if (saved && ["en", "ar", "tr"].includes(saved)) {
       return saved;
     }
-    return "en";
+    return "ar";
   });
 
   const setLanguage = useCallback((newLang) => {
