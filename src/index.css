@@ -318,6 +318,7 @@ button {
   margin: 0 0 20px;
   color: #241915;
   font-weight: 800;
+  animation: heroTextFloat 4s ease-in-out infinite;
 }
 
 .hero h1 span {
@@ -385,6 +386,7 @@ button {
   overflow: hidden;
   box-shadow: 0 20px 45px rgba(116, 67, 45, 0.15);
   border: 6px solid white;
+  animation: heroImageRotate 28s linear infinite;
 }
 
 .hero-image {
@@ -1487,6 +1489,16 @@ body.dark .meta-box strong {
 @keyframes badgeMove {
   0%, 100% { transform: translateY(0); }
   50% { transform: translateY(-5px); }
+}
+
+@keyframes heroTextFloat {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-7px); }
+}
+
+@keyframes heroImageRotate {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
 }
 
 @media (prefers-reduced-motion: reduce) {
