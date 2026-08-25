@@ -1372,6 +1372,10 @@ body.dark .meta-box strong {
   color: #f5f0ec;
 }
 
+body.dark .nav-links {
+  border-color: #38322e;
+}
+
 /* =========================
    RESPONSIVE
 ========================= */
@@ -1413,24 +1417,33 @@ body.dark .meta-box strong {
 
 @media (max-width: 768px) {
   .navbar {
+    position: relative;
     padding: 12px 16px;
     flex-wrap: wrap;
-    gap: 12px;
+    gap: 10px;
   }
 
   .nav-links {
     width: 100%;
-    justify-content: space-between;
-    gap: 12px;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 8px;
+    padding-top: 8px;
+    border-top: 1px solid #f0e6e0;
   }
 
   .nav-links a {
     font-size: 14px;
+    padding: 8px 2px;
+    text-align: center;
+    white-space: nowrap;
   }
 
   .nav-actions {
-    margin-inline-start: auto;
+    position: absolute;
+    top: 12px;
+    inset-inline-end: 16px;
+    margin: 0;
   }
 
   .page-container {
@@ -1448,6 +1461,29 @@ body.dark .meta-box strong {
 }
 
 @media (max-width: 480px) {
+  .logo {
+    font-size: 18px;
+    gap: 6px;
+  }
+
+  .logo-icon {
+    font-size: 21px;
+  }
+
+  .nav-actions {
+    gap: 8px;
+  }
+
+  .theme-btn {
+    width: 40px;
+    height: 40px;
+  }
+
+  .language-trigger-btn {
+    min-height: 40px;
+    padding: 7px 10px;
+  }
+
   .hero h1 {
     font-size: 34px;
   }
