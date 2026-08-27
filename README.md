@@ -34,9 +34,9 @@ Discover handpicked recipes, browse by category, save your favorites, and enjoy 
 
 <table>
   <tr>
-    <td align="center"><img src="public/images/syrian/yabraq.png" alt="Syrian yabraq" width="280"/><br/><b>Syrian Recipes</b></td>
+    <td align="center"><img src="public/images/kibbah.webp" alt="Syrian kibbeh" width="280"/><br/><b>Syrian Recipes</b></td>
     <td align="center"><img src="public/images/tr-images/iskender-kebap.webp" alt="Turkish Iskender kebab" width="280"/><br/><b>Turkish Recipes</b></td>
-    <td align="center"><img src="public/images/desserts/kunafa-dessert.jpg" alt="Kunafa dessert" width="280"/><br/><b>Middle Eastern Desserts</b></td>
+    <td align="center"><img src="public/images/maamoul.jpg" alt="Maamoul dessert" width="280"/><br/><b>Middle Eastern Desserts</b></td>
   </tr>
 </table>
 
@@ -148,4 +148,3 @@ npm run build
   Designed and developed by <b>Eng. Hala Jabban</b><br/>
  
 </div>
-
