@@ -130,6 +130,10 @@
     "languages": "Arapça / Türkçe / İngilizce",
     "favoriteFeature": "Favori tariflerinizi kaydedin",
     "themeFeature": "Karanlık ve Aydınlık Mod",
+    "kitchenTips": "Mutfak İpuçları",
+    "tipSeasoning": "Daha fazla baharat eklemeden önce tadın",
+    "tipFreshness": "Daha iyi lezzet için taze malzeme kullanın",
+    "tipPreparation": "Pişirmeden önce malzemeleri hazırlayın",
     "rights": "Tüm hakları saklıdır.",
     "designedBy": "Tasarım ve geliştirme"
   },
@@ -147,6 +151,8 @@
     "Hard": "Zor"
   },
   "common": {
+    "cancel": "İptal",
+    "confirm": "Onayla",
     "viewRecipe": "Tarifi Gör",
     "time": "Pişirme Süresi",
     "difficulty": "Zorluk Derecesi",

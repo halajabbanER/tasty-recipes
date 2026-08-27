@@ -50,13 +50,13 @@ function Footer() {
           </Link>
         </div>
 
-        {/* Info */}
+        {/* Kitchen Tips */}
         <div className="footer-section">
-          <h3>{t.footer.explore}</h3>
+          <h3>{t.footer.kitchenTips}</h3>
 
-          <p>🌐 {t.footer.languages}</p>
-          <p>❤️ {t.footer.favoriteFeature}</p>
-          <p>🌙 {t.footer.themeFeature}</p>
+          <p>🧂 {t.footer.tipSeasoning}</p>
+          <p>🥬 {t.footer.tipFreshness}</p>
+          <p>⏱️ {t.footer.tipPreparation}</p>
         </div>
 
       </div>

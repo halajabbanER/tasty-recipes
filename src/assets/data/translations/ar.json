@@ -5,7 +5,7 @@
     "categories": "الأقسام",
     "favorites": "المفضلة",
     "settings": "الإعدادات",
-    "about": "حول الموقع",
+    "about": "حول ",
     "logo": "وصفات شهية",
     "toggleTheme": "تبديل المظهر",
     "language": "اللغة",
@@ -130,6 +130,10 @@
     "languages": "العربية / التركية / الإنجليزية",
     "favoriteFeature": "احفظ وصفاتك المفضلة",
     "themeFeature": "الوضع الداكن والفاتح",
+    "kitchenTips": "نصائح للمطبخ",
+    "tipSeasoning": "تذوّق الطعام قبل إضافة المزيد من التوابل",
+    "tipFreshness": "استخدم مكونات طازجة لنكهة أفضل",
+    "tipPreparation": "جهّز المكونات قبل بدء الطهي",
     "rights": "جميع الحقوق محفوظة.",
     "designedBy": "تصميم وتطوير"
   },
@@ -147,6 +151,8 @@
     "Hard": "صعب"
   },
   "common": {
+    "cancel": "إلغاء",
+    "confirm": "تأكيد",
     "viewRecipe": "عرض الوصفة",
     "time": "وقت التحضير",
     "difficulty": "مستوى الصعوبة",

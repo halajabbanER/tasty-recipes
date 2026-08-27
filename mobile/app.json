@@ -1,0 +1,29 @@
+{
+  "expo": {
+    "name": "Tasty Recipes",
+    "slug": "tasty-recipes-mobile",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/app-icon.png",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "package": "com.halajabban.tastyrecipes",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/app-icon.png",
+        "backgroundColor": "#E76F51"
+      }
+    },
+    "plugins": [
+      "expo-font"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "e1cf268b-9e4b-463f-a413-580773b65278"
+      }
+    }
+  }
+}

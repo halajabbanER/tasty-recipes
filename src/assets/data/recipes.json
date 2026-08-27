@@ -706,7 +706,7 @@
       ],
       "localizations": {
         "ar": {
-          "title": "فتوش شامي أصيل",
+          "title":"فتوش",
           "cuisine": "سورية",
           "description": "سلطة بلاد الشام الشهيرة والمفضلة على كل مائدة، غنية بالخضار الطازجة والخبز المقرمش وتتبيلة السماق ودبس الرمان الحامضة.",
           "time": "20 دقيقة",
@@ -1008,6 +1008,261 @@
         }
       },
       "didYouKnow": "Lentils are among the world's oldest cultivated foods and have nourished Middle Eastern communities for thousands of years."
+    },
+    {
+      "id": "sy-13",
+      "cuisine": "Aleppine Syrian",
+      "title": "Lahm Bi Karaz",
+      "description": "An iconic Aleppine dish of tender meatballs simmered in a rich sweet-and-sour cherry sauce, served over flatbread and garnished with pine nuts.",
+      "category": "Main Dish",
+      "time": "75 min",
+      "difficulty": "Medium",
+      "servings": 6,
+      "image": "/images/syrian/lahm-bi-karaz.png",
+      "ingredients": [
+        "700 g minced lamb",
+        "700 g sour cherries, pitted",
+        "2 tablespoons sugar",
+        "2 tablespoons pomegranate molasses",
+        "1 small onion, grated",
+        "1 teaspoon allspice",
+        "Salt and black pepper",
+        "Flatbread",
+        "Pine nuts and parsley"
+      ],
+      "steps": [
+        "Mix the lamb with onion, allspice, salt and pepper.",
+        "Shape into small meatballs and brown them lightly.",
+        "Cook the cherries with sugar until they release their juices.",
+        "Add pomegranate molasses and simmer until the sauce thickens.",
+        "Add the meatballs and cook gently until tender.",
+        "Serve over pieces of flatbread and garnish with pine nuts and parsley."
+      ],
+      "localizations": {
+        "ar": {
+          "title": "لحم بكرز الحلبي",
+          "cuisine": "سورية من حلب",
+          "description": "طبق حلبي عريق يجمع كرات لحم الغنم الطرية مع صلصة الكرز الوشنة الحلوة والحامضة، ويُقدّم فوق الخبز مع الصنوبر والبقدونس.",
+          "time": "75 دقيقة",
+          "ingredients": [
+            "700 غرام لحم غنم مفروم",
+            "700 غرام كرز وشنة منزوع النوى",
+            "ملعقتان كبيرتان سكر",
+            "ملعقتان كبيرتان دبس رمان",
+            "بصلة صغيرة مبشورة",
+            "ملعقة صغيرة بهار مشكل",
+            "ملح وفلفل أسود",
+            "خبز عربي",
+            "صنوبر وبقدونس للتزيين"
+          ],
+          "steps": [
+            "اخلط اللحم مع البصل والبهار والملح والفلفل.",
+            "شكّل كرات صغيرة وحمّرها قليلًا.",
+            "اطبخ الكرز مع السكر حتى يخرج عصارته.",
+            "أضف دبس الرمان واترك الصلصة حتى تتكاثف.",
+            "أضف كرات اللحم واطبخها على نار هادئة حتى تنضج.",
+            "قدّم الطبق فوق الخبز وزيّنه بالصنوبر والبقدونس."
+          ],
+          "didYouKnow": "يشتهر لحم بكرز في حلب باستخدام كرز الوشنة الحامض الذي يمنح الطبق توازنه المميز بين الحلاوة والحموضة."
+        },
+        "tr": {
+          "title": "Vişneli Halep Kebabı",
+          "cuisine": "Halep Suriye Mutfağı",
+          "description": "Kuzu köftelerinin tatlı-ekşi vişne sosunda pişirildiği, lavaş üzerinde çam fıstığı ve maydanozla sunulan köklü bir Halep yemeği.",
+          "time": "75 dk",
+          "ingredients": [
+            "700 g kuzu kıyma",
+            "700 g çekirdeksiz ekşi vişne",
+            "2 yemek kaşığı şeker",
+            "2 yemek kaşığı nar ekşisi",
+            "1 küçük rendelenmiş soğan",
+            "1 çay kaşığı yenibahar",
+            "Tuz ve karabiber",
+            "Lavaş",
+            "Çam fıstığı ve maydanoz"
+          ],
+          "steps": [
+            "Kıymayı soğan, yenibahar, tuz ve karabiberle yoğurun.",
+            "Küçük köfteler yapıp hafifçe kızartın.",
+            "Vişneleri şekerle suyunu bırakana kadar pişirin.",
+            "Nar ekşisini ekleyip sos koyulaşana kadar kaynatın.",
+            "Köfteleri sosa ekleyip kısık ateşte pişirin.",
+            "Lavaş üzerinde çam fıstığı ve maydanozla servis edin."
+          ],
+          "didYouKnow": "Halep'in vişneli kebabı, kendine özgü tatlı-ekşi dengesini ekşi vişneden alır."
+        }
+      },
+      "didYouKnow": "Aleppo's Lahm Bi Karaz traditionally uses tart sour cherries, creating its distinctive balance of sweet and tangy flavors."
+    },
+    {
+      "id": "sy-14",
+      "cuisine": "Syrian",
+      "title": "Yabraq",
+      "description": "Tender grape leaves rolled around a fragrant rice-and-meat filling and slowly cooked with lemon, garlic and lamb for deep flavor.",
+      "category": "Main Dish",
+      "time": "150 min",
+      "difficulty": "Hard",
+      "servings": 8,
+      "image": "/images/syrian/yabraq.png",
+      "ingredients": [
+        "500 g grape leaves",
+        "2 cups short-grain rice",
+        "400 g minced lamb",
+        "Lamb chops or ribs",
+        "1 head garlic",
+        "Juice of 3 lemons",
+        "1 teaspoon allspice",
+        "Salt and black pepper",
+        "2 tablespoons ghee"
+      ],
+      "steps": [
+        "Rinse the grape leaves and soften them briefly in hot water.",
+        "Mix rice, minced lamb, ghee and spices.",
+        "Place a small amount of filling on each leaf and roll tightly.",
+        "Line a heavy pot with lamb pieces and garlic.",
+        "Arrange the rolls closely in layers and weigh them down with a plate.",
+        "Add lemon juice, salt and water, then simmer slowly until tender."
+      ],
+      "localizations": {
+        "ar": {
+          "title": "اليبرق السوري",
+          "cuisine": "سورية",
+          "description": "ورق عنب طري محشو بالأرز واللحم والبهارات، يُصف بعناية ويُطهى ببطء مع الليمون والثوم وقطع لحم الغنم حتى تتجانس النكهات.",
+          "time": "150 دقيقة",
+          "ingredients": [
+            "500 غرام ورق عنب",
+            "كوبان أرز قصير الحبة",
+            "400 غرام لحم غنم مفروم",
+            "ريش أو قطع لحم غنم",
+            "رأس ثوم",
+            "عصير 3 حبات ليمون",
+            "ملعقة صغيرة بهار مشكل",
+            "ملح وفلفل أسود",
+            "ملعقتان كبيرتان سمن"
+          ],
+          "steps": [
+            "اغسل ورق العنب وليّنه قليلًا بالماء الساخن.",
+            "اخلط الأرز مع اللحم المفروم والسمن والبهارات.",
+            "ضع قليلًا من الحشوة على كل ورقة ولفّها بإحكام.",
+            "افرش قاع قدر ثقيل بقطع اللحم والثوم.",
+            "صفّ حبات اليبرق بطبقات متراصة وضع طبقًا فوقها.",
+            "أضف عصير الليمون والملح والماء واطبخ على نار هادئة حتى ينضج."
+          ],
+          "didYouKnow": "يختلف اليبرق السوري عن اليالنجي بأن حشوته تحتوي على اللحم ويُطهى غالبًا فوق قطع لحم الغنم."
+        },
+        "tr": {
+          "title": "Suriye Usulü Yaprak Sarma",
+          "cuisine": "Suriye",
+          "description": "Pirinç ve kuzu kıymalı harçla sarılan asma yapraklarının limon, sarımsak ve kuzu etiyle ağır ağır pişirildiği geleneksel yemek.",
+          "time": "150 dk",
+          "ingredients": [
+            "500 g asma yaprağı",
+            "2 su bardağı pirinç",
+            "400 g kuzu kıyma",
+            "Kuzu pirzola veya kaburga",
+            "1 baş sarımsak",
+            "3 limonun suyu",
+            "1 çay kaşığı yenibahar",
+            "Tuz ve karabiber",
+            "2 yemek kaşığı sadeyağ"
+          ],
+          "steps": [
+            "Asma yapraklarını yıkayıp sıcak suda kısa süre yumuşatın.",
+            "Pirinç, kıyma, yağ ve baharatları karıştırın.",
+            "Her yaprağa az harç koyup sıkıca sarın.",
+            "Tencerenin tabanına kuzu eti ve sarımsak yerleştirin.",
+            "Sarmaları sıkı katlar halinde dizip üzerlerine tabak kapatın.",
+            "Limon suyu, tuz ve su ekleyip kısık ateşte pişirin."
+          ],
+          "didYouKnow": "Suriye yabrağı etli iç harcı ve kuzu eti üzerinde pişirilmesiyle zeytinyağlı yalancıdan ayrılır."
+        }
+      },
+      "didYouKnow": "Syrian yabraq differs from meatless yalanji because its filling includes meat and it is often cooked over lamb pieces."
+    },
+    {
+      "id": "sy-15",
+      "cuisine": "Syrian",
+      "title": "Sheikh Al Mahshi",
+      "description": "Small zucchini filled with seasoned minced lamb and pine nuts, then gently cooked in a creamy yogurt sauce until tender.",
+      "category": "Main Dish",
+      "time": "90 min",
+      "difficulty": "Medium",
+      "servings": 6,
+      "image": "/images/syrian/images.jpg",
+      "ingredients": [
+        "12 small zucchini",
+        "500 g minced lamb",
+        "1 onion, finely chopped",
+        "3 tablespoons pine nuts",
+        "500 g plain yogurt",
+        "1 tablespoon cornstarch",
+        "1 teaspoon allspice",
+        "Salt and black pepper",
+        "Oil for frying or brushing"
+      ],
+      "steps": [
+        "Hollow the zucchini carefully without piercing the sides.",
+        "Brown the zucchini lightly in a little oil.",
+        "Cook the onion, lamb, spices and pine nuts until browned.",
+        "Fill each zucchini generously with the meat mixture.",
+        "Whisk the yogurt with cornstarch and heat while stirring until it begins to simmer.",
+        "Add the stuffed zucchini and cook gently until tender and the yogurt sauce is smooth."
+      ],
+      "localizations": {
+        "ar": {
+          "title": "شيخ المحشي السوري",
+          "cuisine": "سورية",
+          "description": "حبات كوسا صغيرة محشوة بلحم الغنم المتبل والصنوبر، ثم تُطهى بهدوء في صلصة اللبن الكريمية حتى تصبح طرية ومشبعة بالنكهة.",
+          "time": "90 دقيقة",
+          "ingredients": [
+            "12 حبة كوسا صغيرة",
+            "500 غرام لحم غنم مفروم",
+            "بصلة مفرومة ناعمًا",
+            "3 ملاعق كبيرة صنوبر",
+            "نصف كيلو لبن زبادي",
+            "ملعقة كبيرة نشا",
+            "ملعقة صغيرة بهار مشكل",
+            "ملح وفلفل أسود",
+            "زيت للقلي أو الدهن"
+          ],
+          "steps": [
+            "احفر حبات الكوسا بعناية من دون ثقب جوانبها.",
+            "حمّر الكوسا قليلًا بكمية خفيفة من الزيت.",
+            "اطبخ البصل واللحم والبهارات والصنوبر حتى يتحمر اللحم.",
+            "احشُ كل حبة كوسا بسخاء بخليط اللحم.",
+            "اخفق اللبن مع النشا ثم ضعه على النار مع التحريك المستمر حتى يبدأ بالغليان.",
+            "أضف حبات الكوسا المحشية واطبخها على نار هادئة حتى تنضج ويتماسك اللبن."
+          ],
+          "didYouKnow": "سُمّي شيخ المحشي بهذا الاسم لأن حشوته الغنية باللحم والصنوبر عُدّت أفخم من حشوات الخضار المعتادة."
+        },
+        "tr": {
+          "title": "Suriye Usulü Şeyh El Mahşi",
+          "cuisine": "Suriye",
+          "description": "Küçük kabakların baharatlı kuzu kıyma ve çam fıstığıyla doldurulup kremalı yoğurt sosunda pişirildiği geleneksel Suriye yemeği.",
+          "time": "90 dk",
+          "ingredients": [
+            "12 küçük kabak",
+            "500 g kuzu kıyma",
+            "1 ince doğranmış soğan",
+            "3 yemek kaşığı çam fıstığı",
+            "500 g sade yoğurt",
+            "1 yemek kaşığı mısır nişastası",
+            "1 çay kaşığı yenibahar",
+            "Tuz ve karabiber",
+            "Kızartmak için yağ"
+          ],
+          "steps": [
+            "Kabakların kenarlarını delmeden içlerini dikkatlice oyun.",
+            "Kabakları az yağda hafifçe kızartın.",
+            "Soğan, kıyma, baharat ve çam fıstığını kavurun.",
+            "Kabakları kıymalı harçla doldurun.",
+            "Yoğurdu nişastayla çırpıp sürekli karıştırarak kaynama noktasına getirin.",
+            "Kabakları yoğurt sosuna ekleyip yumuşayana kadar kısık ateşte pişirin."
+          ],
+          "didYouKnow": "Şeyh el Mahşi adının, et ve çam fıstıklı zengin harcının sıradan sebze dolmalarından daha gösterişli olmasından geldiği söylenir."
+        }
+      },
+      "didYouKnow": "Sheikh Al Mahshi is said to be named for its rich meat-and-pine-nut filling, considered more luxurious than ordinary vegetable stuffing."
     }
   ],
   "turkishRecipes": [
@@ -1517,7 +1772,7 @@
       "time": "45 min",
       "difficulty": "Medium",
       "servings": 8,
-      "image": "/images/desserts/kunafa.jpg",
+      "image": "/images/desserts/kunafa-dessert.jpg",
       "ingredients": [
         "500 g kunafa dough",
         "300 g cheese",
