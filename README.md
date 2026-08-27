@@ -146,5 +146,5 @@ npm run build
 
 <div align="center">
   Designed and developed by <b>Eng. Hala Jabban</b><br/>
-  Made with ❤️ for food lovers
+ 
 </div>
