@@ -128,6 +128,10 @@ tasty-recipes/
 | Arabic | RTL | ✅ |
 | Turkish | LTR | ✅ |
 
+## Designer & Developer
+
+Designed and developed by **Eng. Hala Jabban**.
+
 ## Contributing
 
 Contributions are welcome. Create a new branch, make your changes, run the code checks and production build, and then open a pull request describing your work.
@@ -141,5 +145,6 @@ npm run build
 ---
 
 <div align="center">
+  Designed and developed by <b>Eng. Hala Jabban</b><br/>
   Made with ❤️ for food lovers
 </div>
